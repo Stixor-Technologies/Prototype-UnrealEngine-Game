@@ -2,15 +2,45 @@
 	"AssetInfoVersion": 2,
 	"ShaderCodeToAssets": [
 		{
+			"ShaderMapHash": "44EA0A00EC6CC10AAE7CE056216FA75A79CD1585",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DustHit"
+			]
+		},
+		{
 			"ShaderMapHash": "59AD470090D49B35F34484FCE2F703027F6CFF51",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Blend_DS"
 			]
 		},
 		{
+			"ShaderMapHash": "30AF4101DCF0CB5B908F6146CFAA6D48FBE72A28",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_UpperBody_Biohazard"
+			]
+		},
+		{
+			"ShaderMapHash": "810EED011930AEDA4390B2EEC01E119B350E0987",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_UpperBody"
+			]
+		},
+		{
+			"ShaderMapHash": "39B5B302518FE2C182611805F62CC7322894598C",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Eyes/Materials/M_EyeRefractive"
+			]
+		},
+		{
 			"ShaderMapHash": "CFDCF902CB1EAFB4C8F49CB52E1C1F161E001776",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Tech_Hex_Tile"
+			]
+		},
+		{
+			"ShaderMapHash": "3A25FD024D13BB8C5473D3E178D554058DA96C5B",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_UpperBody"
 			]
 		},
 		{
@@ -26,9 +56,39 @@
 			]
 		},
 		{
+			"ShaderMapHash": "42570F05B758C7088D2BB8BAEB890B7EFD19AEDE",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Smoke/M_dust_burst_01"
+			]
+		},
+		{
+			"ShaderMapHash": "DECF1A0575EF73E66D929522D0E866FD2043AEDB",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Water/M_Water_Drops_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "F3FF5F0544190829FA5CAF9598DBF400A6CE193B",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Flares/M_Speedbuff_Glow"
+			]
+		},
+		{
 			"ShaderMapHash": "22B0DD050B9BD648B5F0D46E2B1EE493A98EE50B",
 			"Assets": [
 				"/Engine/EngineMaterials/Widget3DPassThrough_Masked"
+			]
+		},
+		{
+			"ShaderMapHash": "A3F65006C56872EE8175E3886DD4EC11393AD247",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Sparks/Embers/M_Emberglow2"
+			]
+		},
+		{
+			"ShaderMapHash": "3E1CCA06EDD1A3F521A8C1B6175E5568662D0B12",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_BelicaImpactRefraction"
 			]
 		},
 		{
@@ -38,9 +98,51 @@
 			]
 		},
 		{
+			"ShaderMapHash": "32963D07F8D555E61DD9C15E7952135677608686",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_LowerBody"
+			]
+		},
+		{
+			"ShaderMapHash": "186B4107E87F2599B75E45F4245287415E20E361",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Flares/M_GlowPoint_DistShrink_MASTER"
+			]
+		},
+		{
+			"ShaderMapHash": "1E93C0083B9AABDEC5C6EAD88D99C57BA1B64F7B",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Belica_Projectile_Deployed_Trail"
+			]
+		},
+		{
 			"ShaderMapHash": "B2590709EA228CB0A494CD90487D5B1CF7259C84",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_Statue"
+			]
+		},
+		{
+			"ShaderMapHash": "BDE751092E6802DE4E6D13235CF90AEF7AEADA99",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Spark_VelocityLerp_TeamColor"
+			]
+		},
+		{
+			"ShaderMapHash": "71B9E509B627A0DDBF12469A2D7FA4ABE414287B",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_OrbTrail"
+			]
+		},
+		{
+			"ShaderMapHash": "DAD2F20B313EC920EE06A0766B7DDA83A0E3F77B",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_FaceMask"
+			]
+		},
+		{
+			"ShaderMapHash": "9CA7A00DD2B7F244E496670D06108D0E7141D054",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_Guns"
 			]
 		},
 		{
@@ -63,9 +165,76 @@
 			]
 		},
 		{
+			"ShaderMapHash": "0A5DBC13E00189119BCEC623B62D50FB8EC7B5E7",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_UpperBody_PolarStrike"
+			]
+		},
+		{
+			"ShaderMapHash": "064A1114BBFD50368647F7C52414B91FA0A6E482",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_ArmComputer_PolarStrike"
+			]
+		},
+		{
+			"ShaderMapHash": "9F3B8E142FB37AC7808139E14E0EE81B1C52FD91",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_WitchHat"
+			]
+		},
+		{
+			"ShaderMapHash": "7389C714AF36118A378D242DF683B267DADFFDAB",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_BelicaAirglow"
+			]
+		},
+		{
+			"ShaderMapHash": "E14A0F15F9E595AEC584B9369C182E1B007D40B1",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Fire/M_EmberAsh",
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_SoulEmbers"
+			]
+		},
+		{
+			"ShaderMapHash": "B5772A1528E32A758E045517B9CEA3EC157C531C",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_BelicaMuzzleFlare"
+			]
+		},
+		{
+			"ShaderMapHash": "BA73C4150C1D1C94C76BE59F7285C5C4641E7D80",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_New_Head_Everfrost"
+			]
+		},
+		{
 			"ShaderMapHash": "F41020167194BC7D7FF4809CE6A45F62FFA78E08",
 			"Assets": [
 				"/Engine/VREditor/TransformGizmo/Main"
+			]
+		},
+		{
+			"ShaderMapHash": "0D507216EEC5679D9E9AD39597CE358F9D893BE8",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_Head_PolarStrike"
+			]
+		},
+		{
+			"ShaderMapHash": "1CF09816B896DF258572F4977B6E0EE255BC62D7",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_TechDots_Inst_Sphere"
+			]
+		},
+		{
+			"ShaderMapHash": "1DF9A41660B3053EAC980EB506E1E33E9382AD78",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Water/M_WaterImpact_Cylinder"
+			]
+		},
+		{
+			"ShaderMapHash": "518190171FB207844C82F206949C5048A8DFE870",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DroneScan"
 			]
 		},
 		{
@@ -75,15 +244,69 @@
 			]
 		},
 		{
+			"ShaderMapHash": "D9FA6A19FDD1FF3E9C2D0482563CE6DC66E66F07",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Explosions/Muzzles/M_BarrelFlameSides2"
+			]
+		},
+		{
+			"ShaderMapHash": "8F4AEA195F24A1A07AFA2EC3FCD376CD2C252F28",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_Guns_PolarStrike"
+			]
+		},
+		{
 			"ShaderMapHash": "7C0C821A40528D2FD1A69A57E84885A86D56B072",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Mask_DS"
 			]
 		},
 		{
+			"ShaderMapHash": "1FC89A1A6B7784C97F525D186F8F1F5B7F1CBB14",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_TargetingBeam"
+			]
+		},
+		{
+			"ShaderMapHash": "30B7FD1A9E929B5C915D911AB89BA07D18FDF053",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Sparks/M_Hotdog_Spark_VLerp_DOF_Rand_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "A679701BB3AB7E5CFC4132F109BDC2BEA3CAA134",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_UltImpact"
+			]
+		},
+		{
+			"ShaderMapHash": "36F7771B27736BAC1B64DE4D5BF5F3802DAD2544",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Smoke/M_WispySmokeTest"
+			]
+		},
+		{
+			"ShaderMapHash": "0D71891B05BE39D22345831771DC19164EE1F9B9",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica-Hair_brown_01"
+			]
+		},
+		{
 			"ShaderMapHash": "4E4BAC1B474B717D58FF22554FDE04978B5B60EC",
 			"Assets": [
 				"/Paper2D/OpaqueUnlitSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "E79D241C90415F32F1D6971205A4EDC8614867B3",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Debris/M_BelicaDebrisMat"
+			]
+		},
+		{
+			"ShaderMapHash": "A0742E1CF077472D480D9704ABF90A43273F5DF0",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Sparks/M_Hotdog_Spark_VLerp_MASTER"
 			]
 		},
 		{
@@ -99,9 +322,21 @@
 			]
 		},
 		{
+			"ShaderMapHash": "94E6081D2C33EADB142AB8F452596BAC772C849B",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_New_Head"
+			]
+		},
+		{
 			"ShaderMapHash": "E05D341DA8C9AD4380D247586380136B558BB7F3",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_StatueGlass"
+			]
+		},
+		{
+			"ShaderMapHash": "59AB781D5253A03CD69CCF165CA3F899C2923BE9",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/M_Belica_Emote_Guns"
 			]
 		},
 		{
@@ -129,9 +364,30 @@
 			]
 		},
 		{
+			"ShaderMapHash": "263C601F17F340E0ACD1D688B53F220A256EF7DA",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica-Hair_brown_01",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/MIC_Belica_Hair",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/MIC_Belica_Hair",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/MIC_Belica_Hair_Blonde"
+			]
+		},
+		{
+			"ShaderMapHash": "AB107A1F83590DA4478AC6485A44DC2789826E53",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Sparks/M_Hotdog_Spark_VLerp_DOF_Rand_ScaleDistanceMaster"
+			]
+		},
+		{
 			"ShaderMapHash": "DEF56220C7BD375B4FDAB75A7F6EDB6140CF8EB9",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Sheen_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "1217C721615067BDB0C52028B7B8738725254AC9",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Belica_Wispy_Plasma"
 			]
 		},
 		{
@@ -147,9 +403,39 @@
 			]
 		},
 		{
+			"ShaderMapHash": "509A5A25D2C5F26DBA4FB1A5453F1C3A6F09AE15",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_ArmComputer_Biohazard"
+			]
+		},
+		{
+			"ShaderMapHash": "EF916325A914C27B35169AE62AEA93BB08191F50",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Smoke"
+			]
+		},
+		{
 			"ShaderMapHash": "4D875A2759C02D2CAE7FDD88B7D00A7353B4C89C",
 			"Assets": [
 				"/Interchange/gltf/M_Default"
+			]
+		},
+		{
+			"ShaderMapHash": "985E7D299AFB0F87FBDC08C253CE15C75B9779CC",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/M_BelicaPrimary"
+			]
+		},
+		{
+			"ShaderMapHash": "0073AD2A9752175CA8ADD2E63467F70D4E9C1284",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_TacArmHoloMesh"
+			]
+		},
+		{
+			"ShaderMapHash": "37E6C42A53236C86F32C17DA1C49F0BCF6EFCE38",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_Arms"
 			]
 		},
 		{
@@ -183,15 +469,45 @@
 			]
 		},
 		{
+			"ShaderMapHash": "3798932F5CB93B8C47B51A848284C77DB01DD047",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_ArmComputer"
+			]
+		},
+		{
+			"ShaderMapHash": "8038A62FC55E7E4C3B078BAE96FE0EC7BC2FC88E",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_UpperBody_Everfrost"
+			]
+		},
+		{
 			"ShaderMapHash": "6D65B030484FE287CB08269D34C59297E82A925B",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Ground_Grass"
 			]
 		},
 		{
+			"ShaderMapHash": "2B6EF7305884EAA2358EB49B588772613EBECBBC",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_Arms"
+			]
+		},
+		{
+			"ShaderMapHash": "AD59BE31B87E3B6C07C2BACEB32D25CF599EDDC6",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Smoke/M_SplineThickenSmoke_Trails_Master"
+			]
+		},
+		{
 			"ShaderMapHash": "256C8E32413DB1156FA98705DFCFD19CB50F8B4F",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Glass"
+			]
+		},
+		{
+			"ShaderMapHash": "F6FC1F33777B8CD143D7C51B615859E015ED0885",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/MuzzleFlashes/Belica/M_UltMuzzleFlash"
 			]
 		},
 		{
@@ -204,6 +520,12 @@
 			"ShaderMapHash": "596A1934E2A3AE76821E85F6EAD59C39105813C1",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Water_Lake"
+			]
+		},
+		{
+			"ShaderMapHash": "F37B0E3580AF8B0846F305A85682D80445187C25",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Eyes/Materials/M_TearLine"
 			]
 		},
 		{
@@ -225,10 +547,77 @@
 			]
 		},
 		{
+			"ShaderMapHash": "671FB0392162C764AC1874173FC5426F60277260",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_ArmComputer_PolarStrike"
+			]
+		},
+		{
+			"ShaderMapHash": "1A614E3AA3D5211C64AE2D0C792E2BC29D50C9EA",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DroneOrbHolo"
+			]
+		},
+		{
+			"ShaderMapHash": "319BDA3ABA40ED0F82141CB4E81C469EC455CCF7",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Belica_Wispy_Plasma_GPU"
+			]
+		},
+		{
+			"ShaderMapHash": "9217563CCB849E42C48CBCA5FDCEE7BB50CAA4FD",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_ArmComputer_SpiderWitch"
+			]
+		},
+		{
+			"ShaderMapHash": "C6D6623CCA4C73EB6F902E4A9C522A847DD19BBF",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Hair/Materials/M_HairSheet_Master2"
+			]
+		},
+		{
+			"ShaderMapHash": "6B79C03C3A85102A1806E0EBA19ECB337CB010A5",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Game/M_CleanseFlare"
+			]
+		},
+		{
+			"ShaderMapHash": "E161303D764F336363DC30732459E27429CF5AC4",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_BombLightTrails"
+			]
+		},
+		{
 			"ShaderMapHash": "59BB4C3D7B10FEC123D53D902879A89DC57A7B3D",
 			"Assets": [
 				"/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02",
 				"/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02"
+			]
+		},
+		{
+			"ShaderMapHash": "5F1B853DCD0C93B96AEA65AC8468ED487F22AE80",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_ArmComputer"
+			]
+		},
+		{
+			"ShaderMapHash": "899B943EB637C1F003505FE43BB3405DB6935A3C",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_Guns",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_Guns_Everfrost"
+			]
+		},
+		{
+			"ShaderMapHash": "06DDF54045EC87B28DC08F499B3EE5DDDA82FFCA",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_Guns_PolarStrike"
+			]
+		},
+		{
+			"ShaderMapHash": "0AEE3943A20FCEA606D39378983DA3EA9F8B90C7",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Smoke_Inst_WPO"
 			]
 		},
 		{
@@ -239,9 +628,28 @@
 			]
 		},
 		{
+			"ShaderMapHash": "7910CE440DA80A5A53986620B53FE4920B16E7E6",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Maps/BackGroundAssets/M_HDRSky"
+			]
+		},
+		{
 			"ShaderMapHash": "EFD6D64425C2D4962AEC3B0F8AD6B12BBB12AA68",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Tech_Panel"
+			]
+		},
+		{
+			"ShaderMapHash": "726CF54469687FA2BD32B4AC9A8ED7A16B1DE8B5",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DustInvis"
+			]
+		},
+		{
+			"ShaderMapHash": "4185EA465098E11FCDE452E17A9E64A5BF9E706B",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_DroneBomb_Everfrost",
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/M_Belica_DroneBomb1"
 			]
 		},
 		{
@@ -263,15 +671,45 @@
 			]
 		},
 		{
+			"ShaderMapHash": "C2ACCF4798758DE19D56EA8CB333A6DEDCAAED56",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_BelicaMuzzleSmoke"
+			]
+		},
+		{
+			"ShaderMapHash": "09C07D484FCEB0656E44DF871581C960DEAD9244",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/MIC_Belica_Eyebrows"
+			]
+		},
+		{
 			"ShaderMapHash": "4CBC8B4912FBC44C1C19DE6F4978A38EB68F4525",
 			"Assets": [
 				"/Game/StarterContent/Particles/Materials/M_Heat_Distortion"
 			]
 		},
 		{
+			"ShaderMapHash": "3D31FB49E4D776C24F9E7BB42F5A5BFFE1495E18",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DroneEyeRays"
+			]
+		},
+		{
 			"ShaderMapHash": "723D524ADE4C9A9B4B4E99371FC40C8D010293B5",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Unlit_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "7E9EC34A5EACFFD674A0B169CD21E49FD584B0BC",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/VolumeFog/M_Fog_SphericalDensity"
+			]
+		},
+		{
+			"ShaderMapHash": "C7964A4B78F29BF9088C72B334C5CF43DA7BEFEA",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Eyelash/M_EyelashMaster"
 			]
 		},
 		{
@@ -282,9 +720,64 @@
 			]
 		},
 		{
+			"ShaderMapHash": "1B7C764CA6AB966964CE030B62BBC70A603C11E9",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_EyeTargeting_Dots"
+			]
+		},
+		{
+			"ShaderMapHash": "F4616A4E8B06B407A99505F97A7620D1D90AB1B9",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica-Hair_brown_Everfrost"
+			]
+		},
+		{
+			"ShaderMapHash": "3409394FF29AC71392E71515B0964437052E2F67",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_ArrowFlare"
+			]
+		},
+		{
+			"ShaderMapHash": "AA1EFB4FF5282B07C243B0028E54513684D70573",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DroneExhaust"
+			]
+		},
+		{
 			"ShaderMapHash": "B2352451A8B93866FB529322E0377F81FFD9A501",
 			"Assets": [
 				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "15C1445380A3D6B881ACEB29706B447A58742EED",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_TechDots_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "11307253E7CEE103C157C0079388BCD6B04A2D37",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_Head_Biohazard"
+			]
+		},
+		{
+			"ShaderMapHash": "AB78D45335B1E68C379AFC5828623B54A784D533",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Dots_Inst1",
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Dots_Inst2"
+			]
+		},
+		{
+			"ShaderMapHash": "CB594D5444820AABFC8F0D095D3EB6E5083D6710",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Chroma/M_SphereChromaWisps"
+			]
+		},
+		{
+			"ShaderMapHash": "7248E755A5F578E8352F4EF73CFFED5C1554A1C5",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_TechDots"
 			]
 		},
 		{
@@ -294,9 +787,27 @@
 			]
 		},
 		{
+			"ShaderMapHash": "91003C58693A8C77502BF3F3B745FDE1C4ED9EDF",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_ArmComputer_PolarStrike"
+			]
+		},
+		{
 			"ShaderMapHash": "DB626958631E950FB38D981C39A87E0D50CDBB22",
 			"Assets": [
 				"/Engine/VREditor/TransformGizmo/TransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A985CF58DCEADA77CA89A21F03AA5B9C9AAC24B2",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_ArmComputer"
+			]
+		},
+		{
+			"ShaderMapHash": "A4B7535A463C9AD10BA7C6522D1F6131D9DEE41E",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_New_Head_Everfrost"
 			]
 		},
 		{
@@ -312,6 +823,42 @@
 			]
 		},
 		{
+			"ShaderMapHash": "CC86DA5D92367D5E781FD1F2849C192E72FD046E",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/MIC_Belica_Hair_hidden"
+			]
+		},
+		{
+			"ShaderMapHash": "1DBAE75D30831AECD8EB87A29099D1A6C8907A2F",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_SwingMesh"
+			]
+		},
+		{
+			"ShaderMapHash": "2B06F75DE4B3F3912909DF45DBDFBE9AF746E71C",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Mesh_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "78711B5E42B6421E65A8E3E5E3D552537F861C30",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Debris/M_Explosion_RockChunks"
+			]
+		},
+		{
+			"ShaderMapHash": "D6DC275ED71654F1D203B0E4F5D1415CAD62EC65",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_WitchHat"
+			]
+		},
+		{
+			"ShaderMapHash": "1C40485F795C75D62689122D32BBF31F13E7AA72",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Ult_Bullet_Pyramid"
+			]
+		},
+		{
 			"ShaderMapHash": "5B3E895F182400C76628BFB02C933FD7D47A309D",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Sheen_Blend_DS"
@@ -321,6 +868,13 @@
 			"ShaderMapHash": "53763660661F9E9A32FC9453052912986B3A94BD",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Unlit_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "4C95C66094DD93700326FEB0EAE7EBBAA391730E",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_DroneBomb_Everfrost",
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/M_Belica_DroneBomb1"
 			]
 		},
 		{
@@ -336,6 +890,18 @@
 			]
 		},
 		{
+			"ShaderMapHash": "D1107B62B5433E62F07EF14DE62A9AE112B0421E",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Eyelash/M_EyelashMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "FC6F3164569D51C6073C3CFCB5727B281076F394",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Eyes/Materials/M_EyeRefractive"
+			]
+		},
+		{
 			"ShaderMapHash": "6C1FA064A832DA956F0B6205D0C7557E55CEC8A8",
 			"Assets": [
 				"/Game/StarterContent/Particles/Materials/m_flare_01"
@@ -345,6 +911,12 @@
 			"ShaderMapHash": "4029DF644295405675A86DB46AC56B95C1EC3635",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Basic_Wall"
+			]
+		},
+		{
+			"ShaderMapHash": "B4737865F67AEADDF84314AFFA557D651AC8BE18",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Textures/Water/MI_WaterImpact_Cylinder_HugeInner"
 			]
 		},
 		{
@@ -363,6 +935,42 @@
 			"ShaderMapHash": "3D345768528CF81A725E2DC6E89359A02A9F906F",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_SpecularGlossiness_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "630C7369A339D0F6F5A3026ED492B58929F51BE3",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Elec_Sphere_Spline_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "836B326ADF0F4AB276C6C161CE05A90A2F574C7B",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Debris/M_BlurRocks_Fakelit"
+			]
+		},
+		{
+			"ShaderMapHash": "92A6BB6ADB2CC872B4FCAE22E66ACAC2DF1BF03B",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_UpperBod"
+			]
+		},
+		{
+			"ShaderMapHash": "C9B2F36AE06930F83FECA71A9EAB3AECDF684B40",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_BombFlames"
+			]
+		},
+		{
+			"ShaderMapHash": "4F6E2A6B229D5D530FAB2740CC327949D97E2870",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_EyeTargeting_Triangle"
+			]
+		},
+		{
+			"ShaderMapHash": "5D3B7D6BFC8F3EB4EBA3B0EBD640C450E3143B4F",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Smoke/WispySmokeSoft/M_WispySmokeCheap"
 			]
 		},
 		{
@@ -390,6 +998,18 @@
 			]
 		},
 		{
+			"ShaderMapHash": "F30EF86FD3EC3BE8FBB2B521B88A55F101DC861D",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_Guns_SpiderWitch"
+			]
+		},
+		{
+			"ShaderMapHash": "D84FF37176810670F6160087ED7D6CEFD9850318",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Debug/M_01_-_Default"
+			]
+		},
+		{
 			"ShaderMapHash": "401A6D72091CD773162642BF1ABCFEF697426BEA",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse"
@@ -399,6 +1019,12 @@
 			"ShaderMapHash": "6C7359730EB9AF435E8CB5EBCC88AD8F056EEA85",
 			"Assets": [
 				"/Engine/VREditor/SnapGrid/SnapGridMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "6A5C26753EBABDB604BF33EB59C38B33B16FBE3A",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Game/M_AddGlow"
 			]
 		},
 		{
@@ -414,15 +1040,51 @@
 			]
 		},
 		{
+			"ShaderMapHash": "F5EA4A78CC0D59FABA5A53F32766DD76C4ABE21F",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_ArmComputer_SpiderWitch"
+			]
+		},
+		{
 			"ShaderMapHash": "F2171879C7CB478DB02F0EE6AD327D029A6947F0",
 			"Assets": [
 				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
 			]
 		},
 		{
+			"ShaderMapHash": "0275147A26845C58C8D5EF20534D90F9D30B8BF8",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_Head_SpiderWitch"
+			]
+		},
+		{
+			"ShaderMapHash": "9E75AD7C2CAE4D248075B9716126672CB1DD5179",
+			"Assets": [
+				"/Engine/MapTemplates/Sky/M_Procedural_Sky_MASTER02"
+			]
+		},
+		{
+			"ShaderMapHash": "73AF7B7E20907CA0ABAFF66E6B8C532896DDBD71",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_ExplosionPops_InvisTillCollide"
+			]
+		},
+		{
 			"ShaderMapHash": "4FEFCA7E89313FFB568F3DAD265220DE93FF34A3",
 			"Assets": [
 				"/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body"
+			]
+		},
+		{
+			"ShaderMapHash": "F1C0CE7F9FD923D1B37117CD56D297CA4FDFD7BD",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_ArmComputer_Biohazard"
+			]
+		},
+		{
+			"ShaderMapHash": "E689F980BCC27E8FF3163AB60353B26971850BAF",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_TracerBeam"
 			]
 		},
 		{
@@ -456,6 +1118,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "3A416584FC2367466CE2915885CEE5EB60BD0A1A",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Water/M_WaterImpact_Strand"
+			]
+		},
+		{
 			"ShaderMapHash": "86604985991DC63839E318A6DDD2CD1134198731",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Concrete_Grime"
@@ -465,6 +1133,24 @@
 			"ShaderMapHash": "865A5A855E2E01B28A0BB498D874ACEC398CBEA8",
 			"Assets": [
 				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
+			]
+		},
+		{
+			"ShaderMapHash": "D6C4A985A2288604E98E39532311A15C3EF607E9",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_Smoke_Fire"
+			]
+		},
+		{
+			"ShaderMapHash": "63DB0F865FDB9FAB452CC0097CAC8B6ED236A525",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Dots"
+			]
+		},
+		{
+			"ShaderMapHash": "9C7157863E8AF53F79B7836A319D5A97763683CE",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_BeamPar"
 			]
 		},
 		{
@@ -483,6 +1169,14 @@
 			"ShaderMapHash": "D55A75888F2CB7108BAC3520C22E9648DE8FDC21",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Rock_Marble_Polished"
+			]
+		},
+		{
+			"ShaderMapHash": "F692918808B35B0B4C19A9CFA4BB7BFC1D1A8609",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/MIC_Belica_Hair",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/MIC_Belica_Hair",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/MIC_Belica_Hair_Blonde"
 			]
 		},
 		{
@@ -516,6 +1210,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "5C3B3C8D52CDA49AC1E035236FB27377DD77D600",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Eyes/Materials/M_Eye_Occlusion"
+			]
+		},
+		{
 			"ShaderMapHash": "355C728DCF897410C1C1E42ACCB88D46968062EC",
 			"Assets": [
 				"/Engine/EngineMaterials/DefaultTextMaterialOpaque"
@@ -528,15 +1228,76 @@
 			]
 		},
 		{
+			"ShaderMapHash": "D3BC2C8EB4A9F3F699D9D8705608B7B0A365E438",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_MaskedDebris_Crete"
+			]
+		},
+		{
+			"ShaderMapHash": "E375518FC88A75C9EC590D4FF866FECF5A20A12E",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Primary_Deployed_Trail"
+			]
+		},
+		{
+			"ShaderMapHash": "113DD88FEF7829116B1F14E634F36A892FAC3733",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_Belica_Reticle",
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Ult_Reticule_Activate"
+			]
+		},
+		{
+			"ShaderMapHash": "3CB8F08FACDE1646FE83052229E2F56250B2A9FD",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_SparksPhoto"
+			]
+		},
+		{
+			"ShaderMapHash": "0EAF94916EA38484C967D45380FBCF16D2DC4052",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_ArmComputer_Biohazard"
+			]
+		},
+		{
 			"ShaderMapHash": "6F72AA956D048C9E851CD02D33459B4B3372F6C8",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent"
 			]
 		},
 		{
+			"ShaderMapHash": "BA0EC4952AB6414BAA1F14FB7F25A6F575B29A20",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Smoke/M_Smoke_Offset_Particles_SubUV_UNLIT"
+			]
+		},
+		{
+			"ShaderMapHash": "3D080196C8A386D63120A551357F2E31D1762462",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_Guns_Biohazard"
+			]
+		},
+		{
+			"ShaderMapHash": "63E42296429C4145E1B16BD4DA441E9D1BCE90FE",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_UpperBody_Biohazard"
+			]
+		},
+		{
 			"ShaderMapHash": "5AE72F9641DAD163A811119F52670D2AB9698B0D",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Concrete_Panels"
+			]
+		},
+		{
+			"ShaderMapHash": "E89915973ACABF3C3EB90B68D1574F799F3F8CA7",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_LowerBody"
+			]
+		},
+		{
+			"ShaderMapHash": "04C71A97D38F70DE58F3202147DF21F3EC1E1F0F",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_UltTracer"
 			]
 		},
 		{
@@ -552,6 +1313,24 @@
 			]
 		},
 		{
+			"ShaderMapHash": "615E1F98FC82D921F2662BFEFF2348B6DEE4381D",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Meshes/Splines/M_Spline_Preview"
+			]
+		},
+		{
+			"ShaderMapHash": "9A8FB098D491322ADA8896CEED510A3DE773D792",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Water/M_WaterMist"
+			]
+		},
+		{
+			"ShaderMapHash": "AF3BB59803DF81F79C8B1A07B70459093232D695",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Mouth/Materials/M_Mouth_Master"
+			]
+		},
+		{
 			"ShaderMapHash": "6604DD9881A34C46211043191CEF657CDE26F9AF",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Sheen_Opaque_DS"
@@ -564,9 +1343,39 @@
 			]
 		},
 		{
+			"ShaderMapHash": "D111169A37646846995D2250EEFD98C0AAF24201",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Eyes/Materials/M_TearLine"
+			]
+		},
+		{
+			"ShaderMapHash": "6D53E09B5E567771B2913110AD889BA0B36FBBC2",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Mouth/Materials/M_Mouth_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "926AE49BFE62D74565C7411C2D1A38808421163C",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_TracerRefraction"
+			]
+		},
+		{
+			"ShaderMapHash": "1C5F669CE72A138B3CFBCB665B42735346DF61F1",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Ult_Face"
+			]
+		},
+		{
 			"ShaderMapHash": "93310E9DE70C23AC1B09E4FDBFA2A37E901AF0AD",
 			"Assets": [
 				"/Engine/EngineMaterials/DefaultLightFunctionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "6CA2689E6A1709E5466E6448A8CE5F20CC7C6004",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DustSphere"
 			]
 		},
 		{
@@ -576,9 +1385,33 @@
 			]
 		},
 		{
+			"ShaderMapHash": "9A0BBE9E4CDAB34C5BBC299635F22E95A48C851D",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/MIC_Belica_Hair_hidden"
+			]
+		},
+		{
+			"ShaderMapHash": "E3F7D99E4B29389FB198AE8E5D10D21188A41790",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica-Hair_brown_Everfrost"
+			]
+		},
+		{
 			"ShaderMapHash": "4C5E399F02739FB058819A0EBA55DB224C5B07FC",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Default_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "62482AA0CCF1D820C2E5455D3046A9583BDD0946",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_UltMuzzleRing"
+			]
+		},
+		{
+			"ShaderMapHash": "AE5334A04E508EE658F1A68571CFAE77E394276B",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DroneTechLInes"
 			]
 		},
 		{
@@ -597,6 +1430,66 @@
 			"ShaderMapHash": "1484D9A2514F10AA073850EFD4B4AB5B40CBFA99",
 			"Assets": [
 				"/Engine/EngineMaterials/NaniteHiddenSectionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "0A73EDA237E335E49E3B003DDF290F4411DC4B89",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Sparks/M_Spark_VelocityLerp"
+			]
+		},
+		{
+			"ShaderMapHash": "E90BC8A35842896C098F14427F544A09E5142FB9",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Smoke_Inst_WPO_Circle"
+			]
+		},
+		{
+			"ShaderMapHash": "7FA329A4705AE0EBE2F6C8EE2A7558B3DD0A82C8",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_Everfrost_Eye_Left"
+			]
+		},
+		{
+			"ShaderMapHash": "16C28BA44538A4E3EB921C881AA2848349D4CB22",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_Guns_Biohazard"
+			]
+		},
+		{
+			"ShaderMapHash": "4D8E89A5101D2AEB03D3A3CA67686E68FA7F5B04",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_UpperBody_PolarStrike"
+			]
+		},
+		{
+			"ShaderMapHash": "8998F4A53C308B42280890073A8AC4BE9195A4CF",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_FaceMask"
+			]
+		},
+		{
+			"ShaderMapHash": "B6DE21A7996B0F3A1FE2A77CEC91AF11FC1B80E0",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Water/M_Footfall_Refraction"
+			]
+		},
+		{
+			"ShaderMapHash": "5E8B82A7A739A3778F64AB5CA80681A7CA6941B8",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_CoreShieldPiece"
+			]
+		},
+		{
+			"ShaderMapHash": "9DCB95A783403FEFD0D7C511B4F5EF1A62A5EA0D",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_Guns_Biohazard"
+			]
+		},
+		{
+			"ShaderMapHash": "0665F8A764644A0C80F2F6E95C8823A4CBE09015",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Belica_Projectile_Mesh"
 			]
 		},
 		{
@@ -624,15 +1517,60 @@
 			]
 		},
 		{
+			"ShaderMapHash": "3537AFAD6D9B799FE84E957709EA8020155FDB35",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_Guns",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_Guns_Everfrost"
+			]
+		},
+		{
+			"ShaderMapHash": "D2B499AE440D1145ECBB229031D280BFC7BF6F73",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_Blue_EyeRefractive_RightEye",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_Everfrost_Eye_RightEye",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_Blue_EyeRefract_RightEye_PolarStrike"
+			]
+		},
+		{
 			"ShaderMapHash": "F599D2AEE86E5ECDE247FBA09C12EE61C91F4EFD",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_SpecularGlossiness_Blend_DS"
 			]
 		},
 		{
+			"ShaderMapHash": "16A740B05A97D127D0FC5645F23F81219AA86A5E",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Smoke/Trails/M_TrailSmoke"
+			]
+		},
+		{
+			"ShaderMapHash": "95206BB1EA97C3C6CFFFB8CE2E11F82300623890",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/VolumeFog/MI_Fog_SphericalDensity_Particle"
+			]
+		},
+		{
+			"ShaderMapHash": "B56EF8B17CF9AAE5514A1946F5025560C8207ED7",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_UpperBody"
+			]
+		},
+		{
+			"ShaderMapHash": "0E9F77B21624BEA747D7C6B0929F0FE0DBA5AF68",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_TeslaBeam2"
+			]
+		},
+		{
 			"ShaderMapHash": "7596DBB5FF57EA6A8846041B7D3860CB19F43F7D",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "416363B6ABDBA4BDC5195A839FB5E829DEA1F315",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_Guns_PolarStrike"
 			]
 		},
 		{
@@ -645,6 +1583,30 @@
 			"ShaderMapHash": "15A4F6B84AD3C41244AEE12B0159A4AFDF9F9140",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Metal_Gold"
+			]
+		},
+		{
+			"ShaderMapHash": "C41A36B9E4CCDDE2F244A796C8AE5CC8F2250DB8",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_UpperBod"
+			]
+		},
+		{
+			"ShaderMapHash": "6879A3B98E6567BF18282BD8B3BD96A5AFC77BC0",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_Flare_Masked"
+			]
+		},
+		{
+			"ShaderMapHash": "EA59A7B9BE1F285854DCAC09ED82A544C674A2A7",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_Head_Biohazard"
+			]
+		},
+		{
+			"ShaderMapHash": "678A92BA6578EE605F87CB3A9AE170E046A6C2EC",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_UpperBody_PolarStrike"
 			]
 		},
 		{
@@ -673,9 +1635,46 @@
 			]
 		},
 		{
+			"ShaderMapHash": "1C9955BD182B924CF291762114161A191361365E",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Flares/M_DarkFlare_DistShrink"
+			]
+		},
+		{
+			"ShaderMapHash": "C3C674BD63C2EF485E0F45D91FE1C22D739608E1",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_Head_SpiderWitch"
+			]
+		},
+		{
+			"ShaderMapHash": "04B0A9BEBFD9BB1DFC2C59235B31A19812C74791",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Debris/M_Debris"
+			]
+		},
+		{
 			"ShaderMapHash": "9F5A7CC0D1A822D203A96DCB19557198505302DC",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_Door"
+			]
+		},
+		{
+			"ShaderMapHash": "1DEDA1C113E09A9057195BF9A8B39220D226E2B3",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_UpperBody_Everfrost"
+			]
+		},
+		{
+			"ShaderMapHash": "D986F0C1004512F696B5E29B31DEC19F9D16867E",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_DroneBomb_Everfrost",
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/M_Belica_DroneBomb1"
+			]
+		},
+		{
+			"ShaderMapHash": "919657C4AB763D9A0F6EB0A649C06C7F193333F1",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/MIC_Belica_Eyebrows"
 			]
 		},
 		{
@@ -685,9 +1684,29 @@
 			]
 		},
 		{
+			"ShaderMapHash": "AF19BFC511530F3D69737976F9293A30135FFEAF",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_BelicaPrimaryShot"
+			]
+		},
+		{
 			"ShaderMapHash": "3C3EA1C6B93DA1B10AAB5B96CA0307521B2643CD",
 			"Assets": [
 				"/Game/StarterContent/Particles/Materials/M_Fire_SubUV"
+			]
+		},
+		{
+			"ShaderMapHash": "26262DC7D2BFE61202F996B77950C12975297A91",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_Blue_EyeRefractive_RightEye",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_Everfrost_Eye_RightEye",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_Blue_EyeRefract_RightEye_PolarStrike"
+			]
+		},
+		{
+			"ShaderMapHash": "267779C7752C46E081ADD6FDAA0EBF71E5F6FCBD",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Debris/M_LensFX_Debris"
 			]
 		},
 		{
@@ -703,15 +1722,46 @@
 			]
 		},
 		{
+			"ShaderMapHash": "DE922CC8C230FF601598B15CC95B8B0A99781937",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Plasma_Shot_Shell"
+			]
+		},
+		{
+			"ShaderMapHash": "367A35C8221152324C7D1518CD6608F7D51808AE",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_TacArmHolo"
+			]
+		},
+		{
+			"ShaderMapHash": "967FB0C832BBCCEA60640814660680AE2CF08322",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_TechDots_Hand",
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_TechDots_Hand1"
+			]
+		},
+		{
 			"ShaderMapHash": "BBFDC1C866BC172EF00CD8FB5849AFC7F69D7986",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Transmission_DS"
 			]
 		},
 		{
+			"ShaderMapHash": "46072CC96595DE98303C57E10D915E4C69A5188D",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DroneWingEnergy"
+			]
+		},
+		{
 			"ShaderMapHash": "52FEAFC9D949A94C29846FD50C5B20495AFDDCAB",
 			"Assets": [
 				"/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray"
+			]
+		},
+		{
+			"ShaderMapHash": "49F9C9C9E66120159A4911F2759A6B658E12956F",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_TacArmHoloEdge"
 			]
 		},
 		{
@@ -745,9 +1795,45 @@
 			]
 		},
 		{
+			"ShaderMapHash": "C3DA29CD6E1A7141DCBCD4A0CE05B0A54213AF00",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultParticle"
+			]
+		},
+		{
+			"ShaderMapHash": "35367DCD9394D937E507C980CE8E65897F18E2E5",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_BeamIn"
+			]
+		},
+		{
+			"ShaderMapHash": "5AD639CF7BCB5CF0B07E224A32151C27CBFDACC8",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_UpperBody_Everfrost"
+			]
+		},
+		{
+			"ShaderMapHash": "1BDA8CCF676A0B3AFF908D6BA4C08B51900F1196",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_Guns"
+			]
+		},
+		{
+			"ShaderMapHash": "DC5B88D0ADE7DC8F4B3964291DB012380958C237",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_BoltMat"
+			]
+		},
+		{
 			"ShaderMapHash": "2539B4D0EB37C19AFEB2B422165E15EF6D648205",
 			"Assets": [
 				"/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo"
+			]
+		},
+		{
+			"ShaderMapHash": "52A470D10A3EE0644FB41E7A296EF89A2E29EFB8",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Explosions/M_Fireball_Directional_Lit_Master"
 			]
 		},
 		{
@@ -769,9 +1855,21 @@
 			]
 		},
 		{
+			"ShaderMapHash": "1D3834D6B96E19E14705EB324833319ADF52E3AE",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Water/M_LiquidSplash_SubUV"
+			]
+		},
+		{
 			"ShaderMapHash": "A1E88FD6ACB2938EB03C0EA99076CF404740289B",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Brick_Clay_Old"
+			]
+		},
+		{
+			"ShaderMapHash": "A893ECD620AFDDC91449FBC19608079AF8021896",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Mesh"
 			]
 		},
 		{
@@ -784,6 +1882,12 @@
 			"ShaderMapHash": "B53CCDD756CA21ACC255B8570D14F5B34032CBF7",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_Shelf"
+			]
+		},
+		{
+			"ShaderMapHash": "4DA7A3D897FB29EF53AA8A0DED7686658877D8A3",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/HeatDistort/M_Shockwave_Refract"
 			]
 		},
 		{
@@ -800,10 +1904,22 @@
 			]
 		},
 		{
+			"ShaderMapHash": "1570ABDA9C9EFB28E84CB136FF7F44DD52BE7588",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Energy/Electricity/M_Electricity_MASTER"
+			]
+		},
+		{
 			"ShaderMapHash": "74801ADB3011D2ADD52B50FA51FC9F692AF3A7AA",
 			"Assets": [
 				"/Engine/EngineMaterials/Widget3DPassThrough",
 				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "FA6689DBB8D79B0B569BB3AA0743671A80F71CCD",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_Ult_Beam"
 			]
 		},
 		{
@@ -819,9 +1935,27 @@
 			]
 		},
 		{
+			"ShaderMapHash": "A8A127E13B3CB660CEF522634DD27C4E648AEDD9",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/M_Bolts_Arcs"
+			]
+		},
+		{
 			"ShaderMapHash": "410D31E19E8C379CB0C698DFFF8BF2B94039AE64",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Brick_Hewn_Stone"
+			]
+		},
+		{
+			"ShaderMapHash": "0FFBABE19703EE288F2FD8665429409625A45AFB",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Maps/BackGroundAssets/M_AssetPlatform"
+			]
+		},
+		{
+			"ShaderMapHash": "788679E21AC0A4BAE97CD1BC9A96A0CEF86636D3",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Hair/Materials/M_HairSheet_Master2"
 			]
 		},
 		{
@@ -834,6 +1968,12 @@
 			"ShaderMapHash": "6774EBE2C930726FABD59A828379C88D1292AC30",
 			"Assets": [
 				"/Interchange/gltf/M_Transmission"
+			]
+		},
+		{
+			"ShaderMapHash": "ACE462E4D2A7AD8A5A167C549A846697AE1AFAB6",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Game/M_Tri_Test"
 			]
 		},
 		{
@@ -861,9 +2001,34 @@
 			]
 		},
 		{
+			"ShaderMapHash": "CDA0E1E7617DDD2DB516C108B0DC1A3774A76010",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_Tact_Head"
+			]
+		},
+		{
 			"ShaderMapHash": "122F0CE8B33F28CEE3FACDDA5E57E4F3E1A5CFF8",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/DebugEditorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "3AB33FE8F1B7239F01135FAACC4F9C19E8EFBF9B",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_DebrisPieces"
+			]
+		},
+		{
+			"ShaderMapHash": "C75C95E8290017AEEBDBF7E640C16342D9AC6D48",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_WitchHat"
+			]
+		},
+		{
+			"ShaderMapHash": "7D490EEAFED9CC25C3D73D1F323D165E99E506E8",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_Guns",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_Guns_Everfrost"
 			]
 		},
 		{
@@ -873,9 +2038,52 @@
 			]
 		},
 		{
+			"ShaderMapHash": "B7D07DEA8C029971928FDDE0BB4E79D81E0B60BD",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Materials/M_Belica_New_Head",
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/PolarStrike/Materials/M_Belica_Head_PolarStrike"
+			]
+		},
+		{
+			"ShaderMapHash": "AA16EBEAB1D03909353AA8BE90342E9F5CA45D53",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/M_BombCharging"
+			]
+		},
+		{
+			"ShaderMapHash": "9C3661EB5F4F0C73F1E571598BA74D29CC7894F5",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_ChromaEnergy"
+			]
+		},
+		{
+			"ShaderMapHash": "38B13EEC853F31BCCC45D51F01FBC6CE254B9AFD",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Global/Eyes/Materials/M_Eye_Occlusion"
+			]
+		},
+		{
 			"ShaderMapHash": "454D50EC0B07024F1C1BE2A62C61E14ABB17B554",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_SpecularGlossiness_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "4B8871ED233AD10D8BA272D848BCCCB5DABD34A1",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_Guns_SpiderWitch"
+			]
+		},
+		{
+			"ShaderMapHash": "4136F3EEE6B4A7C216673204B03F8D9AC96FAD14",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/HeavyArmor/Materials/M_Belica_HeavyArmor_Guns"
+			]
+		},
+		{
+			"ShaderMapHash": "09529FEF760F88A8C60D8466337D7DD314AD9BC2",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Water/M_Footfall_Ripple"
 			]
 		},
 		{
@@ -897,9 +2105,21 @@
 			]
 		},
 		{
+			"ShaderMapHash": "533D99F3E632C65563BEB4124BE6E3D478F7E768",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_UltShockwave"
+			]
+		},
+		{
 			"ShaderMapHash": "87AB3FF66A29CE03E4054C675A0FFEF53374E0FC",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Rock_Sandstone"
+			]
+		},
+		{
+			"ShaderMapHash": "EBC77BF60061A5C760649CC13A32CBA12795FFFD",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_UpperBody_SpiderWitch"
 			]
 		},
 		{
@@ -909,9 +2129,27 @@
 			]
 		},
 		{
+			"ShaderMapHash": "2609F7F6B91B02C21CC3A4F2469350C6443C6190",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Energy/Plasma/M_BFG_Particle_Core"
+			]
+		},
+		{
 			"ShaderMapHash": "299350F7491D8E4AD194E7E1EED2F9008AB8F897",
 			"Assets": [
 				"/Game/StarterContent/Particles/Materials/M_Burst"
+			]
+		},
+		{
+			"ShaderMapHash": "8C4C26F961D9D9C55C6080EE1F0AB423B63031F2",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_Guns_SpiderWitch"
+			]
+		},
+		{
+			"ShaderMapHash": "B5EA33FA6F07A4A7C1EADD123E17A189D205F8A9",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Everfrost/Materials/M_Belica_Everfrost_Eye_Left"
 			]
 		},
 		{
@@ -927,6 +2165,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "5F9AC1FCB04AFA7EA5947F1E0B47038AE27F80AA",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/Biohazard/Materials/M_Belica_UpperBody_Biohazard"
+			]
+		},
+		{
 			"ShaderMapHash": "6EFBE7FC5DB0A389B628028286CC1EBC4AFA7082",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Sheen_Blend"
@@ -936,6 +2180,12 @@
 			"ShaderMapHash": "9FFB5BFDC45E8D9C44AF60B076220966D7A2A5C8",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Metal_Steel"
+			]
+		},
+		{
+			"ShaderMapHash": "3C70E4FD6B9CC7FDFB03D941EF9025EDCAD473D0",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_UpperBody_SpiderWitch"
 			]
 		},
 		{
@@ -951,9 +2201,21 @@
 			]
 		},
 		{
+			"ShaderMapHash": "6F031FFF1C12AE9C8B665BFA31A6A118A06B6BA2",
+			"Assets": [
+				"/Game/ParagonLtBelica/Characters/Heroes/Belica/Skins/SpiderWitch/Materials/M_Belica_ArmComputer_SpiderWitch"
+			]
+		},
+		{
 			"ShaderMapHash": "667725FF54553BCC5F2C1A9569D0BA098956FCA2",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Metal_Copper"
+			]
+		},
+		{
+			"ShaderMapHash": "548FDAFF9BB537B4745F45FCA59659A1DE684F47",
+			"Assets": [
+				"/Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Abilities/M_TeslaShootAura"
 			]
 		}
 	]

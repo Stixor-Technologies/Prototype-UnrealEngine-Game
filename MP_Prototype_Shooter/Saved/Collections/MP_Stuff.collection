@@ -4,3 +4,5 @@ Guid:6DA3C58D-40CB-D100-5832-0581FA578E5B
 ParentGuid:00000000-0000-0000-0000-000000000000
 
 /Game/MP_Content/WBP_MP_Menu.WBP_MP_Menu
+/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+/Game/ThirdPerson/Input/IMC_Default.IMC_Default
