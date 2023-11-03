@@ -1,1 +1,2 @@
 .ucas filter=lfs diff=lfs merge=lfs -text
+.ushaderbytecode filter=lfs diff=lfs merge=lfs -text
