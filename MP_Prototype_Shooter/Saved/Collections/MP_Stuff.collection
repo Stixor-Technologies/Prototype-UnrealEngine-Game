@@ -1,8 +1,0 @@
-FileVersion:2
-Type:Static
-Guid:6DA3C58D-40CB-D100-5832-0581FA578E5B
-ParentGuid:00000000-0000-0000-0000-000000000000
-
-/Game/MP_Content/BP_Bullet.BP_Bullet
-/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
-/Game/ThirdPerson/Input/IMC_Default.IMC_Default
