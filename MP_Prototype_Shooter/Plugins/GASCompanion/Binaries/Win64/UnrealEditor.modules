@@ -1,0 +1,9 @@
+{
+	"BuildId": "27405482",
+	"Modules": 
+	{
+		"GASCompanion": "UnrealEditor-GASCompanion.dll",
+		"GASCompanionDeveloper": "UnrealEditor-GASCompanionDeveloper.dll",
+		"GASCompanionEditor": "UnrealEditor-GASCompanionEditor.dll"
+	}
+}

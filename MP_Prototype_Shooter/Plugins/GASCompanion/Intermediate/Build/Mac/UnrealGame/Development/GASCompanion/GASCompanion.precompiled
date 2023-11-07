@@ -1,0 +1,24 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.3.cpp.o",
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.4.cpp.o",
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.5.cpp.o",
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.3.cpp.o",
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.4.cpp.o",
+		"../../../arm64/UnrealGame/Development/GASCompanion/Module.GASCompanion.5.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.1.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.2.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.3.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.4.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.5.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.1.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.2.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.3.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.4.cpp.o",
+		"../../../x64/UnrealGame/Development/GASCompanion/Module.GASCompanion.5.cpp.o"
+	]
+}
