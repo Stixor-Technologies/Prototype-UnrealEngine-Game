@@ -166,10 +166,14 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCComboManagerComponent_ActivateComboAbility_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Combat" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Part of the combo system, gate combo ability activation based on if character is already using the ability */" },
+#endif
 		{ "CPP_Default_bAllowRemoteActivation", "true" },
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Part of the combo system, gate combo ability activation based on if character is already using the ability" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCComboManagerComponent_ActivateComboAbility_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCComboManagerComponent, nullptr, "ActivateComboAbility", nullptr, nullptr, Z_Construct_UFunction_UGSCComboManagerComponent_ActivateComboAbility_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCComboManagerComponent_ActivateComboAbility_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCComboManagerComponent_ActivateComboAbility_Statics::GSCComboManagerComponent_eventActivateComboAbility_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCComboManagerComponent_ActivateComboAbility_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCComboManagerComponent_ActivateComboAbility_Statics::Function_MetaDataParams) };
@@ -194,9 +198,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCComboManagerComponent_IncrementCombo_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Combat" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Part of the combo system, will increment the ComboIndex counter, only if the combo window has been opened */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Part of the combo system, will increment the ComboIndex counter, only if the combo window has been opened" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCComboManagerComponent_IncrementCombo_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCComboManagerComponent, nullptr, "IncrementCombo", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCComboManagerComponent_IncrementCombo_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCComboManagerComponent_IncrementCombo_Statics::Function_MetaDataParams) };
@@ -287,9 +295,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCComboManagerComponent_ResetCombo_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Combat" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Part of the combo system, will reset the ComboIndex counter to 0 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Part of the combo system, will reset the ComboIndex counter to 0" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCComboManagerComponent_ResetCombo_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCComboManagerComponent, nullptr, "ResetCombo", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCComboManagerComponent_ResetCombo_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCComboManagerComponent_ResetCombo_Statics::Function_MetaDataParams) };
@@ -325,7 +337,9 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCComboManagerComponent_ServerActivateComboAbility_Statics::Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//~End UActorComponent interface\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
 	};
 #endif
@@ -430,12 +444,12 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCComboManagerComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCComboManagerComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCComboManagerComponent_ActivateComboAbility, "ActivateComboAbility" }, // 2327838565
-		{ &Z_Construct_UFunction_UGSCComboManagerComponent_IncrementCombo, "IncrementCombo" }, // 4224403824
+		{ &Z_Construct_UFunction_UGSCComboManagerComponent_ActivateComboAbility, "ActivateComboAbility" }, // 2684897121
+		{ &Z_Construct_UFunction_UGSCComboManagerComponent_IncrementCombo, "IncrementCombo" }, // 775989160
 		{ &Z_Construct_UFunction_UGSCComboManagerComponent_MulticastActivateComboAbility, "MulticastActivateComboAbility" }, // 4127557746
 		{ &Z_Construct_UFunction_UGSCComboManagerComponent_MulticastSetComboIndex, "MulticastSetComboIndex" }, // 794084630
-		{ &Z_Construct_UFunction_UGSCComboManagerComponent_ResetCombo, "ResetCombo" }, // 515652023
-		{ &Z_Construct_UFunction_UGSCComboManagerComponent_ServerActivateComboAbility, "ServerActivateComboAbility" }, // 3157844912
+		{ &Z_Construct_UFunction_UGSCComboManagerComponent_ResetCombo, "ResetCombo" }, // 4249308229
+		{ &Z_Construct_UFunction_UGSCComboManagerComponent_ServerActivateComboAbility, "ServerActivateComboAbility" }, // 926634506
 		{ &Z_Construct_UFunction_UGSCComboManagerComponent_ServerSetComboIndex, "ServerSetComboIndex" }, // 3717431663
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCComboManagerComponent_Statics::FuncInfo) < 2048);
@@ -465,18 +479,26 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_ComboIndex_MetaData[] = {
 		{ "Category", "GAS Companion|Combo" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The combo index for the currently active combo */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The combo index for the currently active combo" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_ComboIndex = { "ComboIndex", nullptr, (EPropertyFlags)0x0010000000000034, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCComboManagerComponent, ComboIndex), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_ComboIndex_MetaData), Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_ComboIndex_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bComboWindowOpened_MetaData[] = {
 		{ "Category", "GAS Companion|Combo" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether or not the combo window is opened (eg. player can queue next combo within this window) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether or not the combo window is opened (eg. player can queue next combo within this window)" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bComboWindowOpened_SetBit(void* Obj)
@@ -487,9 +509,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bShouldTriggerCombo_MetaData[] = {
 		{ "Category", "GAS Companion|Combo" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Should we queue the next combo montage for the currently active combo */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should we queue the next combo montage for the currently active combo" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bShouldTriggerCombo_SetBit(void* Obj)
@@ -500,9 +526,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bRequestTriggerCombo_MetaData[] = {
 		{ "Category", "GAS Companion|Combo" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Should we trigger the next combo montage */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should we trigger the next combo montage" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bRequestTriggerCombo_SetBit(void* Obj)
@@ -513,9 +543,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bNextComboAbilityActivated_MetaData[] = {
 		{ "Category", "GAS Companion|Combo" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Should we trigger the next combo montage */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should we trigger the next combo montage" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bNextComboAbilityActivated_SetBit(void* Obj)
@@ -525,9 +559,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bNextComboAbilityActivated = { "bNextComboAbilityActivated", nullptr, (EPropertyFlags)0x0010000000000034, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UGSCComboManagerComponent), &Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bNextComboAbilityActivated_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bNextComboAbilityActivated_MetaData), Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bNextComboAbilityActivated_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bCachedIsNetSimulated_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Cached value of rather this is a simulated actor */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCComboManagerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cached value of rather this is a simulated actor" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCComboManagerComponent_Statics::NewProp_bCachedIsNetSimulated_SetBit(void* Obj)
@@ -596,15 +634,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboManagerComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCComboManagerComponent);
 	UGSCComboManagerComponent::~UGSCComboManagerComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCComboManagerComponent, UGSCComboManagerComponent::StaticClass, TEXT("UGSCComboManagerComponent"), &Z_Registration_Info_UClass_UGSCComboManagerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCComboManagerComponent), 2347771615U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCComboManagerComponent, UGSCComboManagerComponent::StaticClass, TEXT("UGSCComboManagerComponent"), &Z_Registration_Info_UClass_UGSCComboManagerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCComboManagerComponent), 3211936428U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_959463156(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_2048231828(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCComboManagerComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MP_Prototype_Shooter.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\dev\Documents\Unreal Projects\MP_Prototype_shooter\MP_Prototype_Shooter\Intermediate\Build\Win64\x64\MP_Prototype_ShooterEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\Users\dev\Documents\Unreal Projects\MP_Prototype_shooter\MP_Prototype_Shooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MP_Prototype_Shooter\MP_Prototype_Shooter.cpp.obj"
+"C:\Users\dev\Documents\Unreal Projects\MP_Prototype_shooter\MP_Prototype_Shooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MP_Prototype_Shooter\TestClassPleaseDelete.cpp.obj"
+"C:\Users\dev\Documents\Unreal Projects\MP_Prototype_shooter\MP_Prototype_Shooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MP_Prototype_Shooter\Default.rc2.res"
+/OUT:"C:\Users\dev\Documents\Unreal Projects\MP_Prototype_shooter\MP_Prototype_Shooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MP_Prototype_Shooter\UnrealEditor-MP_Prototype_Shooter.lib"

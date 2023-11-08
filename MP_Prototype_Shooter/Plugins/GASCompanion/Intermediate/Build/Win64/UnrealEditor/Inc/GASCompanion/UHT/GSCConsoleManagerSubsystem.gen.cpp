@@ -50,9 +50,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCConsoleManagerSubsystem() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleAbilityQueueDebugWidget_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion | Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Create and display, or hide if visible, debug widget for GAS Companion ability queue system. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Subsystems/GSCConsoleManagerSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create and display, or hide if visible, debug widget for GAS Companion ability queue system." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleAbilityQueueDebugWidget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCConsoleManagerSubsystem, nullptr, "ToggleAbilityQueueDebugWidget", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleAbilityQueueDebugWidget_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleAbilityQueueDebugWidget_Statics::Function_MetaDataParams) };
@@ -75,9 +79,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCConsoleManagerSubsystem() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleComboDebugWidget_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion | Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Create and display, or hide if visible, debug widget for GAS Companion combo component and ability. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Subsystems/GSCConsoleManagerSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create and display, or hide if visible, debug widget for GAS Companion combo component and ability." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleComboDebugWidget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCConsoleManagerSubsystem, nullptr, "ToggleComboDebugWidget", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleComboDebugWidget_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleComboDebugWidget_Statics::Function_MetaDataParams) };
@@ -128,17 +136,21 @@ void EmptyLinkFunctionForGeneratedCodeGSCConsoleManagerSubsystem() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCConsoleManagerSubsystem_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCConsoleManagerSubsystem_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleAbilityQueueDebugWidget, "ToggleAbilityQueueDebugWidget" }, // 3342077134
-		{ &Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleComboDebugWidget, "ToggleComboDebugWidget" }, // 2820509601
+		{ &Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleAbilityQueueDebugWidget, "ToggleAbilityQueueDebugWidget" }, // 2743963227
+		{ &Z_Construct_UFunction_UGSCConsoleManagerSubsystem_ToggleComboDebugWidget, "ToggleComboDebugWidget" }, // 3818906585
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCConsoleManagerSubsystem_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCConsoleManagerSubsystem_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Local Player Subsystem to handle cheat commands, available in game. Namely to open\n * various debug UMG widgets.\n */" },
+#endif
 		{ "DisplayName", "GSC Console Manager" },
 		{ "IncludePath", "Subsystems/GSCConsoleManagerSubsystem.h" },
 		{ "ModuleRelativePath", "Public/Subsystems/GSCConsoleManagerSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Local Player Subsystem to handle cheat commands, available in game. Namely to open\nvarious debug UMG widgets." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -207,15 +219,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCConsoleManagerSubsystem() {}
 	UGSCConsoleManagerSubsystem::UGSCConsoleManagerSubsystem() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCConsoleManagerSubsystem);
 	UGSCConsoleManagerSubsystem::~UGSCConsoleManagerSubsystem() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCConsoleManagerSubsystem, UGSCConsoleManagerSubsystem::StaticClass, TEXT("UGSCConsoleManagerSubsystem"), &Z_Registration_Info_UClass_UGSCConsoleManagerSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCConsoleManagerSubsystem), 412448759U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCConsoleManagerSubsystem, UGSCConsoleManagerSubsystem::StaticClass, TEXT("UGSCConsoleManagerSubsystem"), &Z_Registration_Info_UClass_UGSCConsoleManagerSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCConsoleManagerSubsystem), 3853206273U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_2792535308(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_2895013696(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Subsystems_GSCConsoleManagerSubsystem_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -182,11 +182,15 @@ void FComboGraphNetworkSyncDelegate_DelegateWrapper(const FMulticastScriptDelega
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_WaitNetSync_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "TRUE" },
 		{ "Category", "Ability|Tasks" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *\x09\n\x09 *\x09Synchronize execution flow between Client and Server. Depending on SyncType, the Client and Server will wait for the other to reach this node or another WaitNetSync node in the ability before continuing execution.  \n\x09 *\x09\n\x09 *\x09""BothWait - Both Client and Server will wait until the other reaches the node. (Whoever gets their first, waits for the other before continueing).\n\x09 *\x09OnlyServerWait - Only server will wait for the client signal. Client will signal and immediately continue without waiting to hear from Server.\n\x09 *\x09OnlyClientWait - Only client will wait for the server signal. Server will signal and immediately continue without waiting to hear from Client.\n\x09 *\x09\n\x09 *\x09Note that this is \"ability instance wide\". These sync points never affect sync points in other abilities. \n\x09 *\x09\n\x09 *\x09In most cases you will have both client and server execution paths connected to the same WaitNetSync node. However it is possible to use separate nodes\n\x09 *\x09""for cleanliness of the graph. The \"signal\" is \"ability instance wide\".\n\x09 *\x09\n\x09 */" },
+#endif
 		{ "DefaultToSelf", "OwningAbility" },
 		{ "HidePin", "OwningAbility" },
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/ComboGraphAbilityTask_NetworkSyncPoint.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Synchronize execution flow between Client and Server. Depending on SyncType, the Client and Server will wait for the other to reach this node or another WaitNetSync node in the ability before continuing execution.\n\nBothWait - Both Client and Server will wait until the other reaches the node. (Whoever gets their first, waits for the other before continueing).\nOnlyServerWait - Only server will wait for the client signal. Client will signal and immediately continue without waiting to hear from Server.\nOnlyClientWait - Only client will wait for the server signal. Server will signal and immediately continue without waiting to hear from Client.\n\nNote that this is \"ability instance wide\". These sync points never affect sync points in other abilities.\n\nIn most cases you will have both client and server execution paths connected to the same WaitNetSync node. However it is possible to use separate nodes\nfor cleanliness of the graph. The \"signal\" is \"ability instance wide\"." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_WaitNetSync_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UComboGraphAbilityTask_NetworkSyncPoint, nullptr, "WaitNetSync", nullptr, nullptr, Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_WaitNetSync_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_WaitNetSync_Statics::PropPointers), sizeof(Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_WaitNetSync_Statics::ComboGraphAbilityTask_NetworkSyncPoint_eventWaitNetSync_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_WaitNetSync_Statics::Function_MetaDataParams), Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_WaitNetSync_Statics::Function_MetaDataParams) };
@@ -228,15 +232,19 @@ void FComboGraphNetworkSyncDelegate_DelegateWrapper(const FMulticastScriptDelega
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphAbilityTask_NetworkSyncPoint_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UComboGraphAbilityTask_NetworkSyncPoint_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_OnSignalCallback, "OnSignalCallback" }, // 3466337056
-		{ &Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_WaitNetSync, "WaitNetSync" }, // 3577536441
+		{ &Z_Construct_UFunction_UComboGraphAbilityTask_NetworkSyncPoint_WaitNetSync, "WaitNetSync" }, // 1500211848
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphAbilityTask_NetworkSyncPoint_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphAbilityTask_NetworkSyncPoint_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Task for providing a generic sync point for client server (one can wait for a signal from the other)\n *\n * Forked from engine to fix an issue with 5.1.0 that will likely get patched in 5.1.1\n *\n * See https://github.com/EpicGames/UnrealEngine/commit/49b4d85a967a1093f188334d9b1be65805ec00e8\n */" },
+#endif
 		{ "IncludePath", "Abilities/Tasks/ComboGraphAbilityTask_NetworkSyncPoint.h" },
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/ComboGraphAbilityTask_NetworkSyncPoint.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Task for providing a generic sync point for client server (one can wait for a signal from the other)\n\nForked from engine to fix an issue with 5.1.0 that will likely get patched in 5.1.1\n\nSee https://github.com/EpicGames/UnrealEngine/commit/49b4d85a967a1093f188334d9b1be65805ec00e8" },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -281,19 +289,19 @@ void FComboGraphNetworkSyncDelegate_DelegateWrapper(const FMulticastScriptDelega
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UComboGraphAbilityTask_NetworkSyncPoint);
 	UComboGraphAbilityTask_NetworkSyncPoint::~UComboGraphAbilityTask_NetworkSyncPoint() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::EnumInfo[] = {
 		{ EComboGraphAbilityTaskNetSyncType_StaticEnum, TEXT("EComboGraphAbilityTaskNetSyncType"), &Z_Registration_Info_UEnum_EComboGraphAbilityTaskNetSyncType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3494738704U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UComboGraphAbilityTask_NetworkSyncPoint, UComboGraphAbilityTask_NetworkSyncPoint::StaticClass, TEXT("UComboGraphAbilityTask_NetworkSyncPoint"), &Z_Registration_Info_UClass_UComboGraphAbilityTask_NetworkSyncPoint, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphAbilityTask_NetworkSyncPoint), 3695521940U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UComboGraphAbilityTask_NetworkSyncPoint, UComboGraphAbilityTask_NetworkSyncPoint::StaticClass, TEXT("UComboGraphAbilityTask_NetworkSyncPoint"), &Z_Registration_Info_UClass_UComboGraphAbilityTask_NetworkSyncPoint, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphAbilityTask_NetworkSyncPoint), 3824326145U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_2525435246(TEXT("/Script/ComboGraph"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_2274539487(TEXT("/Script/ComboGraph"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_ComboGraphAbilityTask_NetworkSyncPoint_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -90,9 +90,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectExecut
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Structure passed down to Actors Blueprint with PostGameplayEffectExecute Event */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Structure passed down to Actors Blueprint with PostGameplayEffectExecute Event" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewStructOps()
@@ -102,38 +106,54 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectExecut
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_AttributeSet_MetaData[] = {
 		{ "Category", "AttributeSetPayload" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The owner AttributeSet from which the event was invoked */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The owner AttributeSet from which the event was invoked" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_AttributeSet = { "AttributeSet", nullptr, (EPropertyFlags)0x001400000008000d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectExecuteData, AttributeSet), Z_Construct_UClass_UAttributeSet_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_AttributeSet_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_AttributeSet_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_AbilitySystemComponent_MetaData[] = {
 		{ "Category", "AttributeSetPayload" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The owner AbilitySystemComponent for this AttributeSet */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The owner AbilitySystemComponent for this AttributeSet" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_AbilitySystemComponent = { "AbilitySystemComponent", nullptr, (EPropertyFlags)0x001400000008000d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectExecuteData, AbilitySystemComponent), Z_Construct_UClass_UAbilitySystemComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_AbilitySystemComponent_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_AbilitySystemComponent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_DeltaValue_MetaData[] = {
 		{ "Category", "AttributeSetPayload" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Calculated DeltaValue from OldValue to NewValue */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Calculated DeltaValue from OldValue to NewValue" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_DeltaValue = { "DeltaValue", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectExecuteData, DeltaValue), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_DeltaValue_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_DeltaValue_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_ClampMinimumValue_MetaData[] = {
 		{ "Category", "AttributeSetPayload" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The configured Clamp MinimumValue for this Attribute, if defined */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The configured Clamp MinimumValue for this Attribute, if defined" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_ClampMinimumValue = { "ClampMinimumValue", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectExecuteData, ClampMinimumValue), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_ClampMinimumValue_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewProp_ClampMinimumValue_MetaData) };
@@ -444,7 +464,7 @@ void FGSCOnPreAttributeChange_DelegateWrapper(const FMulticastScriptDelegate& GS
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature_Statics::NewProp_Payload = { "Payload", nullptr, (EPropertyFlags)0x0010008000000082, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GASCompanion_eventGSCOnPostGameplayEffectExecute_Parms, Payload), Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature_Statics::NewProp_Payload_MetaData), Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature_Statics::NewProp_Payload_MetaData) }; // 45459735
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature_Statics::NewProp_Payload = { "Payload", nullptr, (EPropertyFlags)0x0010008000000082, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GASCompanion_eventGSCOnPostGameplayEffectExecute_Parms, Payload), Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature_Statics::NewProp_Payload_MetaData), Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature_Statics::NewProp_Payload_MetaData) }; // 3641644268
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature_Statics::NewProp_Attribute,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature_Statics::NewProp_SourceActor,
@@ -1457,10 +1477,14 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByClass_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Attempts to activate the ability that is passed in. This will check costs and requirements before doing so.\n\x09*\n\x09* Returns true if it thinks it activated, but it may return false positives due to failure later in activation.\n\x09*\n\x09* @param AbilityClass Gameplay Ability Class to activate\n\x09* @param ActivatedAbility The Gameplay Ability that was triggered on success (only returned if it is a GSCGameplayAbility)\n\x09* @param bAllowRemoteActivation If true, it will remotely activate local/server abilities, if false it will only try to locally activate abilities.\n\x09* @return bSuccess Returns true if it thinks it activated, but it may return false positives due to failure later in activation.\n\x09*/" },
+#endif
 		{ "CPP_Default_bAllowRemoteActivation", "true" },
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Attempts to activate the ability that is passed in. This will check costs and requirements before doing so.\n\nReturns true if it thinks it activated, but it may return false positives due to failure later in activation.\n\n@param AbilityClass Gameplay Ability Class to activate\n@param ActivatedAbility The Gameplay Ability that was triggered on success (only returned if it is a GSCGameplayAbility)\n@param bAllowRemoteActivation If true, it will remotely activate local/server abilities, if false it will only try to locally activate abilities.\n@return bSuccess Returns true if it thinks it activated, but it may return false positives due to failure later in activation." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByClass_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "ActivateAbilityByClass", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByClass_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByClass_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByClass_Statics::GSCCoreComponent_eventActivateAbilityByClass_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByClass_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByClass_Statics::Function_MetaDataParams) };
@@ -1533,10 +1557,14 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByTags_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Attempts to activate a **single** gameplay ability that matches the given tag and DoesAbilitySatisfyTagRequirements().\n\x09*\n\x09* It differs from GAS ASC TryActivateAbilitiesByTag which tries to activate *every* ability, whereas this version will pick a\n\x09* random one and attempt to activate it.\n\x09*\n\x09* Returns true if the ability attempts to activate, and the reference to the Activated Ability if any.\n\x09*\n\x09* @param AbilityTags Set of Gameplay Tags to search for\n\x09* @param ActivatedAbility The Gameplay Ability that was triggered on success (only returned if it is a GSCGameplayAbility)\n\x09* @param bAllowRemoteActivation If true, it will remotely activate local/server abilities, if false it will only try to locally activate abilities.\n\x09* @return bSuccess Returns true if it thinks it activated, but it may return false positives due to failure later in activation.\n\x09*/" },
+#endif
 		{ "CPP_Default_bAllowRemoteActivation", "true" },
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Attempts to activate a **single** gameplay ability that matches the given tag and DoesAbilitySatisfyTagRequirements().\n\nIt differs from GAS ASC TryActivateAbilitiesByTag which tries to activate *every* ability, whereas this version will pick a\nrandom one and attempt to activate it.\n\nReturns true if the ability attempts to activate, and the reference to the Activated Ability if any.\n\n@param AbilityTags Set of Gameplay Tags to search for\n@param ActivatedAbility The Gameplay Ability that was triggered on success (only returned if it is a GSCGameplayAbility)\n@param bAllowRemoteActivation If true, it will remotely activate local/server abilities, if false it will only try to locally activate abilities.\n@return bSuccess Returns true if it thinks it activated, but it may return false positives due to failure later in activation." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByTags_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "ActivateAbilityByTags", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByTags_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByTags_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByTags_Statics::GSCCoreComponent_eventActivateAbilityByTags_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByTags_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByTags_Statics::Function_MetaDataParams) };
@@ -1607,9 +1635,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_AdjustAttributeForMaxChange_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Helper function to proportionally adjust the value of an attribute when it's associated max attribute changes.\n\x09* (e.g. When MaxHealth increases, Health increases by an amount that maintains the same percentage as before)\n\x09*\n\x09* @param AttributeSet The AttributeSet owner for the affected attributes\n\x09* @param AffectedAttributeProperty The affected Attribute property\n\x09* @param MaxAttribute The related MaxAttribute\n\x09* @param NewMaxValue The new value for the MaxAttribute\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Helper function to proportionally adjust the value of an attribute when it's associated max attribute changes.\n(e.g. When MaxHealth increases, Health increases by an amount that maintains the same percentage as before)\n\n@param AttributeSet The AttributeSet owner for the affected attributes\n@param AffectedAttributeProperty The affected Attribute property\n@param MaxAttribute The related MaxAttribute\n@param NewMaxValue The new value for the MaxAttribute" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_AdjustAttributeForMaxChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "AdjustAttributeForMaxChange", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_AdjustAttributeForMaxChange_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_AdjustAttributeForMaxChange_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_AdjustAttributeForMaxChange_Statics::GSCCoreComponent_eventAdjustAttributeForMaxChange_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_AdjustAttributeForMaxChange_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_AdjustAttributeForMaxChange_Statics::Function_MetaDataParams) };
@@ -1652,9 +1684,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_ClampAttributeValue_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Clamps the Attribute from MinValue to MaxValue */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Clamps the Attribute from MinValue to MaxValue" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_ClampAttributeValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "ClampAttributeValue", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_ClampAttributeValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ClampAttributeValue_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_ClampAttributeValue_Statics::GSCCoreComponent_eventClampAttributeValue_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ClampAttributeValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_ClampAttributeValue_Statics::Function_MetaDataParams) };
@@ -1692,9 +1728,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_ClearAbilities_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Remove an set of abilities from the Actor's Ability System Component\n\x09*\n\x09* @param Abilities Array of Ability Class to remove\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Remove an set of abilities from the Actor's Ability System Component\n\n@param Abilities Array of Ability Class to remove" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_ClearAbilities_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "ClearAbilities", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_ClearAbilities_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ClearAbilities_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_ClearAbilities_Statics::GSCCoreComponent_eventClearAbilities_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020404, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ClearAbilities_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_ClearAbilities_Statics::Function_MetaDataParams) };
@@ -1729,9 +1769,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_ClearAbility_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Remove an ability from the Actor's Ability System Component\n\x09*\n\x09* @param Ability The Gameplay Ability Class to remove\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Remove an ability from the Actor's Ability System Component\n\n@param Ability The Gameplay Ability Class to remove" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_ClearAbility_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "ClearAbility", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_ClearAbility_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ClearAbility_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_ClearAbility_Statics::GSCCoreComponent_eventClearAbility_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020404, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_ClearAbility_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_ClearAbility_Statics::Function_MetaDataParams) };
@@ -1756,9 +1800,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_Die_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Actor" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Triggers death events for the owner actor\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Triggers death events for the owner actor" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_Die_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "Die", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_Die_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_Die_Statics::Function_MetaDataParams) };
@@ -1798,9 +1846,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByClass_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Returns a list of currently active ability instances that match the given class\n\x09*\n\x09* @param AbilityToSearch The Gameplay Ability Class to search for\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a list of currently active ability instances that match the given class\n\n@param AbilityToSearch The Gameplay Ability Class to search for" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByClass_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "GetActiveAbilitiesByClass", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByClass_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByClass_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByClass_Statics::GSCCoreComponent_eventGetActiveAbilitiesByClass_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByClass_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByClass_Statics::Function_MetaDataParams) };
@@ -1850,9 +1902,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByTags_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Returns a list of currently active ability instances that match the given tags\n\x09*\n\x09* This only returns if the ability is currently running\n\x09*\n\x09* @param GameplayTagContainer The Ability Tags to search for\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a list of currently active ability instances that match the given tags\n\nThis only returns if the ability is currently running\n\n@param GameplayTagContainer The Ability Tags to search for" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByTags_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "GetActiveAbilitiesByTags", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByTags_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByTags_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByTags_Statics::GSCCoreComponent_eventGetActiveAbilitiesByTags_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByTags_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByTags_Statics::Function_MetaDataParams) };
@@ -1891,9 +1947,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_GetAttributeValue_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns the current value of an attribute (base value). That is, the value of the attribute with no stateful modifiers */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the current value of an attribute (base value). That is, the value of the attribute with no stateful modifiers" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_GetAttributeValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "GetAttributeValue", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_GetAttributeValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GetAttributeValue_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_GetAttributeValue_Statics::GSCCoreComponent_eventGetAttributeValue_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GetAttributeValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_GetAttributeValue_Statics::Function_MetaDataParams) };
@@ -1932,9 +1992,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_GetCurrentAttributeValue_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns current (final) value of an attribute */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns current (final) value of an attribute" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_GetCurrentAttributeValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "GetCurrentAttributeValue", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_GetCurrentAttributeValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GetCurrentAttributeValue_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_GetCurrentAttributeValue_Statics::GSCCoreComponent_eventGetCurrentAttributeValue_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GetCurrentAttributeValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_GetCurrentAttributeValue_Statics::Function_MetaDataParams) };
@@ -2183,10 +2247,14 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_GrantAbility_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Grants the Actor with the given ability, making it available for activation\n\x09*\n\x09* @param Ability The Gameplay Ability to give to the character\n\x09* @param Level The Gameplay Ability Level (defaults to 1)\n\x09*/" },
+#endif
 		{ "CPP_Default_Level", "1" },
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Grants the Actor with the given ability, making it available for activation\n\n@param Ability The Gameplay Ability to give to the character\n@param Level The Gameplay Ability Level (defaults to 1)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_GrantAbility_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "GrantAbility", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_GrantAbility_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GrantAbility_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_GrantAbility_Statics::GSCCoreComponent_eventGrantAbility_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020404, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_GrantAbility_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_GrantAbility_Statics::Function_MetaDataParams) };
@@ -2238,9 +2306,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_HasAnyMatchingGameplayTags_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|GameplayTags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Returns true if Actor's AbilitySystemComponent has any of the matching tags (expands to include parents of asset tags)\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true if Actor's AbilitySystemComponent has any of the matching tags (expands to include parents of asset tags)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_HasAnyMatchingGameplayTags_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "HasAnyMatchingGameplayTags", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_HasAnyMatchingGameplayTags_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_HasAnyMatchingGameplayTags_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_HasAnyMatchingGameplayTags_Statics::GSCCoreComponent_eventHasAnyMatchingGameplayTags_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_HasAnyMatchingGameplayTags_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_HasAnyMatchingGameplayTags_Statics::Function_MetaDataParams) };
@@ -2292,9 +2364,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_HasMatchingGameplayTag_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|GameplayTags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Returns true if Actor's AbilitySystemComponent has a gameplay tag that matches against the specified tag (expands to include parents of asset tags)\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true if Actor's AbilitySystemComponent has a gameplay tag that matches against the specified tag (expands to include parents of asset tags)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_HasMatchingGameplayTag_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "HasMatchingGameplayTag", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_HasMatchingGameplayTag_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_HasMatchingGameplayTag_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_HasMatchingGameplayTag_Statics::GSCCoreComponent_eventHasMatchingGameplayTag_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_HasMatchingGameplayTag_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_HasMatchingGameplayTag_Statics::Function_MetaDataParams) };
@@ -2334,9 +2410,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_IsAlive_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns whether or not the Actor is considered alive (Health > 0) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns whether or not the Actor is considered alive (Health > 0)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_IsAlive_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "IsAlive", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_IsAlive_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_IsAlive_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_IsAlive_Statics::GSCCoreComponent_eventIsAlive_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_IsAlive_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_IsAlive_Statics::Function_MetaDataParams) };
@@ -2380,9 +2460,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByClass_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns whether one of the actors's active abilities are matching the provided Ability Class */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns whether one of the actors's active abilities are matching the provided Ability Class" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByClass_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "IsUsingAbilityByClass", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByClass_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByClass_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByClass_Statics::GSCCoreComponent_eventIsUsingAbilityByClass_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByClass_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByClass_Statics::Function_MetaDataParams) };
@@ -2426,9 +2510,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByTags_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns whether one of the character's active abilities are matching the provided tags */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns whether one of the character's active abilities are matching the provided tags" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByTags_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "IsUsingAbilityByTags", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByTags_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByTags_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByTags_Statics::GSCCoreComponent_eventIsUsingAbilityByTags_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByTags_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByTags_Statics::Function_MetaDataParams) };
@@ -2467,9 +2555,13 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCCoreComponent_SetAttributeValue_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets the base value of an attribute. Existing active modifiers are NOT cleared and will act upon the new base value. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the base value of an attribute. Existing active modifiers are NOT cleared and will act upon the new base value." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCCoreComponent_SetAttributeValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCCoreComponent, nullptr, "SetAttributeValue", nullptr, nullptr, Z_Construct_UFunction_UGSCCoreComponent_SetAttributeValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_SetAttributeValue_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCCoreComponent_SetAttributeValue_Statics::GSCCoreComponent_eventSetAttributeValue_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCCoreComponent_SetAttributeValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCCoreComponent_SetAttributeValue_Statics::Function_MetaDataParams) };
@@ -2602,30 +2694,30 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCCoreComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByClass, "ActivateAbilityByClass" }, // 3458868348
-		{ &Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByTags, "ActivateAbilityByTags" }, // 1895854850
-		{ &Z_Construct_UFunction_UGSCCoreComponent_AdjustAttributeForMaxChange, "AdjustAttributeForMaxChange" }, // 2422330424
-		{ &Z_Construct_UFunction_UGSCCoreComponent_ClampAttributeValue, "ClampAttributeValue" }, // 1796710948
-		{ &Z_Construct_UFunction_UGSCCoreComponent_ClearAbilities, "ClearAbilities" }, // 1557212865
-		{ &Z_Construct_UFunction_UGSCCoreComponent_ClearAbility, "ClearAbility" }, // 2268261764
-		{ &Z_Construct_UFunction_UGSCCoreComponent_Die, "Die" }, // 2535367985
-		{ &Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByClass, "GetActiveAbilitiesByClass" }, // 110408930
-		{ &Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByTags, "GetActiveAbilitiesByTags" }, // 2530086880
-		{ &Z_Construct_UFunction_UGSCCoreComponent_GetAttributeValue, "GetAttributeValue" }, // 1811488352
-		{ &Z_Construct_UFunction_UGSCCoreComponent_GetCurrentAttributeValue, "GetCurrentAttributeValue" }, // 2097121774
+		{ &Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByClass, "ActivateAbilityByClass" }, // 3031039762
+		{ &Z_Construct_UFunction_UGSCCoreComponent_ActivateAbilityByTags, "ActivateAbilityByTags" }, // 3629576302
+		{ &Z_Construct_UFunction_UGSCCoreComponent_AdjustAttributeForMaxChange, "AdjustAttributeForMaxChange" }, // 2988635203
+		{ &Z_Construct_UFunction_UGSCCoreComponent_ClampAttributeValue, "ClampAttributeValue" }, // 3710437273
+		{ &Z_Construct_UFunction_UGSCCoreComponent_ClearAbilities, "ClearAbilities" }, // 3868541858
+		{ &Z_Construct_UFunction_UGSCCoreComponent_ClearAbility, "ClearAbility" }, // 146916008
+		{ &Z_Construct_UFunction_UGSCCoreComponent_Die, "Die" }, // 2607462604
+		{ &Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByClass, "GetActiveAbilitiesByClass" }, // 3868844175
+		{ &Z_Construct_UFunction_UGSCCoreComponent_GetActiveAbilitiesByTags, "GetActiveAbilitiesByTags" }, // 2613891398
+		{ &Z_Construct_UFunction_UGSCCoreComponent_GetAttributeValue, "GetAttributeValue" }, // 854562949
+		{ &Z_Construct_UFunction_UGSCCoreComponent_GetCurrentAttributeValue, "GetCurrentAttributeValue" }, // 3962981198
 		{ &Z_Construct_UFunction_UGSCCoreComponent_GetHealth, "GetHealth" }, // 3836010293
 		{ &Z_Construct_UFunction_UGSCCoreComponent_GetMana, "GetMana" }, // 140256694
 		{ &Z_Construct_UFunction_UGSCCoreComponent_GetMaxHealth, "GetMaxHealth" }, // 2886715405
 		{ &Z_Construct_UFunction_UGSCCoreComponent_GetMaxMana, "GetMaxMana" }, // 1689141965
 		{ &Z_Construct_UFunction_UGSCCoreComponent_GetMaxStamina, "GetMaxStamina" }, // 3073371763
 		{ &Z_Construct_UFunction_UGSCCoreComponent_GetStamina, "GetStamina" }, // 3754077723
-		{ &Z_Construct_UFunction_UGSCCoreComponent_GrantAbility, "GrantAbility" }, // 3646955689
-		{ &Z_Construct_UFunction_UGSCCoreComponent_HasAnyMatchingGameplayTags, "HasAnyMatchingGameplayTags" }, // 836361899
-		{ &Z_Construct_UFunction_UGSCCoreComponent_HasMatchingGameplayTag, "HasMatchingGameplayTag" }, // 3076602885
-		{ &Z_Construct_UFunction_UGSCCoreComponent_IsAlive, "IsAlive" }, // 1727600409
-		{ &Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByClass, "IsUsingAbilityByClass" }, // 1626792092
-		{ &Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByTags, "IsUsingAbilityByTags" }, // 2158209587
-		{ &Z_Construct_UFunction_UGSCCoreComponent_SetAttributeValue, "SetAttributeValue" }, // 1429406227
+		{ &Z_Construct_UFunction_UGSCCoreComponent_GrantAbility, "GrantAbility" }, // 1075197977
+		{ &Z_Construct_UFunction_UGSCCoreComponent_HasAnyMatchingGameplayTags, "HasAnyMatchingGameplayTags" }, // 4162335555
+		{ &Z_Construct_UFunction_UGSCCoreComponent_HasMatchingGameplayTag, "HasMatchingGameplayTag" }, // 1000315891
+		{ &Z_Construct_UFunction_UGSCCoreComponent_IsAlive, "IsAlive" }, // 2680929876
+		{ &Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByClass, "IsUsingAbilityByClass" }, // 1958811298
+		{ &Z_Construct_UFunction_UGSCCoreComponent_IsUsingAbilityByTags, "IsUsingAbilityByTags" }, // 1236695084
+		{ &Z_Construct_UFunction_UGSCCoreComponent_SetAttributeValue, "SetAttributeValue" }, // 3500163655
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -2633,11 +2725,15 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "GASCompanion" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This Actor Component provides abstraction towards Ability System Component.\n * \n * For PlayerStates characters, the Ability System Component is not directly accessible as the owner actor in this case is actually the Player State.\n *\n * Provides commonly shared functionality and API / Events for all Actors that have an Ability System Component (abstracting away Owner / Avatar actor setup for ASC)\n */" },
+#endif
 		{ "IncludePath", "Components/GSCCoreComponent.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This Actor Component provides abstraction towards Ability System Component.\n\nFor PlayerStates characters, the Ability System Component is not directly accessible as the owner actor in this case is actually the Player State.\n\nProvides commonly shared functionality and API / Events for all Actors that have an Ability System Component (abstracting away Owner / Avatar actor setup for ASC)" },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -2668,180 +2764,260 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnInitAbilityActorInfo_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Event called just after InitAbilityActorInfo on ASC, once abilities and attributes have been granted.\n\x09 *\n\x09 * This will happen multiple times for both client / server:\n\x09 *\n\x09 * - Once for Server after component initialization\n\x09 * - Once for Server after replication of owning actor (Possessed by for Player State)\n\x09 * - Once for Client after component initialization\n\x09 * - Once for Client after replication of owning actor (Once more for Player State OnRep_PlayerState)\n\x09 *\n\x09 * Also depends on whether ASC lives on Pawns or Player States.\n\x09 *\n\x09 * Note: This event is also exposed on GSCAbilitySystemComponent itself, but Pawns using ASC on PlayerState might want\n\x09 * to have the ability to react to this event from Pawns too.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event called just after InitAbilityActorInfo on ASC, once abilities and attributes have been granted.\n\nThis will happen multiple times for both client / server:\n\n- Once for Server after component initialization\n- Once for Server after replication of owning actor (Possessed by for Player State)\n- Once for Client after component initialization\n- Once for Client after replication of owning actor (Once more for Player State OnRep_PlayerState)\n\nAlso depends on whether ASC lives on Pawns or Player States.\n\nNote: This event is also exposed on GSCAbilitySystemComponent itself, but Pawns using ASC on PlayerState might want\nto have the ability to react to this event from Pawns too." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnInitAbilityActorInfo = { "OnInitAbilityActorInfo", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnInitAbilityActorInfo), Z_Construct_UDelegateFunction_GASCompanion_GSCOnInitAbilityActorInfoCore__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnInitAbilityActorInfo_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnInitAbilityActorInfo_MetaData) }; // 1991811488
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnDamage_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Called when character takes damage, which may have killed them\n\x09*\n\x09* @param DamageAmount Amount of damage that was done, not clamped based on current health\n\x09* @param SourceCharacter The actual actor that did the damage\n\x09* @param DamageTags The gameplay tags of the event that did the damage\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when character takes damage, which may have killed them\n\n@param DamageAmount Amount of damage that was done, not clamped based on current health\n@param SourceCharacter The actual actor that did the damage\n@param DamageTags The gameplay tags of the event that did the damage" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnDamage = { "OnDamage", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnDamage), Z_Construct_UDelegateFunction_GASCompanion_GSCOnDamage__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnDamage_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnDamage_MetaData) }; // 2535857836
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnHealthChange_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Called when health is changed, either from healing or from being damaged\n    * For damage this is called in addition to OnDamaged/OnDeath\n    *\n    * @param DeltaValue Change in health value, positive for heal, negative for cost. If 0 the delta is unknown\n    * @param EventTags The gameplay tags of the event that changed mana\n    */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when health is changed, either from healing or from being damaged\nFor damage this is called in addition to OnDamaged/OnDeath\n\n@param DeltaValue Change in health value, positive for heal, negative for cost. If 0 the delta is unknown\n@param EventTags The gameplay tags of the event that changed mana" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnHealthChange = { "OnHealthChange", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnHealthChange), Z_Construct_UDelegateFunction_GASCompanion_GSCOnDefaultAttributeChange__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnHealthChange_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnHealthChange_MetaData) }; // 1290474871
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnStaminaChange_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Called when stamina is changed, either from regen  or from being used as a cost\n    *\n    * @param DeltaValue Change in stamina value, positive for heal, negative for cost. If 0 the delta is unknown\n    * @param EventTags The gameplay tags of the event that changed mana\n    */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when stamina is changed, either from regen  or from being used as a cost\n\n@param DeltaValue Change in stamina value, positive for heal, negative for cost. If 0 the delta is unknown\n@param EventTags The gameplay tags of the event that changed mana" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnStaminaChange = { "OnStaminaChange", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnStaminaChange), Z_Construct_UDelegateFunction_GASCompanion_GSCOnDefaultAttributeChange__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnStaminaChange_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnStaminaChange_MetaData) }; // 1290474871
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnManaChange_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Called when mana is changed, either from healing or from being used as a cost\n    *\n    * @param DeltaValue Change in mana value, positive for heal, negative for cost. If 0 the delta is unknown\n    * @param EventTags The gameplay tags of the event that changed mana\n    */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when mana is changed, either from healing or from being used as a cost\n\n@param DeltaValue Change in mana value, positive for heal, negative for cost. If 0 the delta is unknown\n@param EventTags The gameplay tags of the event that changed mana" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnManaChange = { "OnManaChange", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnManaChange), Z_Construct_UDelegateFunction_GASCompanion_GSCOnDefaultAttributeChange__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnManaChange_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnManaChange_MetaData) }; // 1290474871
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAttributeChange_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Called when any of the attributes owned by this character are changed\n    *\n    * @param Attribute The Attribute that was changed\n    * @param DeltaValue It it was an additive operation, returns the modifier value.\n    *                   Or if it was a change coming from damage meta attribute (for health),\n    *                   returns the damage done.\n    * @param EventTags The gameplay tags of the event that changed this attribute\n    */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when any of the attributes owned by this character are changed\n\n@param Attribute The Attribute that was changed\n@param DeltaValue It it was an additive operation, returns the modifier value.\n                  Or if it was a change coming from damage meta attribute (for health),\n                  returns the damage done.\n@param EventTags The gameplay tags of the event that changed this attribute" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAttributeChange = { "OnAttributeChange", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnAttributeChange), Z_Construct_UDelegateFunction_GASCompanion_GSCOnAttributeChange__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAttributeChange_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAttributeChange_MetaData) }; // 2032576476
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnDeath_MetaData[] = {
 		{ "Category", "GAS Companion|Actor" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Called when character dies\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when character dies" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnDeath = { "OnDeath", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnDeath), Z_Construct_UDelegateFunction_GASCompanion_GSCOnDeath__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnDeath_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnDeath_MetaData) }; // 221673038
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPostGameplayEffectExecute_MetaData[] = {
 		{ "Category", "GAS Companion|Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* PostGameplayEffectExecute event fired off from native AttributeSets, define here\n\x09* any attribute change specific management you are not doing in c++ (like clamp)\n\x09*\n\x09* Only triggers after changes to the BaseValue of an Attribute from a GameplayEffect.\n\x09*\n\x09* @param Attribute The affected GameplayAttribute\n\x09* @param SourceActor The instigator Actor that started the whole chain (in case of damage, that would be the damage causer)\n\x09* @param TargetActor The owner Actor to which the Attribute change is applied\n\x09* @param SourceTags The aggregated SourceTags for this EffectSpec\n\x09* @param Payload Payload information with the original AttributeSet, the owning AbilitySystemComponent, calculated DeltaValue and the ClampMinimumValue from config if defined\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "PostGameplayEffectExecute event fired off from native AttributeSets, define here\nany attribute change specific management you are not doing in c++ (like clamp)\n\nOnly triggers after changes to the BaseValue of an Attribute from a GameplayEffect.\n\n@param Attribute The affected GameplayAttribute\n@param SourceActor The instigator Actor that started the whole chain (in case of damage, that would be the damage causer)\n@param TargetActor The owner Actor to which the Attribute change is applied\n@param SourceTags The aggregated SourceTags for this EffectSpec\n@param Payload Payload information with the original AttributeSet, the owning AbilitySystemComponent, calculated DeltaValue and the ClampMinimumValue from config if defined" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPostGameplayEffectExecute = { "OnPostGameplayEffectExecute", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnPostGameplayEffectExecute), Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPostGameplayEffectExecute_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPostGameplayEffectExecute_MetaData) }; // 81295260
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPostGameplayEffectExecute = { "OnPostGameplayEffectExecute", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnPostGameplayEffectExecute), Z_Construct_UDelegateFunction_GASCompanion_GSCOnPostGameplayEffectExecute__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPostGameplayEffectExecute_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPostGameplayEffectExecute_MetaData) }; // 1518032256
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPreAttributeChange_MetaData[] = {
 		{ "Category", "GAS Companion|Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* PreAttributeChange event fired off from native AttributeSets, react here to\n\x09* changes of Attributes CurrentValue before the modification to the BaseValue\n\x09* happens.\n\x09*\n\x09* Called just before any modification happens to an attribute, whether using\n\x09* Attribute setters or using GameplayEffect.\n\x09*\n\x09* @param AttributeSet The AttributeSet that started the change\n\x09* @param Attribute The affected GameplayAttribute\n\x09* @param NewValue The new value\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "PreAttributeChange event fired off from native AttributeSets, react here to\nchanges of Attributes CurrentValue before the modification to the BaseValue\nhappens.\n\nCalled just before any modification happens to an attribute, whether using\nAttribute setters or using GameplayEffect.\n\n@param AttributeSet The AttributeSet that started the change\n@param Attribute The affected GameplayAttribute\n@param NewValue The new value" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPreAttributeChange = { "OnPreAttributeChange", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnPreAttributeChange), Z_Construct_UDelegateFunction_GASCompanion_GSCOnPreAttributeChange__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPreAttributeChange_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnPreAttributeChange_MetaData) }; // 3435965457
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityActivated_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Called when an ability is activated for the owner actor\n    */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when an ability is activated for the owner actor" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityActivated = { "OnAbilityActivated", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnAbilityActivated), Z_Construct_UDelegateFunction_GASCompanion_GSCOnAbilityActivated__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityActivated_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityActivated_MetaData) }; // 3864007693
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityEnded_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Called when an ability is ended for the owner actor.\n    */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when an ability is ended for the owner actor." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityEnded = { "OnAbilityEnded", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnAbilityEnded), Z_Construct_UDelegateFunction_GASCompanion_GSCOnAbilityEnded__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityEnded_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityEnded_MetaData) }; // 2966627211
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityFailed_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n    * Called when an ability failed to activated for the owner actor, passes along the failed ability\n    * and a tag explaining why.\n    */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when an ability failed to activated for the owner actor, passes along the failed ability\nand a tag explaining why." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityFailed = { "OnAbilityFailed", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnAbilityFailed), Z_Construct_UDelegateFunction_GASCompanion_GSCOnAbilityFailed__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityFailed_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityFailed_MetaData) }; // 3130866105
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectStackChange_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Called when a GameplayEffect is added or removed.\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when a GameplayEffect is added or removed." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectStackChange = { "OnGameplayEffectStackChange", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnGameplayEffectStackChange), Z_Construct_UDelegateFunction_GASCompanion_GSCOnGameplayEffectStackChange__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectStackChange_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectStackChange_MetaData) }; // 3516169475
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectTimeChange_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Called when a GameplayEffect duration is changed (for instance when duration is refreshed)\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when a GameplayEffect duration is changed (for instance when duration is refreshed)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectTimeChange = { "OnGameplayEffectTimeChange", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnGameplayEffectTimeChange), Z_Construct_UDelegateFunction_GASCompanion_GSCOnGameplayEffectTimeChange__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectTimeChange_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectTimeChange_MetaData) }; // 3957273723
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectAdded_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Called when a GameplayEffect is added.\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when a GameplayEffect is added." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectAdded = { "OnGameplayEffectAdded", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnGameplayEffectAdded), Z_Construct_UDelegateFunction_GASCompanion_GSCOnGameplayEffectAdded__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectAdded_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectAdded_MetaData) }; // 2574336319
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectRemoved_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Called when a GameplayEffect is removed.\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when a GameplayEffect is removed." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectRemoved = { "OnGameplayEffectRemoved", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnGameplayEffectRemoved), Z_Construct_UDelegateFunction_GASCompanion_GSCOnGameplayEffectRemoved__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectRemoved_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayEffectRemoved_MetaData) }; // 2754649874
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayTagChange_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Called whenever a tag is added or removed (but not if just count is increased. Only for 'new' and 'removed' events) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called whenever a tag is added or removed (but not if just count is increased. Only for 'new' and 'removed' events)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayTagChange = { "OnGameplayTagChange", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnGameplayTagChange), Z_Construct_UDelegateFunction_GASCompanion_GSCOnGameplayTagStackChange__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayTagChange_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnGameplayTagChange_MetaData) }; // 107090605
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityCommit_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Called whenever an ability is committed (cost / cooldown are applied) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called whenever an ability is committed (cost / cooldown are applied)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityCommit = { "OnAbilityCommit", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnAbilityCommit), Z_Construct_UDelegateFunction_GASCompanion_GSCOnAbilityCommit__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityCommit_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnAbilityCommit_MetaData) }; // 3137415555
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnCooldownStart_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Called when an ability with a valid cooldown is committed and cooldown is applied */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when an ability with a valid cooldown is committed and cooldown is applied" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnCooldownStart = { "OnCooldownStart", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnCooldownStart), Z_Construct_UDelegateFunction_GASCompanion_GSCOnCooldownChanged__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnCooldownStart_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnCooldownStart_MetaData) }; // 3501139877
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnCooldownEnd_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Called when a cooldown gameplay tag is removed, meaning cooldown expired */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCCoreComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when a cooldown gameplay tag is removed, meaning cooldown expired" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnCooldownEnd = { "OnCooldownEnd", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCCoreComponent, OnCooldownEnd), Z_Construct_UDelegateFunction_GASCompanion_GSCOnCooldownEnd__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnCooldownEnd_MetaData), Z_Construct_UClass_UGSCCoreComponent_Statics::NewProp_OnCooldownEnd_MetaData) }; // 1318112535
@@ -2904,19 +3080,19 @@ void FGSCOnGameplayEffectTimeChange_DelegateWrapper(const FMulticastScriptDelega
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCCoreComponent);
 	UGSCCoreComponent::~UGSCCoreComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ScriptStructInfo[] = {
-		{ FGSCGameplayEffectExecuteData::StaticStruct, Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewStructOps, TEXT("GSCGameplayEffectExecuteData"), &Z_Registration_Info_UScriptStruct_GSCGameplayEffectExecuteData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameplayEffectExecuteData), 45459735U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ScriptStructInfo[] = {
+		{ FGSCGameplayEffectExecuteData::StaticStruct, Z_Construct_UScriptStruct_FGSCGameplayEffectExecuteData_Statics::NewStructOps, TEXT("GSCGameplayEffectExecuteData"), &Z_Registration_Info_UScriptStruct_GSCGameplayEffectExecuteData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameplayEffectExecuteData), 3641644268U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCCoreComponent, UGSCCoreComponent::StaticClass, TEXT("UGSCCoreComponent"), &Z_Registration_Info_UClass_UGSCCoreComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCCoreComponent), 1201673825U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCCoreComponent, UGSCCoreComponent::StaticClass, TEXT("UGSCCoreComponent"), &Z_Registration_Info_UClass_UGSCCoreComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCCoreComponent), 1176343813U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_831621839(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_448776491(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCCoreComponent_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

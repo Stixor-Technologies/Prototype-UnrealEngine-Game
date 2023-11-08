@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GASCompanionDeveloper.cpp.obj": [
+			"GASCompanionDeveloper.init.gen.cpp.obj",
+			"GSCK2Node_SwitchGameplayAttribute.gen.cpp.obj",
+			"GSCK2Node_SwitchGameplayAttribute.cpp.obj",
+			"GASCompanionDeveloper.cpp.obj"
+		]
+	}
+}

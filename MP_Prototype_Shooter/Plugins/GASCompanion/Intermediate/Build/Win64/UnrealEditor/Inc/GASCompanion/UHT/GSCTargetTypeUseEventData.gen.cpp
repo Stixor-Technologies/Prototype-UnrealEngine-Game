@@ -38,11 +38,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCTargetTypeUseEventData() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTargetTypeUseEventData_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTargetTypeUseEventData_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Trivial target type that pulls the target out of the event data */" },
+#endif
 		{ "IncludePath", "Abilities/TargetTypes/GSCTargetTypeUseEventData.h" },
 		{ "IsBlueprintBase", "false" },
 		{ "ModuleRelativePath", "Public/Abilities/TargetTypes/GSCTargetTypeUseEventData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Trivial target type that pulls the target out of the event data" },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGSCTargetTypeUseEventData_Statics::StaticCppClassTypeInfo = {
@@ -77,15 +81,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCTargetTypeUseEventData() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCTargetTypeUseEventData);
 	UGSCTargetTypeUseEventData::~UGSCTargetTypeUseEventData() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCTargetTypeUseEventData, UGSCTargetTypeUseEventData::StaticClass, TEXT("UGSCTargetTypeUseEventData"), &Z_Registration_Info_UClass_UGSCTargetTypeUseEventData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCTargetTypeUseEventData), 1557999308U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCTargetTypeUseEventData, UGSCTargetTypeUseEventData::StaticClass, TEXT("UGSCTargetTypeUseEventData"), &Z_Registration_Info_UClass_UGSCTargetTypeUseEventData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCTargetTypeUseEventData), 2105997122U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_2638272060(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_889689147(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_TargetTypes_GSCTargetTypeUseEventData_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

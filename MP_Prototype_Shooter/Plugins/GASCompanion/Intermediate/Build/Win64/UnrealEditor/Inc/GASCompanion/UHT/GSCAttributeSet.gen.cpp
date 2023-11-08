@@ -561,110 +561,158 @@ void EmptyLinkFunctionForGeneratedCodeGSCAttributeSet() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Contains basic Attributes used in most games, Health, Stamina, Mana.\n * Characters taking damage or using Mana or Stamina as a resource will use this AttributeSet.\n *\n * Attributes:\n *\n * Health - How much current health the Character has\n * MaxHealth - Maximum amount of Health for the Character\n * HealthRegenRate - Backing attribute to determine the amount of health regenerated per Gameplay Effect period\n *\n * Stamina - Mainly used as a resource for Abilities\n * MaxStamina - Maximum amount of Stamina for the Character\n * StaminaRegenRate - Backing attribute to get the amount of stamina regenerated when used by a Gameplay Effect\n *\n * Mana - Mainly used as a resource for Abilities\n * MaxMana - Maximum amount of Mana for the Character\n * ManaRegenRate - Backing attribute for mana regeneration\n *\n * Damage - Meta attribute used by DamageExecution or Gameplay Effect to calculate final damage, which then turns into -Health\n * StaminaDamage - Meta attribute used by DamageExecution or Gameplay Effect to calculate final damage, which then turns into -Stamina\n */" },
+#endif
 		{ "IncludePath", "Abilities/Attributes/GSCAttributeSet.h" },
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains basic Attributes used in most games, Health, Stamina, Mana.\nCharacters taking damage or using Mana or Stamina as a resource will use this AttributeSet.\n\nAttributes:\n\nHealth - How much current health the Character has\nMaxHealth - Maximum amount of Health for the Character\nHealthRegenRate - Backing attribute to determine the amount of health regenerated per Gameplay Effect period\n\nStamina - Mainly used as a resource for Abilities\nMaxStamina - Maximum amount of Stamina for the Character\nStaminaRegenRate - Backing attribute to get the amount of stamina regenerated when used by a Gameplay Effect\n\nMana - Mainly used as a resource for Abilities\nMaxMana - Maximum amount of Mana for the Character\nManaRegenRate - Backing attribute for mana regeneration\n\nDamage - Meta attribute used by DamageExecution or Gameplay Effect to calculate final damage, which then turns into -Health\nStaminaDamage - Meta attribute used by DamageExecution or Gameplay Effect to calculate final damage, which then turns into -Stamina" },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Health_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Current Health, when 0 we expect owner to die unless prevented by an ability. Capped by MaxHealth.\n// Positive changes can directly use this.\n// Negative changes to Health should go through Damage meta attribute.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Current Health, when 0 we expect owner to die unless prevented by an ability. Capped by MaxHealth.\nPositive changes can directly use this.\nNegative changes to Health should go through Damage meta attribute." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Health = { "Health", "OnRep_Health", (EPropertyFlags)0x0010000100000034, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, Health), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Health_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Health_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxHealth_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// MaxHealth is its own attribute since GameplayEffects may modify it\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MaxHealth is its own attribute since GameplayEffects may modify it" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxHealth = { "MaxHealth", "OnRep_MaxHealth", (EPropertyFlags)0x0010000100000034, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, MaxHealth), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxHealth_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxHealth_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_HealthRegenRate_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Health regen rate will passively increase Health every period\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Health regen rate will passively increase Health every period" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_HealthRegenRate = { "HealthRegenRate", "OnRep_HealthRegenRate", (EPropertyFlags)0x0010000100000034, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, HealthRegenRate), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_HealthRegenRate_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_HealthRegenRate_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Stamina_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Current stamina, used to execute abilities. Capped by MaxStamina.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Current stamina, used to execute abilities. Capped by MaxStamina." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Stamina = { "Stamina", "OnRep_Stamina", (EPropertyFlags)0x0010000100000034, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, Stamina), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Stamina_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Stamina_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxStamina_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// MaxStamina is its own attribute since GameplayEffects may modify it\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MaxStamina is its own attribute since GameplayEffects may modify it" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxStamina = { "MaxStamina", "OnRep_MaxStamina", (EPropertyFlags)0x0010000100000034, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, MaxStamina), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxStamina_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxStamina_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_StaminaRegenRate_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Stamina regen rate will passively increase Stamina every period\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stamina regen rate will passively increase Stamina every period" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_StaminaRegenRate = { "StaminaRegenRate", "OnRep_StaminaRegenRate", (EPropertyFlags)0x0010000100000034, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, StaminaRegenRate), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_StaminaRegenRate_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_StaminaRegenRate_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Mana_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Current Mana, used to execute special abilities. Capped by MaxMana.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Current Mana, used to execute special abilities. Capped by MaxMana." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Mana = { "Mana", "OnRep_Mana", (EPropertyFlags)0x0010000100000034, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, Mana), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Mana_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Mana_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxMana_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// MaxMana is its own attribute since GameplayEffects may modify it\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MaxMana is its own attribute since GameplayEffects may modify it" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxMana = { "MaxMana", "OnRep_MaxMana", (EPropertyFlags)0x0010000100000034, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, MaxMana), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxMana_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_MaxMana_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_ManaRegenRate_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Mana regen rate will passively increase Mana every period\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Mana regen rate will passively increase Mana every period" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_ManaRegenRate = { "ManaRegenRate", "OnRep_ManaRegenRate", (EPropertyFlags)0x0010000100000034, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, ManaRegenRate), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_ManaRegenRate_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_ManaRegenRate_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Damage_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Damage is a meta attribute used by the DamageExecution to calculate final damage, which then turns into -Health\n// Temporary value that only exists on the Server. Not replicated.\n" },
+#endif
 		{ "HideFromLevelInfos", "" },
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Damage is a meta attribute used by the DamageExecution to calculate final damage, which then turns into -Health\nTemporary value that only exists on the Server. Not replicated." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, Damage), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Damage_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_Damage_MetaData) }; // 2151517668
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_StaminaDamage_MetaData[] = {
 		{ "Category", "GAS Companion|Attribute Set" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// StaminaDamage is a meta attribute used by the DamageExecution to calculate final damage, which then turns into -Stamina\n// Temporary value that only exists on the Server. Not replicated.\n" },
+#endif
 		{ "HideFromLevelInfos", "" },
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSet.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "StaminaDamage is a meta attribute used by the DamageExecution to calculate final damage, which then turns into -Stamina\nTemporary value that only exists on the Server. Not replicated." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_StaminaDamage = { "StaminaDamage", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributeSet, StaminaDamage), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_StaminaDamage_MetaData), Z_Construct_UClass_UGSCAttributeSet_Statics::NewProp_StaminaDamage_MetaData) }; // 2151517668
@@ -741,15 +789,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCAttributeSet() {}
 	UGSCAttributeSet::UGSCAttributeSet() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCAttributeSet);
 	UGSCAttributeSet::~UGSCAttributeSet() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCAttributeSet, UGSCAttributeSet::StaticClass, TEXT("UGSCAttributeSet"), &Z_Registration_Info_UClass_UGSCAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAttributeSet), 1679312703U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCAttributeSet, UGSCAttributeSet::StaticClass, TEXT("UGSCAttributeSet"), &Z_Registration_Info_UClass_UGSCAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAttributeSet), 1182080913U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_3195819267(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_181695513(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSet_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

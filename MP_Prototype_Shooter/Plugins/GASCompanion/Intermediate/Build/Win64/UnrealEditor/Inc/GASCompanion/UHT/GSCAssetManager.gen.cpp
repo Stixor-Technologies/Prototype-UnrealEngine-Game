@@ -38,10 +38,14 @@ void EmptyLinkFunctionForGeneratedCodeGSCAssetManager() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAssetManager_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAssetManager_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Child of UAssetManager with the primary purpose of initializing UAbilitySystemGlobals GlobalData\n */" },
+#endif
 		{ "IncludePath", "GSCAssetManager.h" },
 		{ "ModuleRelativePath", "Public/GSCAssetManager.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Child of UAssetManager with the primary purpose of initializing UAbilitySystemGlobals GlobalData" },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGSCAssetManager_Statics::StaticCppClassTypeInfo = {
@@ -77,15 +81,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCAssetManager() {}
 	UGSCAssetManager::UGSCAssetManager() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCAssetManager);
 	UGSCAssetManager::~UGSCAssetManager() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCAssetManager, UGSCAssetManager::StaticClass, TEXT("UGSCAssetManager"), &Z_Registration_Info_UClass_UGSCAssetManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAssetManager), 2043473958U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCAssetManager, UGSCAssetManager::StaticClass, TEXT("UGSCAssetManager"), &Z_Registration_Info_UClass_UGSCAssetManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAssetManager), 510994254U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_858862960(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_3092990950(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GSCAssetManager_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

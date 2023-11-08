@@ -160,9 +160,13 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UComboGraphCollisionComponent_RegisterCollisionMesh_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Combo Graph" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Use this method to push a Static or Skeletal mesh into the registered meshes to consider for collision checks.\n\x09 *\n\x09 * Meant to be called at least once either on Owner's Actor BeginPlay or with this component OnComponentActivated event.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use this method to push a Static or Skeletal mesh into the registered meshes to consider for collision checks.\n\nMeant to be called at least once either on Owner's Actor BeginPlay or with this component OnComponentActivated event." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UComboGraphCollisionComponent_RegisterCollisionMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UComboGraphCollisionComponent, nullptr, "RegisterCollisionMesh", nullptr, nullptr, Z_Construct_UFunction_UComboGraphCollisionComponent_RegisterCollisionMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UComboGraphCollisionComponent_RegisterCollisionMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_UComboGraphCollisionComponent_RegisterCollisionMesh_Statics::ComboGraphCollisionComponent_eventRegisterCollisionMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UComboGraphCollisionComponent_RegisterCollisionMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_UComboGraphCollisionComponent_RegisterCollisionMesh_Statics::Function_MetaDataParams) };
@@ -205,9 +209,13 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UComboGraphCollisionComponent_UnregisterCollisionMesh_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Combo Graph" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Use this method to remove a Static or Skeletal mesh from the registered meshes */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use this method to remove a Static or Skeletal mesh from the registered meshes" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UComboGraphCollisionComponent_UnregisterCollisionMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UComboGraphCollisionComponent, nullptr, "UnregisterCollisionMesh", nullptr, nullptr, Z_Construct_UFunction_UComboGraphCollisionComponent_UnregisterCollisionMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UComboGraphCollisionComponent_UnregisterCollisionMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_UComboGraphCollisionComponent_UnregisterCollisionMesh_Statics::ComboGraphCollisionComponent_eventUnregisterCollisionMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UComboGraphCollisionComponent_UnregisterCollisionMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_UComboGraphCollisionComponent_UnregisterCollisionMesh_Statics::Function_MetaDataParams) };
@@ -313,8 +321,8 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 	const FClassFunctionLinkInfo Z_Construct_UClass_UComboGraphCollisionComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UDelegateFunction_UComboGraphCollisionComponent_ComboGraphOnHitRegisteredDelegate__DelegateSignature, "ComboGraphOnHitRegisteredDelegate__DelegateSignature" }, // 2279854581
 		{ &Z_Construct_UDelegateFunction_UComboGraphCollisionComponent_ComboGraphSimpleDelegate__DelegateSignature, "ComboGraphSimpleDelegate__DelegateSignature" }, // 712141345
-		{ &Z_Construct_UFunction_UComboGraphCollisionComponent_RegisterCollisionMesh, "RegisterCollisionMesh" }, // 3204139973
-		{ &Z_Construct_UFunction_UComboGraphCollisionComponent_UnregisterCollisionMesh, "UnregisterCollisionMesh" }, // 237520690
+		{ &Z_Construct_UFunction_UComboGraphCollisionComponent_RegisterCollisionMesh, "RegisterCollisionMesh" }, // 1793569238
+		{ &Z_Construct_UFunction_UComboGraphCollisionComponent_UnregisterCollisionMesh, "UnregisterCollisionMesh" }, // 2718005183
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -322,20 +330,28 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "ComboGraph" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Actor Component providing basic collision detection mechanism for registered meshes using traces.\n *\n * It implements simple logic for hit detection not meant to replace more robust solutions such as Combat Components or AGR Pro (Combat Manager in v4).\n *\n * Rather to provide a quick and easy way to handle collision for those not having or not willing to use aforementioned plugins, or not having a game-specific custom collision system already in place.\n *\n * Registered meshes can be Static or Skeletal meshes, this component relies on Sockets attached to those primitives to draw traces for each socket.\n *\n * No sub-stepping is involved, we simply draw traces for each frame checking for collisions between last frame position and current frame position for a given socket.\n */" },
+#endif
 		{ "HideCategories", "Object LOD Lighting Transform Sockets TextureStreaming" },
 		{ "IncludePath", "Components/ComboGraphCollisionComponent.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Actor Component providing basic collision detection mechanism for registered meshes using traces.\n\nIt implements simple logic for hit detection not meant to replace more robust solutions such as Combat Components or AGR Pro (Combat Manager in v4).\n\nRather to provide a quick and easy way to handle collision for those not having or not willing to use aforementioned plugins, or not having a game-specific custom collision system already in place.\n\nRegistered meshes can be Static or Skeletal meshes, this component relies on Sockets attached to those primitives to draw traces for each socket.\n\nNo sub-stepping is involved, we simply draw traces for each frame checking for collisions between last frame position and current frame position for a given socket." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_bDebug_MetaData[] = {
 		{ "Category", "Combo Graph|Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If set to true, traces will be rendered on screen for a duration */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If set to true, traces will be rendered on screen for a duration" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_bDebug_SetBit(void* Obj)
@@ -346,11 +362,15 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_bShouldLogHits_MetaData[] = {
 		{ "Category", "Combo Graph|Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If set to true, registered hits will be logged to console (successful hits or ignored ones due to configuration)  */" },
+#endif
 		{ "EditCondition", "bDebug" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If set to true, registered hits will be logged to console (successful hits or ignored ones due to configuration)" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_bShouldLogHits_SetBit(void* Obj)
@@ -361,51 +381,71 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceColor_MetaData[] = {
 		{ "Category", "Combo Graph|Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** In debug mode, traces will be rendered on screen using this color */" },
+#endif
 		{ "EditCondition", "bDebug" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "In debug mode, traces will be rendered on screen using this color" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceColor = { "TraceColor", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, TraceColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceColor_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceColor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceHitColor_MetaData[] = {
 		{ "Category", "Combo Graph|Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** In debug mode, registered hits will be rendered on screen using this color */" },
+#endif
 		{ "EditCondition", "bDebug" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "In debug mode, registered hits will be rendered on screen using this color" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceHitColor = { "TraceHitColor", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, TraceHitColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceHitColor_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceHitColor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_DebugDrawTime_MetaData[] = {
 		{ "Category", "Combo Graph|Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** In debug mode, this is the amount in seconds that visual debug traces will persist on screen */" },
+#endif
 		{ "EditCondition", "bDebug" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "In debug mode, this is the amount in seconds that visual debug traces will persist on screen" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_DebugDrawTime = { "DebugDrawTime", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, DebugDrawTime), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_DebugDrawTime_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_DebugDrawTime_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceRadius_MetaData[] = {
 		{ "Category", "Combo Graph|Traces" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Radius of the sphere to sweep during collision traces */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Radius of the sphere to sweep during collision traces" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceRadius = { "TraceRadius", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, TraceRadius), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceRadius_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_TraceRadius_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_bTraceComplex_MetaData[] = {
 		{ "Category", "Combo Graph|Traces" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** True to test against complex collision, false to test against simplified collision */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "True to test against complex collision, false to test against simplified collision" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_bTraceComplex_SetBit(void* Obj)
@@ -416,9 +456,13 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_CollisionTraceChannel_MetaData[] = {
 		{ "Category", "Combo Graph|Traces" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Trace channel to use when we perform collision traces (Default set to \"Camera\" for ease of use, but custom collision profiles can be used for further tuning) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Trace channel to use when we perform collision traces (Default set to \"Camera\" for ease of use, but custom collision profiles can be used for further tuning)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_CollisionTraceChannel = { "CollisionTraceChannel", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, CollisionTraceChannel), Z_Construct_UEnum_Engine_ETraceTypeQuery, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_CollisionTraceChannel_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_CollisionTraceChannel_MetaData) }; // 2725057287
@@ -426,9 +470,13 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_ActorTypesToIgnore_MetaData[] = {
 		{ "Category", "Combo Graph|Traces" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of Actor classes to ignore during hit collisions */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of Actor classes to ignore during hit collisions" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_ActorTypesToIgnore = { "ActorTypesToIgnore", nullptr, (EPropertyFlags)0x0014000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, ActorTypesToIgnore), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_ActorTypesToIgnore_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_ActorTypesToIgnore_MetaData) };
@@ -436,36 +484,52 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_CollisionProfilesToIgnore_MetaData[] = {
 		{ "Category", "Combo Graph|Traces" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of collision profile names to ignore during hit collision. Can be useful to ignore profile for capsule component and ensure hits only register against character meshes */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of collision profile names to ignore during hit collision. Can be useful to ignore profile for capsule component and ensure hits only register against character meshes" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_CollisionProfilesToIgnore = { "CollisionProfilesToIgnore", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, CollisionProfilesToIgnore), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_CollisionProfilesToIgnore_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_CollisionProfilesToIgnore_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnHitRegistered_MetaData[] = {
 		{ "Category", "Combo Graph" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Delegate invoked when a successful hit is registered, only on server */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Delegate invoked when a successful hit is registered, only on server" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnHitRegistered = { "OnHitRegistered", nullptr, (EPropertyFlags)0x0010200010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, OnHitRegistered), Z_Construct_UDelegateFunction_UComboGraphCollisionComponent_ComboGraphOnHitRegisteredDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnHitRegistered_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnHitRegistered_MetaData) }; // 2279854581
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnTraceStart_MetaData[] = {
 		{ "Category", "Combo Graph" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Delegate invoked when we start to check for collision traces on registered meshes */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Delegate invoked when we start to check for collision traces on registered meshes" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnTraceStart = { "OnTraceStart", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, OnTraceStart), Z_Construct_UDelegateFunction_UComboGraphCollisionComponent_ComboGraphSimpleDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnTraceStart_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnTraceStart_MetaData) }; // 712141345
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnTraceEnd_MetaData[] = {
 		{ "Category", "Combo Graph" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Delegate invoked when we end the collision tracing process on registered meshes */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/ComboGraphCollisionComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Delegate invoked when we end the collision tracing process on registered meshes" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnTraceEnd = { "OnTraceEnd", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphCollisionComponent, OnTraceEnd), Z_Construct_UDelegateFunction_UComboGraphCollisionComponent_ComboGraphSimpleDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnTraceEnd_MetaData), Z_Construct_UClass_UComboGraphCollisionComponent_Statics::NewProp_OnTraceEnd_MetaData) }; // 712141345
@@ -538,15 +602,15 @@ void UComboGraphCollisionComponent::FComboGraphOnHitRegisteredDelegate_DelegateW
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UComboGraphCollisionComponent);
 	UComboGraphCollisionComponent::~UComboGraphCollisionComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UComboGraphCollisionComponent, UComboGraphCollisionComponent::StaticClass, TEXT("UComboGraphCollisionComponent"), &Z_Registration_Info_UClass_UComboGraphCollisionComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphCollisionComponent), 827965494U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UComboGraphCollisionComponent, UComboGraphCollisionComponent::StaticClass, TEXT("UComboGraphCollisionComponent"), &Z_Registration_Info_UClass_UComboGraphCollisionComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphCollisionComponent), 1023438055U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_4281490938(TEXT("/Script/ComboGraph"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_4201117607(TEXT("/Script/ComboGraph"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Components_ComboGraphCollisionComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -122,9 +122,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_InitFromCharacter_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Init widget with attributes from owner character **/" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Init widget with attributes from owner character *" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_InitFromCharacter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "InitFromCharacter", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_InitFromCharacter_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_InitFromCharacter_Statics::Function_MetaDataParams) };
@@ -157,9 +161,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_SetHealth_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Updates bound health widgets to reflect the new health change */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates bound health widgets to reflect the new health change" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_SetHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "SetHealth", nullptr, nullptr, Z_Construct_UFunction_UGSCUWHud_SetHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetHealth_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUWHud_SetHealth_Statics::GSCUWHud_eventSetHealth_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_SetHealth_Statics::Function_MetaDataParams) };
@@ -194,9 +202,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_SetHealthPercentage_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Updates bound stamina progress bar with the new percent */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates bound stamina progress bar with the new percent" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_SetHealthPercentage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "SetHealthPercentage", nullptr, nullptr, Z_Construct_UFunction_UGSCUWHud_SetHealthPercentage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetHealthPercentage_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUWHud_SetHealthPercentage_Statics::GSCUWHud_eventSetHealthPercentage_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetHealthPercentage_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_SetHealthPercentage_Statics::Function_MetaDataParams) };
@@ -231,9 +243,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_SetMana_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Updates bound mana widgets to reflect the new mana change */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates bound mana widgets to reflect the new mana change" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_SetMana_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "SetMana", nullptr, nullptr, Z_Construct_UFunction_UGSCUWHud_SetMana_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetMana_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUWHud_SetMana_Statics::GSCUWHud_eventSetMana_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetMana_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_SetMana_Statics::Function_MetaDataParams) };
@@ -268,9 +284,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_SetManaPercentage_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Updates bound mana progress bar with the new percent */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates bound mana progress bar with the new percent" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_SetManaPercentage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "SetManaPercentage", nullptr, nullptr, Z_Construct_UFunction_UGSCUWHud_SetManaPercentage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetManaPercentage_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUWHud_SetManaPercentage_Statics::GSCUWHud_eventSetManaPercentage_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetManaPercentage_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_SetManaPercentage_Statics::Function_MetaDataParams) };
@@ -305,9 +325,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_SetMaxHealth_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Updates bound health widgets to reflect the new max health change */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates bound health widgets to reflect the new max health change" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_SetMaxHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "SetMaxHealth", nullptr, nullptr, Z_Construct_UFunction_UGSCUWHud_SetMaxHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetMaxHealth_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUWHud_SetMaxHealth_Statics::GSCUWHud_eventSetMaxHealth_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetMaxHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_SetMaxHealth_Statics::Function_MetaDataParams) };
@@ -342,9 +366,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_SetMaxMana_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Updates bound mana widgets to reflect the new max mana change */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates bound mana widgets to reflect the new max mana change" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_SetMaxMana_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "SetMaxMana", nullptr, nullptr, Z_Construct_UFunction_UGSCUWHud_SetMaxMana_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetMaxMana_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUWHud_SetMaxMana_Statics::GSCUWHud_eventSetMaxMana_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetMaxMana_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_SetMaxMana_Statics::Function_MetaDataParams) };
@@ -379,9 +407,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_SetMaxStamina_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Updates bound stamina widgets to reflect the new max stamina change */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates bound stamina widgets to reflect the new max stamina change" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_SetMaxStamina_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "SetMaxStamina", nullptr, nullptr, Z_Construct_UFunction_UGSCUWHud_SetMaxStamina_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetMaxStamina_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUWHud_SetMaxStamina_Statics::GSCUWHud_eventSetMaxStamina_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetMaxStamina_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_SetMaxStamina_Statics::Function_MetaDataParams) };
@@ -416,9 +448,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_SetStamina_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Updates bound stamina widgets to reflect the new stamina change */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates bound stamina widgets to reflect the new stamina change" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_SetStamina_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "SetStamina", nullptr, nullptr, Z_Construct_UFunction_UGSCUWHud_SetStamina_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetStamina_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUWHud_SetStamina_Statics::GSCUWHud_eventSetStamina_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetStamina_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_SetStamina_Statics::Function_MetaDataParams) };
@@ -453,9 +489,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUWHud_SetStaminaPercentage_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Updates bound health progress bar with the new percent */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates bound health progress bar with the new percent" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUWHud_SetStaminaPercentage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUWHud, nullptr, "SetStaminaPercentage", nullptr, nullptr, Z_Construct_UFunction_UGSCUWHud_SetStaminaPercentage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetStaminaPercentage_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUWHud_SetStaminaPercentage_Statics::GSCUWHud_eventSetStaminaPercentage_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUWHud_SetStaminaPercentage_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUWHud_SetStaminaPercentage_Statics::Function_MetaDataParams) };
@@ -516,24 +556,28 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCUWHud_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCUWHud_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCUWHud_InitFromCharacter, "InitFromCharacter" }, // 3010736627
-		{ &Z_Construct_UFunction_UGSCUWHud_SetHealth, "SetHealth" }, // 1598618974
-		{ &Z_Construct_UFunction_UGSCUWHud_SetHealthPercentage, "SetHealthPercentage" }, // 3094359342
-		{ &Z_Construct_UFunction_UGSCUWHud_SetMana, "SetMana" }, // 2258825470
-		{ &Z_Construct_UFunction_UGSCUWHud_SetManaPercentage, "SetManaPercentage" }, // 3122284297
-		{ &Z_Construct_UFunction_UGSCUWHud_SetMaxHealth, "SetMaxHealth" }, // 2951836892
-		{ &Z_Construct_UFunction_UGSCUWHud_SetMaxMana, "SetMaxMana" }, // 1296014748
-		{ &Z_Construct_UFunction_UGSCUWHud_SetMaxStamina, "SetMaxStamina" }, // 1694114667
-		{ &Z_Construct_UFunction_UGSCUWHud_SetStamina, "SetStamina" }, // 3065092191
-		{ &Z_Construct_UFunction_UGSCUWHud_SetStaminaPercentage, "SetStaminaPercentage" }, // 125535135
+		{ &Z_Construct_UFunction_UGSCUWHud_InitFromCharacter, "InitFromCharacter" }, // 3058262270
+		{ &Z_Construct_UFunction_UGSCUWHud_SetHealth, "SetHealth" }, // 520489689
+		{ &Z_Construct_UFunction_UGSCUWHud_SetHealthPercentage, "SetHealthPercentage" }, // 3627868970
+		{ &Z_Construct_UFunction_UGSCUWHud_SetMana, "SetMana" }, // 3239246658
+		{ &Z_Construct_UFunction_UGSCUWHud_SetManaPercentage, "SetManaPercentage" }, // 354543152
+		{ &Z_Construct_UFunction_UGSCUWHud_SetMaxHealth, "SetMaxHealth" }, // 787382424
+		{ &Z_Construct_UFunction_UGSCUWHud_SetMaxMana, "SetMaxMana" }, // 597399350
+		{ &Z_Construct_UFunction_UGSCUWHud_SetMaxStamina, "SetMaxStamina" }, // 2269110800
+		{ &Z_Construct_UFunction_UGSCUWHud_SetStamina, "SetStamina" }, // 2354811920
+		{ &Z_Construct_UFunction_UGSCUWHud_SetStaminaPercentage, "SetStaminaPercentage" }, // 2677885955
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCUWHud_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCUWHud_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Base user widget class to inherit from for UMG that needs to interact with an Ability System Component.\n *\n * Suitable to use for typical case of Player HUD. Initialization happens automatically on NativeConstruct by setting up\n * owner actor based on Owning Player controller (when Widget is created from Blueprint, the Owning Player pin)\n *\n * If you'd like to use a user widget with a Widget Component, use UGSCUserWidget instead and manually invoke InitializeWithAbilitySystem().\n *\n * The other main difference with UGSCUserWidget is that this class also defines widget optional binding for\n * Health / Stamina / Mana attributes from UGSCAttributeSet.\n */" },
+#endif
 		{ "IncludePath", "UI/GSCUWHud.h" },
 		{ "ModuleRelativePath", "Public/UI/GSCUWHud.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Base user widget class to inherit from for UMG that needs to interact with an Ability System Component.\n\nSuitable to use for typical case of Player HUD. Initialization happens automatically on NativeConstruct by setting up\nowner actor based on Owning Player controller (when Widget is created from Blueprint, the Owning Player pin)\n\nIf you'd like to use a user widget with a Widget Component, use UGSCUserWidget instead and manually invoke InitializeWithAbilitySystem().\n\nThe other main difference with UGSCUserWidget is that this class also defines widget optional binding for\nHealth / Stamina / Mana attributes from UGSCAttributeSet." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -632,15 +676,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWHud() {}
 	UGSCUWHud::UGSCUWHud(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCUWHud);
 	UGSCUWHud::~UGSCUWHud() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCUWHud, UGSCUWHud::StaticClass, TEXT("UGSCUWHud"), &Z_Registration_Info_UClass_UGSCUWHud, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCUWHud), 2931900557U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCUWHud, UGSCUWHud::StaticClass, TEXT("UGSCUWHud"), &Z_Registration_Info_UClass_UGSCUWHud, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCUWHud), 1304194873U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_3340516704(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_3774085960(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWHud_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

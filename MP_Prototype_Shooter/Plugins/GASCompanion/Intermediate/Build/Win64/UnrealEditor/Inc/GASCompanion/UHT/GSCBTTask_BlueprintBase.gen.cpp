@@ -44,11 +44,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCBTTask_BlueprintBase() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCBTTask_BlueprintBase_K2_GetStaticDescription_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|AI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Overrides Task GetStaticDescription()\n\x09 * Should return string containing description of this node with all setup values\n\x09 *\n\x09 * @return string containing description of this node with all setup values\n\x09 */" },
+#endif
 		{ "DisplayName", "Get Static Description" },
 		{ "ModuleRelativePath", "Public/AI/GSCBTTask_BlueprintBase.h" },
 		{ "ScriptName", "GetStaticDescription" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Overrides Task GetStaticDescription()\nShould return string containing description of this node with all setup values\n\n@return string containing description of this node with all setup values" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCBTTask_BlueprintBase_K2_GetStaticDescription_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCBTTask_BlueprintBase, nullptr, "K2_GetStaticDescription", nullptr, nullptr, Z_Construct_UFunction_UGSCBTTask_BlueprintBase_K2_GetStaticDescription_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCBTTask_BlueprintBase_K2_GetStaticDescription_Statics::PropPointers), sizeof(GSCBTTask_BlueprintBase_eventK2_GetStaticDescription_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x48080800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCBTTask_BlueprintBase_K2_GetStaticDescription_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCBTTask_BlueprintBase_K2_GetStaticDescription_Statics::Function_MetaDataParams) };
@@ -84,15 +88,19 @@ void EmptyLinkFunctionForGeneratedCodeGSCBTTask_BlueprintBase() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCBTTask_BlueprintBase_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCBTTask_BlueprintBase_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCBTTask_BlueprintBase_K2_GetStaticDescription, "K2_GetStaticDescription" }, // 2730261466
+		{ &Z_Construct_UFunction_UGSCBTTask_BlueprintBase_K2_GetStaticDescription, "K2_GetStaticDescription" }, // 595023501
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCBTTask_BlueprintBase_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCBTTask_BlueprintBase_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * The only difference with UBTTask_BlueprintBase is that GetStaticDescription can be overriden in Blueprints.\n */" },
+#endif
 		{ "IncludePath", "AI/GSCBTTask_BlueprintBase.h" },
 		{ "ModuleRelativePath", "Public/AI/GSCBTTask_BlueprintBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The only difference with UBTTask_BlueprintBase is that GetStaticDescription can be overriden in Blueprints." },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGSCBTTask_BlueprintBase_Statics::StaticCppClassTypeInfo = {
@@ -127,15 +135,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCBTTask_BlueprintBase() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCBTTask_BlueprintBase);
 	UGSCBTTask_BlueprintBase::~UGSCBTTask_BlueprintBase() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCBTTask_BlueprintBase, UGSCBTTask_BlueprintBase::StaticClass, TEXT("UGSCBTTask_BlueprintBase"), &Z_Registration_Info_UClass_UGSCBTTask_BlueprintBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCBTTask_BlueprintBase), 2571542189U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCBTTask_BlueprintBase, UGSCBTTask_BlueprintBase::StaticClass, TEXT("UGSCBTTask_BlueprintBase"), &Z_Registration_Info_UClass_UGSCBTTask_BlueprintBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCBTTask_BlueprintBase), 326523323U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_4103550245(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_2968459964(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_AI_GSCBTTask_BlueprintBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

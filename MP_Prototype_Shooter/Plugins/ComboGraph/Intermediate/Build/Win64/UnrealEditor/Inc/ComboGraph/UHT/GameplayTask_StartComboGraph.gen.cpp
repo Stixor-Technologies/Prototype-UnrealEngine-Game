@@ -135,12 +135,16 @@ void UGameplayTask_StartComboGraph::FComboGraphTaskEventDelegate_DelegateWrapper
 		{ "AdvancedDisplay", "bBroadcastInternalEvents, InitialInput" },
 		{ "BlueprintInternalUseOnly", "TRUE" },
 		{ "Category", "GameplayTasks" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* This Gameplay Task is meant to be used to start / activate a Combo Graph Asset from outside a Gameplay Ability and regular GAS route.\n\x09*\n\x09* @param TaskOwner Gameplay Task Owner for the task (such as ComboGraphSystemComponent)\n\x09* @param ComboGraph The Combo Graph asset to start / activate\n\x09* @param InitialInput Initial Input Action to pass in to combo graph (only relevant with Conduit immediately following entry node). Without conduit, will be ignored.\n\x09* @param bBroadcastInternalEvents Whether to broadcast internal gameplay events with EventReceived delegate (including Combo Being and End events)\n\x09*/" },
+#endif
 		{ "CPP_Default_bBroadcastInternalEvents", "false" },
 		{ "DefaultToSelf", "TaskOwner" },
 		{ "DisplayName", "Start Combo Graph for Gameplay Task" },
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/GameplayTask_StartComboGraph.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This Gameplay Task is meant to be used to start / activate a Combo Graph Asset from outside a Gameplay Ability and regular GAS route.\n\n@param TaskOwner Gameplay Task Owner for the task (such as ComboGraphSystemComponent)\n@param ComboGraph The Combo Graph asset to start / activate\n@param InitialInput Initial Input Action to pass in to combo graph (only relevant with Conduit immediately following entry node). Without conduit, will be ignored.\n@param bBroadcastInternalEvents Whether to broadcast internal gameplay events with EventReceived delegate (including Combo Being and End events)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGameplayTask_StartComboGraph_TaskStartComboGraph_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGameplayTask_StartComboGraph, nullptr, "TaskStartComboGraph", nullptr, nullptr, Z_Construct_UFunction_UGameplayTask_StartComboGraph_TaskStartComboGraph_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGameplayTask_StartComboGraph_TaskStartComboGraph_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGameplayTask_StartComboGraph_TaskStartComboGraph_Statics::GameplayTask_StartComboGraph_eventTaskStartComboGraph_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGameplayTask_StartComboGraph_TaskStartComboGraph_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGameplayTask_StartComboGraph_TaskStartComboGraph_Statics::Function_MetaDataParams) };
@@ -206,64 +210,92 @@ void UGameplayTask_StartComboGraph::FComboGraphTaskEventDelegate_DelegateWrapper
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::FuncInfo[] = {
 		{ &Z_Construct_UDelegateFunction_UGameplayTask_StartComboGraph_ComboGraphTaskEventDelegate__DelegateSignature, "ComboGraphTaskEventDelegate__DelegateSignature" }, // 1048488650
-		{ &Z_Construct_UFunction_UGameplayTask_StartComboGraph_TaskStartComboGraph, "TaskStartComboGraph" }, // 2443602344
+		{ &Z_Construct_UFunction_UGameplayTask_StartComboGraph_TaskStartComboGraph, "TaskStartComboGraph" }, // 3302225822
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Convenience task for running combo graphs assets.\n */" },
+#endif
 		{ "IncludePath", "Abilities/Tasks/GameplayTask_StartComboGraph.h" },
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/GameplayTask_StartComboGraph.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Convenience task for running combo graphs assets." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnActivationSuccess_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event called when ability was successfully activated */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/GameplayTask_StartComboGraph.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event called when ability was successfully activated" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnActivationSuccess = { "OnActivationSuccess", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGameplayTask_StartComboGraph, OnActivationSuccess), Z_Construct_UDelegateFunction_UGameplayTask_StartComboGraph_ComboGraphTaskEventDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnActivationSuccess_MetaData), Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnActivationSuccess_MetaData) }; // 1048488650
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnActivationFailed_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event called when ability failed to activate */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/GameplayTask_StartComboGraph.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event called when ability failed to activate" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnActivationFailed = { "OnActivationFailed", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGameplayTask_StartComboGraph, OnActivationFailed), Z_Construct_UDelegateFunction_UGameplayTask_StartComboGraph_ComboGraphTaskEventDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnActivationFailed_MetaData), Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnActivationFailed_MetaData) }; // 1048488650
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnGraphEnd_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event called when ability (and combo graph) ends */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/GameplayTask_StartComboGraph.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event called when ability (and combo graph) ends" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnGraphEnd = { "OnGraphEnd", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGameplayTask_StartComboGraph, OnGraphEnd), Z_Construct_UDelegateFunction_UGameplayTask_StartComboGraph_ComboGraphTaskEventDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnGraphEnd_MetaData), Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_OnGraphEnd_MetaData) }; // 1048488650
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_EventReceived_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event called when the owner receives a gameplay event combo graph is listening to */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/GameplayTask_StartComboGraph.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event called when the owner receives a gameplay event combo graph is listening to" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_EventReceived = { "EventReceived", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGameplayTask_StartComboGraph, EventReceived), Z_Construct_UDelegateFunction_UGameplayTask_StartComboGraph_ComboGraphTaskEventDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_EventReceived_MetaData), Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_EventReceived_MetaData) }; // 1048488650
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_CachedGraph_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Cached Graph when activating the task for an actor (task param) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/GameplayTask_StartComboGraph.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cached Graph when activating the task for an actor (task param)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_CachedGraph = { "CachedGraph", nullptr, (EPropertyFlags)0x0044000000002000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGameplayTask_StartComboGraph, CachedGraph), Z_Construct_UClass_UComboGraph_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_CachedGraph_MetaData), Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_CachedGraph_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_InitialInput_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Cached Graph when activating the task for an actor (task param) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Tasks/GameplayTask_StartComboGraph.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cached Graph when activating the task for an actor (task param)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_InitialInput = { "InitialInput", nullptr, (EPropertyFlags)0x0044000000002000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGameplayTask_StartComboGraph, InitialInput), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_InitialInput_MetaData), Z_Construct_UClass_UGameplayTask_StartComboGraph_Statics::NewProp_InitialInput_MetaData) };
@@ -315,15 +347,15 @@ void UGameplayTask_StartComboGraph::FComboGraphTaskEventDelegate_DelegateWrapper
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGameplayTask_StartComboGraph);
 	UGameplayTask_StartComboGraph::~UGameplayTask_StartComboGraph() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGameplayTask_StartComboGraph, UGameplayTask_StartComboGraph::StaticClass, TEXT("UGameplayTask_StartComboGraph"), &Z_Registration_Info_UClass_UGameplayTask_StartComboGraph, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGameplayTask_StartComboGraph), 3268840270U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGameplayTask_StartComboGraph, UGameplayTask_StartComboGraph::StaticClass, TEXT("UGameplayTask_StartComboGraph"), &Z_Registration_Info_UClass_UGameplayTask_StartComboGraph, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGameplayTask_StartComboGraph), 447747654U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_147121826(TEXT("/Script/ComboGraph"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_746609506(TEXT("/Script/ComboGraph"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Tasks_GameplayTask_StartComboGraph_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

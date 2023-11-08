@@ -112,9 +112,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCPlayerControlsComponent() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCPlayerControlsComponent_OnControllerChanged_Statics::Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Called when pawn restarts, bound to dynamic delegate */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCPlayerControlsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when pawn restarts, bound to dynamic delegate" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCPlayerControlsComponent_OnControllerChanged_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCPlayerControlsComponent, nullptr, "OnControllerChanged", nullptr, nullptr, Z_Construct_UFunction_UGSCPlayerControlsComponent_OnControllerChanged_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCPlayerControlsComponent_OnControllerChanged_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCPlayerControlsComponent_OnControllerChanged_Statics::GSCPlayerControlsComponent_eventOnControllerChanged_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCPlayerControlsComponent_OnControllerChanged_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCPlayerControlsComponent_OnControllerChanged_Statics::Function_MetaDataParams) };
@@ -148,9 +152,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCPlayerControlsComponent() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCPlayerControlsComponent_OnPawnRestarted_Statics::Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Called when pawn restarts, bound to dynamic delegate */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCPlayerControlsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when pawn restarts, bound to dynamic delegate" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCPlayerControlsComponent_OnPawnRestarted_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCPlayerControlsComponent, nullptr, "OnPawnRestarted", nullptr, nullptr, Z_Construct_UFunction_UGSCPlayerControlsComponent_OnPawnRestarted_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCPlayerControlsComponent_OnPawnRestarted_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCPlayerControlsComponent_OnPawnRestarted_Statics::GSCPlayerControlsComponent_eventOnPawnRestarted_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCPlayerControlsComponent_OnPawnRestarted_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCPlayerControlsComponent_OnPawnRestarted_Statics::Function_MetaDataParams) };
@@ -189,9 +197,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCPlayerControlsComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCPlayerControlsComponent_SetupPlayerControls_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Player Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Native/BP Event to set up player controls */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCPlayerControlsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Native/BP Event to set up player controls" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCPlayerControlsComponent_SetupPlayerControls_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCPlayerControlsComponent, nullptr, "SetupPlayerControls", nullptr, nullptr, Z_Construct_UFunction_UGSCPlayerControlsComponent_SetupPlayerControls_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCPlayerControlsComponent_SetupPlayerControls_Statics::PropPointers), sizeof(GSCPlayerControlsComponent_eventSetupPlayerControls_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCPlayerControlsComponent_SetupPlayerControls_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCPlayerControlsComponent_SetupPlayerControls_Statics::Function_MetaDataParams) };
@@ -230,9 +242,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCPlayerControlsComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCPlayerControlsComponent_TeardownPlayerControls_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Player Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Native/BP Event to undo control setup */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCPlayerControlsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Native/BP Event to undo control setup" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCPlayerControlsComponent_TeardownPlayerControls_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCPlayerControlsComponent, nullptr, "TeardownPlayerControls", nullptr, nullptr, Z_Construct_UFunction_UGSCPlayerControlsComponent_TeardownPlayerControls_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCPlayerControlsComponent_TeardownPlayerControls_Statics::PropPointers), sizeof(GSCPlayerControlsComponent_eventTeardownPlayerControls_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCPlayerControlsComponent_TeardownPlayerControls_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCPlayerControlsComponent_TeardownPlayerControls_Statics::Function_MetaDataParams) };
@@ -281,47 +297,63 @@ void EmptyLinkFunctionForGeneratedCodeGSCPlayerControlsComponent() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCPlayerControlsComponent_OnControllerChanged, "OnControllerChanged" }, // 1209641107
-		{ &Z_Construct_UFunction_UGSCPlayerControlsComponent_OnPawnRestarted, "OnPawnRestarted" }, // 3706850355
-		{ &Z_Construct_UFunction_UGSCPlayerControlsComponent_SetupPlayerControls, "SetupPlayerControls" }, // 2062821076
-		{ &Z_Construct_UFunction_UGSCPlayerControlsComponent_TeardownPlayerControls, "TeardownPlayerControls" }, // 3565930300
+		{ &Z_Construct_UFunction_UGSCPlayerControlsComponent_OnControllerChanged, "OnControllerChanged" }, // 2489013507
+		{ &Z_Construct_UFunction_UGSCPlayerControlsComponent_OnPawnRestarted, "OnPawnRestarted" }, // 2474150235
+		{ &Z_Construct_UFunction_UGSCPlayerControlsComponent_SetupPlayerControls, "SetupPlayerControls" }, // 2301391584
+		{ &Z_Construct_UFunction_UGSCPlayerControlsComponent_TeardownPlayerControls, "TeardownPlayerControls" }, // 3761162991
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::Class_MetaDataParams[] = {
 		{ "Category", "Input" },
 		{ "ClassGroupNames", "GASCompanion" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Modular pawn component for adding input actions and an optional input mapping to a pawn\n *\n * If your Pawn is dealing with Abilities, use GSCAbilityInputBindingComponent instead.\n *\n * Not meant to be added in Blueprints but rather use as a base class (parent of GSCAbilityInputBindingComponent)\n */" },
+#endif
 		{ "HideCategories", "Trigger PhysicsVolume" },
 		{ "IncludePath", "Components/GSCPlayerControlsComponent.h" },
 		{ "ModuleRelativePath", "Public/Components/GSCPlayerControlsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Modular pawn component for adding input actions and an optional input mapping to a pawn\n\nIf your Pawn is dealing with Abilities, use GSCAbilityInputBindingComponent instead.\n\nNot meant to be added in Blueprints but rather use as a base class (parent of GSCAbilityInputBindingComponent)" },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputMappingContext_MetaData[] = {
 		{ "Category", "Player Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Input mapping to add to the input system */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCPlayerControlsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Input mapping to add to the input system" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputMappingContext = { "InputMappingContext", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCPlayerControlsComponent, InputMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputMappingContext_MetaData), Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputMappingContext_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputPriority_MetaData[] = {
 		{ "Category", "Player Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Priority to bind mapping context with */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCPlayerControlsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Priority to bind mapping context with" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputPriority = { "InputPriority", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCPlayerControlsComponent, InputPriority), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputPriority_MetaData), Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputPriority_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputComponent_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The bound input component. */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Components/GSCPlayerControlsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The bound input component." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputComponent = { "InputComponent", nullptr, (EPropertyFlags)0x0024080000082008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCPlayerControlsComponent, InputComponent), Z_Construct_UClass_UEnhancedInputComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputComponent_MetaData), Z_Construct_UClass_UGSCPlayerControlsComponent_Statics::NewProp_InputComponent_MetaData) };
@@ -364,15 +396,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCPlayerControlsComponent() {}
 	UGSCPlayerControlsComponent::UGSCPlayerControlsComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCPlayerControlsComponent);
 	UGSCPlayerControlsComponent::~UGSCPlayerControlsComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCPlayerControlsComponent, UGSCPlayerControlsComponent::StaticClass, TEXT("UGSCPlayerControlsComponent"), &Z_Registration_Info_UClass_UGSCPlayerControlsComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCPlayerControlsComponent), 702142911U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCPlayerControlsComponent, UGSCPlayerControlsComponent::StaticClass, TEXT("UGSCPlayerControlsComponent"), &Z_Registration_Info_UClass_UGSCPlayerControlsComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCPlayerControlsComponent), 14890988U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_3627211664(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_4126159464(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCPlayerControlsComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

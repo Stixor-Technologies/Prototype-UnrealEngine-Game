@@ -87,9 +87,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTargetType() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCTargetType_GetTargets_Statics::Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Called to determine targets to apply gameplay effects to */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCTargetType.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called to determine targets to apply gameplay effects to" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCTargetType_GetTargets_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCTargetType, nullptr, "GetTargets", nullptr, nullptr, Z_Construct_UFunction_UGSCTargetType_GetTargets_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCTargetType_GetTargets_Statics::PropPointers), sizeof(GSCTargetType_eventGetTargets_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x48420C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCTargetType_GetTargets_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCTargetType_GetTargets_Statics::Function_MetaDataParams) };
@@ -125,18 +129,22 @@ void EmptyLinkFunctionForGeneratedCodeGSCTargetType() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTargetType_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCTargetType_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCTargetType_GetTargets, "GetTargets" }, // 3481922642
+		{ &Z_Construct_UFunction_UGSCTargetType_GetTargets, "GetTargets" }, // 3012051344
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTargetType_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTargetType_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n* Class that is used to determine targeting for abilities\n*\n* It is meant to be blueprinted to run target logic\n*\n* This does not subclass GameplayAbilityTargetActor because this class is never instanced into the world\n*\n* This can be used as a basis for a game-specific targeting blueprint .If your targeting is more complicated\n* you may need to instance into the world once or as a pooled actor\n*/" },
+#endif
 		{ "IncludePath", "Abilities/GSCTargetType.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCTargetType.h" },
 		{ "ShowWorldContextPin", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Class that is used to determine targeting for abilities\n\nIt is meant to be blueprinted to run target logic\n\nThis does not subclass GameplayAbilityTargetActor because this class is never instanced into the world\n\nThis can be used as a basis for a game-specific targeting blueprint .If your targeting is more complicated\nyou may need to instance into the world once or as a pooled actor" },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGSCTargetType_Statics::StaticCppClassTypeInfo = {
@@ -171,15 +179,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCTargetType() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCTargetType);
 	UGSCTargetType::~UGSCTargetType() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCTargetType, UGSCTargetType::StaticClass, TEXT("UGSCTargetType"), &Z_Registration_Info_UClass_UGSCTargetType, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCTargetType), 3788999568U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCTargetType, UGSCTargetType::StaticClass, TEXT("UGSCTargetType"), &Z_Registration_Info_UClass_UGSCTargetType, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCTargetType), 350491808U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_3594623749(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_1115257533(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTargetType_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

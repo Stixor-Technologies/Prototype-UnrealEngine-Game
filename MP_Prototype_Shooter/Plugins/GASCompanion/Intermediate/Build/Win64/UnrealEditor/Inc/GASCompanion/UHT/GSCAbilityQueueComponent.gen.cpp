@@ -62,11 +62,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCAbilityQueueComponent() {}
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "GASCompanion" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Actor Component responsible for Ability Queueing.\n *\n * Note that with current implementation, ability activation must be manually handled in BP. Ability Queueing won't work\n * for abilities bound by input with GSCAbilityInputBinding.\n */" },
+#endif
 		{ "IncludePath", "Components/GSCAbilityQueueComponent.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityQueueComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Actor Component responsible for Ability Queueing.\n\nNote that with current implementation, ability activation must be manually handled in BP. Ability Queueing won't work\nfor abilities bound by input with GSCAbilityInputBinding." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -140,15 +144,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCAbilityQueueComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCAbilityQueueComponent);
 	UGSCAbilityQueueComponent::~UGSCAbilityQueueComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCAbilityQueueComponent, UGSCAbilityQueueComponent::StaticClass, TEXT("UGSCAbilityQueueComponent"), &Z_Registration_Info_UClass_UGSCAbilityQueueComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAbilityQueueComponent), 4209837468U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCAbilityQueueComponent, UGSCAbilityQueueComponent::StaticClass, TEXT("UGSCAbilityQueueComponent"), &Z_Registration_Info_UClass_UGSCAbilityQueueComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAbilityQueueComponent), 3697461686U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_514587889(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_506398868(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityQueueComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

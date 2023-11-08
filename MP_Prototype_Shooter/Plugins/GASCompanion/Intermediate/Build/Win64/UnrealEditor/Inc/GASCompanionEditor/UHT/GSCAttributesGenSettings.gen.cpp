@@ -67,36 +67,52 @@ template<> GASCOMPANIONEDITOR_API UScriptStruct* StaticStruct<FGSCAttributeDefin
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_AttributeName_MetaData[] = {
 		{ "Category", "Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The GameplayAttribute name you want to generate */" },
+#endif
 		{ "ModuleRelativePath", "Public/Core/Common/GSCAttributesGenSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The GameplayAttribute name you want to generate" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_AttributeName = { "AttributeName", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeDefinition, AttributeName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_AttributeName_MetaData), Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_AttributeName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_DefaultValue_MetaData[] = {
 		{ "Category", "Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The default value for this attribute before getting initialized by a GameplayEffect */" },
+#endif
 		{ "ModuleRelativePath", "Public/Core/Common/GSCAttributesGenSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The default value for this attribute before getting initialized by a GameplayEffect" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_DefaultValue = { "DefaultValue", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeDefinition, DefaultValue), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_DefaultValue_MetaData), Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_DefaultValue_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_Category_MetaData[] = {
 		{ "Category", "Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The UPROPERTY Category specifier for this attribute */" },
+#endif
 		{ "ModuleRelativePath", "Public/Core/Common/GSCAttributesGenSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The UPROPERTY Category specifier for this attribute" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_Category = { "Category", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeDefinition, Category), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_Category_MetaData), Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_Category_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_bReplicated_MetaData[] = {
 		{ "Category", "Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** GameplayAttributes are replicated by default, works for Single Player and Multiplayer */" },
+#endif
 		{ "ModuleRelativePath", "Public/Core/Common/GSCAttributesGenSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "GameplayAttributes are replicated by default, works for Single Player and Multiplayer" },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewProp_bReplicated_SetBit(void* Obj)
@@ -168,16 +184,20 @@ template<> GASCOMPANIONEDITOR_API UScriptStruct* StaticStruct<FGSCAttributesSett
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FGSCAttributesSettings>();
 	}
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes_Inner = { "Attributes", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAttributeDefinition, METADATA_PARAMS(0, nullptr) }; // 1846273648
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes_Inner = { "Attributes", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAttributeDefinition, METADATA_PARAMS(0, nullptr) }; // 4034821431
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes_MetaData[] = {
 		{ "Category", "Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Define here any number of GameplayAttributes you want to generate (at least one) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Core/Common/GSCAttributesGenSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Define here any number of GameplayAttributes you want to generate (at least one)" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes = { "Attributes", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributesSettings, Attributes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes_MetaData), Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes_MetaData) }; // 1846273648
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes = { "Attributes", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributesSettings, Attributes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes_MetaData), Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes_MetaData) }; // 4034821431
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewProp_Attributes,
@@ -233,7 +253,9 @@ template<> GASCOMPANIONEDITOR_API UScriptStruct* StaticStruct<FGSCAttributesSett
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributesGenSettings_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributesGenSettings_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n *\n */" },
+#endif
 		{ "IncludePath", "Core/Common/GSCAttributesGenSettings.h" },
 		{ "ModuleRelativePath", "Public/Core/Common/GSCAttributesGenSettings.h" },
 	};
@@ -245,7 +267,7 @@ template<> GASCOMPANIONEDITOR_API UScriptStruct* StaticStruct<FGSCAttributesSett
 		{ "ShowOnlyInnerProperties", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributesGenSettings_Statics::NewProp_Settings = { "Settings", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributesGenSettings, Settings), Z_Construct_UScriptStruct_FGSCAttributesSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributesGenSettings_Statics::NewProp_Settings_MetaData), Z_Construct_UClass_UGSCAttributesGenSettings_Statics::NewProp_Settings_MetaData) }; // 193726332
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAttributesGenSettings_Statics::NewProp_Settings = { "Settings", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAttributesGenSettings, Settings), Z_Construct_UScriptStruct_FGSCAttributesSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributesGenSettings_Statics::NewProp_Settings_MetaData), Z_Construct_UClass_UGSCAttributesGenSettings_Statics::NewProp_Settings_MetaData) }; // 574694806
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGSCAttributesGenSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCAttributesGenSettings_Statics::NewProp_Settings,
 	};
@@ -283,20 +305,20 @@ template<> GASCOMPANIONEDITOR_API UScriptStruct* StaticStruct<FGSCAttributesSett
 	UGSCAttributesGenSettings::UGSCAttributesGenSettings(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCAttributesGenSettings);
 	UGSCAttributesGenSettings::~UGSCAttributesGenSettings() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ScriptStructInfo[] = {
-		{ FGSCAttributeDefinition::StaticStruct, Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewStructOps, TEXT("GSCAttributeDefinition"), &Z_Registration_Info_UScriptStruct_GSCAttributeDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAttributeDefinition), 1846273648U) },
-		{ FGSCAttributesSettings::StaticStruct, Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewStructOps, TEXT("GSCAttributesSettings"), &Z_Registration_Info_UScriptStruct_GSCAttributesSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAttributesSettings), 193726332U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ScriptStructInfo[] = {
+		{ FGSCAttributeDefinition::StaticStruct, Z_Construct_UScriptStruct_FGSCAttributeDefinition_Statics::NewStructOps, TEXT("GSCAttributeDefinition"), &Z_Registration_Info_UScriptStruct_GSCAttributeDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAttributeDefinition), 4034821431U) },
+		{ FGSCAttributesSettings::StaticStruct, Z_Construct_UScriptStruct_FGSCAttributesSettings_Statics::NewStructOps, TEXT("GSCAttributesSettings"), &Z_Registration_Info_UScriptStruct_GSCAttributesSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAttributesSettings), 574694806U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCAttributesGenSettings, UGSCAttributesGenSettings::StaticClass, TEXT("UGSCAttributesGenSettings"), &Z_Registration_Info_UClass_UGSCAttributesGenSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAttributesGenSettings), 1536031755U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCAttributesGenSettings, UGSCAttributesGenSettings::StaticClass, TEXT("UGSCAttributesGenSettings"), &Z_Registration_Info_UClass_UGSCAttributesGenSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAttributesGenSettings), 4023728028U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_712573580(TEXT("/Script/GASCompanionEditor"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_4119459363(TEXT("/Script/GASCompanionEditor"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_Core_Common_GSCAttributesGenSettings_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

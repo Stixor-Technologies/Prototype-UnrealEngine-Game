@@ -71,18 +71,26 @@ template<> GASCOMPANIONEDITOR_API UScriptStruct* StaticStruct<FGSCGameplayEffect
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewProp_MenuPath_MetaData[] = {
 		{ "Category", "Gameplay Effect" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Where to show this in the menu. Use \"|\" for sub categories. E.g, \"Status|Hard|Stun|Root\". */" },
+#endif
 		{ "ModuleRelativePath", "Public/CreationMenu/GSCGameplayEffectCreationMenu.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Where to show this in the menu. Use \"|\" for sub categories. E.g, \"Status|Hard|Stun|Root\"." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewProp_MenuPath = { "MenuPath", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectCreationData, MenuPath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewProp_MenuPath_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewProp_MenuPath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewProp_BaseName_MetaData[] = {
 		{ "Category", "Gameplay Effect" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The default BaseName of the new asset. E.g \"Damage\" -> GE_Damage */" },
+#endif
 		{ "ModuleRelativePath", "Public/CreationMenu/GSCGameplayEffectCreationMenu.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The default BaseName of the new asset. E.g \"Damage\" -> GE_Damage" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewProp_BaseName = { "BaseName", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectCreationData, BaseName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewProp_BaseName_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewProp_BaseName_MetaData) };
@@ -169,14 +177,14 @@ template<> GASCOMPANIONEDITOR_API UScriptStruct* StaticStruct<FGSCGameplayEffect
 		{ "ModuleRelativePath", "Public/CreationMenu/GSCGameplayEffectCreationMenu.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions_Inner = { "Definitions", nullptr, (EPropertyFlags)0x0000000000004000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData, METADATA_PARAMS(0, nullptr) }; // 1980846165
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions_Inner = { "Definitions", nullptr, (EPropertyFlags)0x0000000000004000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData, METADATA_PARAMS(0, nullptr) }; // 655674061
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions_MetaData[] = {
 		{ "Category", "Gameplay Effect" },
 		{ "ModuleRelativePath", "Public/CreationMenu/GSCGameplayEffectCreationMenu.h" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions = { "Definitions", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameplayEffectCreationMenu, Definitions), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions_MetaData), Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions_MetaData) }; // 1980846165
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions = { "Definitions", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameplayEffectCreationMenu, Definitions), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions_MetaData), Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions_MetaData) }; // 655674061
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCGameplayEffectCreationMenu_Statics::NewProp_Definitions,
@@ -214,19 +222,19 @@ template<> GASCOMPANIONEDITOR_API UScriptStruct* StaticStruct<FGSCGameplayEffect
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCGameplayEffectCreationMenu);
 	UGSCGameplayEffectCreationMenu::~UGSCGameplayEffectCreationMenu() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ScriptStructInfo[] = {
-		{ FGSCGameplayEffectCreationData::StaticStruct, Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewStructOps, TEXT("GSCGameplayEffectCreationData"), &Z_Registration_Info_UScriptStruct_GSCGameplayEffectCreationData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameplayEffectCreationData), 1980846165U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ScriptStructInfo[] = {
+		{ FGSCGameplayEffectCreationData::StaticStruct, Z_Construct_UScriptStruct_FGSCGameplayEffectCreationData_Statics::NewStructOps, TEXT("GSCGameplayEffectCreationData"), &Z_Registration_Info_UScriptStruct_GSCGameplayEffectCreationData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameplayEffectCreationData), 655674061U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCGameplayEffectCreationMenu, UGSCGameplayEffectCreationMenu::StaticClass, TEXT("UGSCGameplayEffectCreationMenu"), &Z_Registration_Info_UClass_UGSCGameplayEffectCreationMenu, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameplayEffectCreationMenu), 3146980157U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCGameplayEffectCreationMenu, UGSCGameplayEffectCreationMenu::StaticClass, TEXT("UGSCGameplayEffectCreationMenu"), &Z_Registration_Info_UClass_UGSCGameplayEffectCreationMenu, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameplayEffectCreationMenu), 815274961U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_672154587(TEXT("/Script/GASCompanionEditor"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_3623251654(TEXT("/Script/GASCompanionEditor"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanionEditor_Public_CreationMenu_GSCGameplayEffectCreationMenu_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -48,19 +48,27 @@ void EmptyLinkFunctionForGeneratedCodeGSCNativeAnimInstance() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCNativeAnimInstance_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCNativeAnimInstance_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Anim instance implementing IGSCNativeAnimInstanceInterface to allow Gameplay Tag Blueprint Property Mapping.\n *\n * The interface has only one overridable method `InitializeWithAbilitySystem()` that must be implemented in subclasses.\n * \n * GSCAbilitySystemComponent will call this method via an interface call when InitAbilityActorInfo happens.\n *\n * The same pattern is used in both Lyra and the Ancient Demo, only difference here is that we rely on an interface to be able to operate better with other plugins / assets.\n */" },
+#endif
 		{ "HideCategories", "AnimInstance" },
 		{ "IncludePath", "Animations/GSCNativeAnimInstance.h" },
 		{ "ModuleRelativePath", "Public/Animations/GSCNativeAnimInstance.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Anim instance implementing IGSCNativeAnimInstanceInterface to allow Gameplay Tag Blueprint Property Mapping.\n\nThe interface has only one overridable method `InitializeWithAbilitySystem()` that must be implemented in subclasses.\n\nGSCAbilitySystemComponent will call this method via an interface call when InitAbilityActorInfo happens.\n\nThe same pattern is used in both Lyra and the Ancient Demo, only difference here is that we rely on an interface to be able to operate better with other plugins / assets." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCNativeAnimInstance_Statics::NewProp_GameplayTagPropertyMap_MetaData[] = {
 		{ "Category", "GAS Companion|GameplayTags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Gameplay tags that can be mapped to blueprint variables. The variables will automatically update as the tags are added or removed.\n\x09 * \n\x09 * These should be used instead of manually querying for the gameplay tags.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Animations/GSCNativeAnimInstance.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gameplay tags that can be mapped to blueprint variables. The variables will automatically update as the tags are added or removed.\n\nThese should be used instead of manually querying for the gameplay tags." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCNativeAnimInstance_Statics::NewProp_GameplayTagPropertyMap = { "GameplayTagPropertyMap", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCNativeAnimInstance, GameplayTagPropertyMap), Z_Construct_UScriptStruct_FGameplayTagBlueprintPropertyMap, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCNativeAnimInstance_Statics::NewProp_GameplayTagPropertyMap_MetaData), Z_Construct_UClass_UGSCNativeAnimInstance_Statics::NewProp_GameplayTagPropertyMap_MetaData) }; // 1149265390
@@ -105,15 +113,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCNativeAnimInstance() {}
 	UGSCNativeAnimInstance::UGSCNativeAnimInstance(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCNativeAnimInstance);
 	UGSCNativeAnimInstance::~UGSCNativeAnimInstance() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCNativeAnimInstance, UGSCNativeAnimInstance::StaticClass, TEXT("UGSCNativeAnimInstance"), &Z_Registration_Info_UClass_UGSCNativeAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCNativeAnimInstance), 1505016519U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCNativeAnimInstance, UGSCNativeAnimInstance::StaticClass, TEXT("UGSCNativeAnimInstance"), &Z_Registration_Info_UClass_UGSCNativeAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCNativeAnimInstance), 3062661824U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_3117669509(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_4132096993(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCNativeAnimInstance_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

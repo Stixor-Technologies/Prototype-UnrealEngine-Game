@@ -38,11 +38,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCTriggerComboNotify() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTriggerComboNotify_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTriggerComboNotify_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Use this notify to tell the system to trigger the next combo activation if the player registered an input within the combo window notify state.\n *\n *\n * Note that this notify must be placed within the combo window to properly work.\n */" },
+#endif
 		{ "HideCategories", "Object" },
 		{ "IncludePath", "Animations/GSCTriggerComboNotify.h" },
 		{ "ModuleRelativePath", "Public/Animations/GSCTriggerComboNotify.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use this notify to tell the system to trigger the next combo activation if the player registered an input within the combo window notify state.\n\n\nNote that this notify must be placed within the combo window to properly work." },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGSCTriggerComboNotify_Statics::StaticCppClassTypeInfo = {
@@ -78,15 +82,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCTriggerComboNotify() {}
 	UGSCTriggerComboNotify::UGSCTriggerComboNotify(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCTriggerComboNotify);
 	UGSCTriggerComboNotify::~UGSCTriggerComboNotify() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCTriggerComboNotify, UGSCTriggerComboNotify::StaticClass, TEXT("UGSCTriggerComboNotify"), &Z_Registration_Info_UClass_UGSCTriggerComboNotify, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCTriggerComboNotify), 3610461982U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCTriggerComboNotify, UGSCTriggerComboNotify::StaticClass, TEXT("UGSCTriggerComboNotify"), &Z_Registration_Info_UClass_UGSCTriggerComboNotify, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCTriggerComboNotify), 2675286792U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_1787953668(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_4149630383(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCTriggerComboNotify_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

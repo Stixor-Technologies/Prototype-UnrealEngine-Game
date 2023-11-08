@@ -371,9 +371,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_GetAttributeValue_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns the current value of an attribute (base value) from owning actor Ability System (if it has any). That is, the value of the attribute with no stateful modifiers */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the current value of an attribute (base value) from owning actor Ability System (if it has any). That is, the value of the attribute with no stateful modifiers" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_GetAttributeValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "GetAttributeValue", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_GetAttributeValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetAttributeValue_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUserWidget_GetAttributeValue_Statics::GSCUserWidget_eventGetAttributeValue_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetAttributeValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_GetAttributeValue_Statics::Function_MetaDataParams) };
@@ -416,9 +420,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_GetOwningAbilitySystemComponent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns reference to AbilitySystemComponent for this user widget, if it has been initialized. */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns reference to AbilitySystemComponent for this user widget, if it has been initialized." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_GetOwningAbilitySystemComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "GetOwningAbilitySystemComponent", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_GetOwningAbilitySystemComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetOwningAbilitySystemComponent_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUserWidget_GetOwningAbilitySystemComponent_Statics::GSCUserWidget_eventGetOwningAbilitySystemComponent_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetOwningAbilitySystemComponent_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_GetOwningAbilitySystemComponent_Statics::Function_MetaDataParams) };
@@ -453,9 +461,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_GetOwningActor_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns reference to OwnerActor for this user widget, if it has been initialized. */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns reference to OwnerActor for this user widget, if it has been initialized." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_GetOwningActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "GetOwningActor", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_GetOwningActor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetOwningActor_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUserWidget_GetOwningActor_Statics::GSCUserWidget_eventGetOwningActor_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetOwningActor_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_GetOwningActor_Statics::Function_MetaDataParams) };
@@ -498,9 +510,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_GetOwningCoreComponent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns reference to OwnerCoreComponent for this user widget, if it has been initialized. */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns reference to OwnerCoreComponent for this user widget, if it has been initialized." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_GetOwningCoreComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "GetOwningCoreComponent", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_GetOwningCoreComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetOwningCoreComponent_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUserWidget_GetOwningCoreComponent_Statics::GSCUserWidget_eventGetOwningCoreComponent_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetOwningCoreComponent_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_GetOwningCoreComponent_Statics::Function_MetaDataParams) };
@@ -543,9 +559,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_GetPercentForAttributes_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Helper function to return percentage from Attribute / MaxAttribute */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Helper function to return percentage from Attribute / MaxAttribute" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_GetPercentForAttributes_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "GetPercentForAttributes", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_GetPercentForAttributes_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetPercentForAttributes_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUserWidget_GetPercentForAttributes_Statics::GSCUserWidget_eventGetPercentForAttributes_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_GetPercentForAttributes_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_GetPercentForAttributes_Statics::Function_MetaDataParams) };
@@ -589,9 +609,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_InitializeWithAbilitySystem_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Runs initialization logic for this UserWidget related to interactions with Ability System Component.\n\x09 *\n\x09 * Setup AbilitySystemComponent delegates to react to various events.\n\x09 *\n\x09 * Usually called from NativeConstruct, but exposed there if other classes needs to run initialization logic again to update references.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Runs initialization logic for this UserWidget related to interactions with Ability System Component.\n\nSetup AbilitySystemComponent delegates to react to various events.\n\nUsually called from NativeConstruct, but exposed there if other classes needs to run initialization logic again to update references." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_InitializeWithAbilitySystem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "InitializeWithAbilitySystem", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_InitializeWithAbilitySystem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_InitializeWithAbilitySystem_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUserWidget_InitializeWithAbilitySystem_Statics::GSCUserWidget_eventInitializeWithAbilitySystem_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_InitializeWithAbilitySystem_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_InitializeWithAbilitySystem_Statics::Function_MetaDataParams) };
@@ -616,9 +640,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_OnAbilitySystemInitialized_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Event triggered when this widget has been initialized with a valid ASC.\n\x09 * \n\x09 * Run initialization logic that depends on Ability System here. (like setting initial state for user widgets based on attributes value)\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event triggered when this widget has been initialized with a valid ASC.\n\nRun initialization logic that depends on Ability System here. (like setting initial state for user widgets based on attributes value)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_OnAbilitySystemInitialized_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "OnAbilitySystemInitialized", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnAbilitySystemInitialized_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_OnAbilitySystemInitialized_Statics::Function_MetaDataParams) };
@@ -653,9 +681,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_OnAttributeChange_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event triggered whenever an attribute value is changed on Owner Actor's ASC */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event triggered whenever an attribute value is changed on Owner Actor's ASC" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_OnAttributeChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "OnAttributeChange", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_OnAttributeChange_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnAttributeChange_Statics::PropPointers), sizeof(GSCUserWidget_eventOnAttributeChange_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnAttributeChange_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_OnAttributeChange_Statics::Function_MetaDataParams) };
@@ -692,9 +724,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_OnCooldownEnd_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event triggered by Companion Core Component when a cooldown gameplay tag is removed, meaning cooldown expired */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event triggered by Companion Core Component when a cooldown gameplay tag is removed, meaning cooldown expired" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_OnCooldownEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "OnCooldownEnd", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_OnCooldownEnd_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnCooldownEnd_Statics::PropPointers), sizeof(GSCUserWidget_eventOnCooldownEnd_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnCooldownEnd_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_OnCooldownEnd_Statics::Function_MetaDataParams) };
@@ -742,9 +778,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_OnCooldownStart_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event triggered by Companion Core component when an ability with a valid cooldown is committed and cooldown is applied */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event triggered by Companion Core component when an ability with a valid cooldown is committed and cooldown is applied" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_OnCooldownStart_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "OnCooldownStart", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_OnCooldownStart_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnCooldownStart_Statics::PropPointers), sizeof(GSCUserWidget_eventOnCooldownStart_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnCooldownStart_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_OnCooldownStart_Statics::Function_MetaDataParams) };
@@ -784,9 +824,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectAdded_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event triggered by Companion Core Component whenever a gameplay effect is added */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event triggered by Companion Core Component whenever a gameplay effect is added" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectAdded_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "OnGameplayEffectAdded", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectAdded_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectAdded_Statics::PropPointers), sizeof(GSCUserWidget_eventOnGameplayEffectAdded_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectAdded_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectAdded_Statics::Function_MetaDataParams) };
@@ -826,9 +870,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectRemoved_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event triggered by Companion Core Component whenever a gameplay effect is removed */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event triggered by Companion Core Component whenever a gameplay effect is removed" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectRemoved_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "OnGameplayEffectRemoved", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectRemoved_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectRemoved_Statics::PropPointers), sizeof(GSCUserWidget_eventOnGameplayEffectRemoved_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectRemoved_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectRemoved_Statics::Function_MetaDataParams) };
@@ -871,9 +919,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectStackChange_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event triggered by Companion Core Component whenever a gameplay effect is added / removed */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event triggered by Companion Core Component whenever a gameplay effect is added / removed" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectStackChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "OnGameplayEffectStackChange", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectStackChange_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectStackChange_Statics::PropPointers), sizeof(GSCUserWidget_eventOnGameplayEffectStackChange_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectStackChange_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectStackChange_Statics::Function_MetaDataParams) };
@@ -916,9 +968,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectTimeChange_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event triggered by Companion Core Component whenever a gameplay effect time is changed (for instance when duration is refreshed) */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event triggered by Companion Core Component whenever a gameplay effect time is changed (for instance when duration is refreshed)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectTimeChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "OnGameplayEffectTimeChange", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectTimeChange_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectTimeChange_Statics::PropPointers), sizeof(GSCUserWidget_eventOnGameplayEffectTimeChange_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectTimeChange_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectTimeChange_Statics::Function_MetaDataParams) };
@@ -952,9 +1008,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_OnGameplayTagChange_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Event triggered by Companion Core Component whenever a tag is added or removed (but not if just count is increased. Only for 'new' and 'removed' events) */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event triggered by Companion Core Component whenever a tag is added or removed (but not if just count is increased. Only for 'new' and 'removed' events)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_OnGameplayTagChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "OnGameplayTagChange", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_OnGameplayTagChange_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayTagChange_Statics::PropPointers), sizeof(GSCUserWidget_eventOnGameplayTagChange_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_OnGameplayTagChange_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_OnGameplayTagChange_Statics::Function_MetaDataParams) };
@@ -989,9 +1049,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCUserWidget_SetOwnerActor_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Initialize or update references to owner actor and additional actor components (such as AbilitySystemComponent) and cache them for this instance of user widget. */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Initialize or update references to owner actor and additional actor components (such as AbilitySystemComponent) and cache them for this instance of user widget." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCUserWidget_SetOwnerActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCUserWidget, nullptr, "SetOwnerActor", nullptr, nullptr, Z_Construct_UFunction_UGSCUserWidget_SetOwnerActor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_SetOwnerActor_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCUserWidget_SetOwnerActor_Statics::GSCUserWidget_eventSetOwnerActor_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCUserWidget_SetOwnerActor_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCUserWidget_SetOwnerActor_Statics::Function_MetaDataParams) };
@@ -1040,30 +1104,34 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCUserWidget_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCUserWidget_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCUserWidget_GetAttributeValue, "GetAttributeValue" }, // 1376049936
-		{ &Z_Construct_UFunction_UGSCUserWidget_GetOwningAbilitySystemComponent, "GetOwningAbilitySystemComponent" }, // 2142207279
-		{ &Z_Construct_UFunction_UGSCUserWidget_GetOwningActor, "GetOwningActor" }, // 992883764
-		{ &Z_Construct_UFunction_UGSCUserWidget_GetOwningCoreComponent, "GetOwningCoreComponent" }, // 2691948641
-		{ &Z_Construct_UFunction_UGSCUserWidget_GetPercentForAttributes, "GetPercentForAttributes" }, // 1532099520
-		{ &Z_Construct_UFunction_UGSCUserWidget_InitializeWithAbilitySystem, "InitializeWithAbilitySystem" }, // 2402185364
-		{ &Z_Construct_UFunction_UGSCUserWidget_OnAbilitySystemInitialized, "OnAbilitySystemInitialized" }, // 4172758624
-		{ &Z_Construct_UFunction_UGSCUserWidget_OnAttributeChange, "OnAttributeChange" }, // 1212651176
-		{ &Z_Construct_UFunction_UGSCUserWidget_OnCooldownEnd, "OnCooldownEnd" }, // 3527970098
-		{ &Z_Construct_UFunction_UGSCUserWidget_OnCooldownStart, "OnCooldownStart" }, // 4102558316
-		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectAdded, "OnGameplayEffectAdded" }, // 605996545
-		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectRemoved, "OnGameplayEffectRemoved" }, // 3859002943
-		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectStackChange, "OnGameplayEffectStackChange" }, // 2109631855
-		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectTimeChange, "OnGameplayEffectTimeChange" }, // 3752876009
-		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayTagChange, "OnGameplayTagChange" }, // 2056929307
-		{ &Z_Construct_UFunction_UGSCUserWidget_SetOwnerActor, "SetOwnerActor" }, // 49268438
+		{ &Z_Construct_UFunction_UGSCUserWidget_GetAttributeValue, "GetAttributeValue" }, // 79314116
+		{ &Z_Construct_UFunction_UGSCUserWidget_GetOwningAbilitySystemComponent, "GetOwningAbilitySystemComponent" }, // 2451891249
+		{ &Z_Construct_UFunction_UGSCUserWidget_GetOwningActor, "GetOwningActor" }, // 1119218195
+		{ &Z_Construct_UFunction_UGSCUserWidget_GetOwningCoreComponent, "GetOwningCoreComponent" }, // 2111262271
+		{ &Z_Construct_UFunction_UGSCUserWidget_GetPercentForAttributes, "GetPercentForAttributes" }, // 1163451767
+		{ &Z_Construct_UFunction_UGSCUserWidget_InitializeWithAbilitySystem, "InitializeWithAbilitySystem" }, // 793827976
+		{ &Z_Construct_UFunction_UGSCUserWidget_OnAbilitySystemInitialized, "OnAbilitySystemInitialized" }, // 2142750501
+		{ &Z_Construct_UFunction_UGSCUserWidget_OnAttributeChange, "OnAttributeChange" }, // 2903903600
+		{ &Z_Construct_UFunction_UGSCUserWidget_OnCooldownEnd, "OnCooldownEnd" }, // 746937271
+		{ &Z_Construct_UFunction_UGSCUserWidget_OnCooldownStart, "OnCooldownStart" }, // 2733019425
+		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectAdded, "OnGameplayEffectAdded" }, // 2119775490
+		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectRemoved, "OnGameplayEffectRemoved" }, // 2912157747
+		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectStackChange, "OnGameplayEffectStackChange" }, // 3748315898
+		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayEffectTimeChange, "OnGameplayEffectTimeChange" }, // 2831995574
+		{ &Z_Construct_UFunction_UGSCUserWidget_OnGameplayTagChange, "OnGameplayTagChange" }, // 1743149860
+		{ &Z_Construct_UFunction_UGSCUserWidget_SetOwnerActor, "SetOwnerActor" }, // 4171841159
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCUserWidget_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCUserWidget_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Base user widget class to inherit from for UMG that needs to interact with an Ability System Component.\n *\n * For typical use case of Player HUD, use UGSCUWHud subclass instead.\n *\n * This class provides an event based API to react to Ability System related events:\n *\n * - Attribute value change\n * - Gameplay Tag change\n * - Gameplay Effect added / removed\n * - Cooldown start / expiration\n */" },
+#endif
 		{ "IncludePath", "UI/GSCUserWidget.h" },
 		{ "ModuleRelativePath", "Public/UI/GSCUserWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Base user widget class to inherit from for UMG that needs to interact with an Ability System Component.\n\nFor typical use case of Player HUD, use UGSCUWHud subclass instead.\n\nThis class provides an event based API to react to Ability System related events:\n\n- Attribute value change\n- Gameplay Tag change\n- Gameplay Effect added / removed\n- Cooldown start / expiration" },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -1131,19 +1199,19 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectUIData
 	UGSCUserWidget::UGSCUserWidget(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCUserWidget);
 	UGSCUserWidget::~UGSCUserWidget() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ScriptStructInfo[] = {
 		{ FGSCGameplayEffectUIData::StaticStruct, Z_Construct_UScriptStruct_FGSCGameplayEffectUIData_Statics::NewStructOps, TEXT("GSCGameplayEffectUIData"), &Z_Registration_Info_UScriptStruct_GSCGameplayEffectUIData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameplayEffectUIData), 2452504528U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCUserWidget, UGSCUserWidget::StaticClass, TEXT("UGSCUserWidget"), &Z_Registration_Info_UClass_UGSCUserWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCUserWidget), 1678685426U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCUserWidget, UGSCUserWidget::StaticClass, TEXT("UGSCUserWidget"), &Z_Registration_Info_UClass_UGSCUserWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCUserWidget), 1536432296U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_754162810(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_1223748466(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUserWidget_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

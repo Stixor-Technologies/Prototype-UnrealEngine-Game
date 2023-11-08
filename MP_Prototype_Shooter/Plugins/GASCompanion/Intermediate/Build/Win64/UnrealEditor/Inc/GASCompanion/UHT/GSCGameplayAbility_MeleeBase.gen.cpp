@@ -262,7 +262,9 @@ void EmptyLinkFunctionForGeneratedCodeGSCGameplayAbility_MeleeBase() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n *\n */" },
+#endif
 		{ "IncludePath", "Abilities/GSCGameplayAbility_MeleeBase.h" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility_MeleeBase.h" },
 	};
@@ -278,27 +280,39 @@ void EmptyLinkFunctionForGeneratedCodeGSCGameplayAbility_MeleeBase() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_Montages_MetaData[] = {
 		{ "Category", "Montages" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of animation montages you want to cycle through when activating this ability */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility_MeleeBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of animation montages you want to cycle through when activating this ability" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_Montages = { "Montages", nullptr, (EPropertyFlags)0x0024080000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameplayAbility_MeleeBase, Montages), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_Montages_MetaData), Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_Montages_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_Rate_MetaData[] = {
 		{ "Category", "Montages" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Change to play the montage faster or slower */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility_MeleeBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Change to play the montage faster or slower" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_Rate = { "Rate", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameplayAbility_MeleeBase, Rate), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_Rate_MetaData), Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_Rate_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_WaitForEventTag_MetaData[] = {
 		{ "Category", "Montages" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Any gameplay events matching this tag will activate the OnEventReceived callback and apply the gameplay effect containers for this ability */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility_MeleeBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Any gameplay events matching this tag will activate the OnEventReceived callback and apply the gameplay effect containers for this ability" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_WaitForEventTag = { "WaitForEventTag", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameplayAbility_MeleeBase, WaitForEventTag), Z_Construct_UScriptStruct_FGameplayTagContainer, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_WaitForEventTag_MetaData), Z_Construct_UClass_UGSCGameplayAbility_MeleeBase_Statics::NewProp_WaitForEventTag_MetaData) }; // 405371792
@@ -342,15 +356,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCGameplayAbility_MeleeBase() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCGameplayAbility_MeleeBase);
 	UGSCGameplayAbility_MeleeBase::~UGSCGameplayAbility_MeleeBase() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCGameplayAbility_MeleeBase, UGSCGameplayAbility_MeleeBase::StaticClass, TEXT("UGSCGameplayAbility_MeleeBase"), &Z_Registration_Info_UClass_UGSCGameplayAbility_MeleeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameplayAbility_MeleeBase), 3390146503U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCGameplayAbility_MeleeBase, UGSCGameplayAbility_MeleeBase::StaticClass, TEXT("UGSCGameplayAbility_MeleeBase"), &Z_Registration_Info_UClass_UGSCGameplayAbility_MeleeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameplayAbility_MeleeBase), 2169585290U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_946750521(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_287658127(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_MeleeBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

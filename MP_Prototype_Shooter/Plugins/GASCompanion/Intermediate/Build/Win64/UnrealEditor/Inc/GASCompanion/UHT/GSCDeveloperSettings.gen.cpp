@@ -44,21 +44,29 @@ void EmptyLinkFunctionForGeneratedCodeGSCDeveloperSettings() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCDeveloperSettings_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCDeveloperSettings_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * General Settings for GAS Companion Plugin.\n */" },
+#endif
 		{ "DisplayName", "GAS Companion" },
 		{ "IncludePath", "Core/Settings/GSCDeveloperSettings.h" },
 		{ "ModuleRelativePath", "Public/Core/Settings/GSCDeveloperSettings.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "General Settings for GAS Companion Plugin." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCDeveloperSettings_Statics::NewProp_bPreventGlobalDataInitialization_MetaData[] = {
 		{ "Category", "Ability System" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Turn this on to prevent GAS Companion module to initialize UAbilitySystemGlobals (InitGlobalData) in the plugin StartupModule method.\n\x09 *\n\x09 * InitGlobalData() might be invoked a bit too early otherwise (with GAS Companion's StartupModule). It is expected that if you set this option to true to use\n\x09 * an AssetManager subclass where `UAbilitySystemGlobals::Get().InitGlobalData()` is called in `StartInitialLoading``\n\x09 *\n\x09 * You'll need to update `Project Settings -> Engine > General Settings > Asset Manager Class` to use your AssetManager subclass.\n\x09 *\n\x09 * GAS Companion provides one `GSCAssetManager` and the editor should ask you if you want to update the `Asset Manager Class` to use it if the current Manager class\n\x09 * is using engine's default one.\n\x09 */" },
+#endif
 		{ "DisplayName", "Prevent Ability System Global Data Initialization in Startup Module (Recommended)" },
 		{ "ModuleRelativePath", "Public/Core/Settings/GSCDeveloperSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Turn this on to prevent GAS Companion module to initialize UAbilitySystemGlobals (InitGlobalData) in the plugin StartupModule method.\n\nInitGlobalData() might be invoked a bit too early otherwise (with GAS Companion's StartupModule). It is expected that if you set this option to true to use\nan AssetManager subclass where `UAbilitySystemGlobals::Get().InitGlobalData()` is called in `StartInitialLoading``\n\nYou'll need to update `Project Settings -> Engine > General Settings > Asset Manager Class` to use your AssetManager subclass.\n\nGAS Companion provides one `GSCAssetManager` and the editor should ask you if you want to update the `Asset Manager Class` to use it if the current Manager class\nis using engine's default one." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCDeveloperSettings_Statics::NewProp_bPreventGlobalDataInitialization_SetBit(void* Obj)
@@ -102,15 +110,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCDeveloperSettings() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCDeveloperSettings);
 	UGSCDeveloperSettings::~UGSCDeveloperSettings() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCDeveloperSettings, UGSCDeveloperSettings::StaticClass, TEXT("UGSCDeveloperSettings"), &Z_Registration_Info_UClass_UGSCDeveloperSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCDeveloperSettings), 2270733036U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCDeveloperSettings, UGSCDeveloperSettings::StaticClass, TEXT("UGSCDeveloperSettings"), &Z_Registration_Info_UClass_UGSCDeveloperSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCDeveloperSettings), 3303646486U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_2504262908(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_3132263992(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Core_Settings_GSCDeveloperSettings_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

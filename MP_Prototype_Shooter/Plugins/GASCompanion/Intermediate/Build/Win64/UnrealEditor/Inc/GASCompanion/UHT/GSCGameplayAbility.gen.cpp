@@ -143,10 +143,14 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainer_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "EventData" },
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Applies a gameplay effect container, by creating and then applying the spec */" },
+#endif
 		{ "CPP_Default_OverrideGameplayLevel", "-1" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Applies a gameplay effect container, by creating and then applying the spec" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCGameplayAbility, nullptr, "ApplyEffectContainer", nullptr, nullptr, Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainer_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainer_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainer_Statics::GSCGameplayAbility_eventApplyEffectContainer_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainer_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainer_Statics::Function_MetaDataParams) };
@@ -185,7 +189,7 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::NewProp_ContainerSpec = { "ContainerSpec", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventApplyEffectContainerSpec_Parms, ContainerSpec), Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::NewProp_ContainerSpec_MetaData), Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::NewProp_ContainerSpec_MetaData) }; // 4192220786
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::NewProp_ContainerSpec = { "ContainerSpec", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventApplyEffectContainerSpec_Parms, ContainerSpec), Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::NewProp_ContainerSpec_MetaData), Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::NewProp_ContainerSpec_MetaData) }; // 2872509900
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FActiveGameplayEffectHandle, METADATA_PARAMS(0, nullptr) }; // 179499981
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventApplyEffectContainerSpec_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 179499981
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::PropPointers[] = {
@@ -196,9 +200,13 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Applies a gameplay effect container spec that was previously created */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Applies a gameplay effect container spec that was previously created" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCGameplayAbility, nullptr, "ApplyEffectContainerSpec", nullptr, nullptr, Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::GSCGameplayAbility_eventApplyEffectContainerSpec_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec_Statics::Function_MetaDataParams) };
@@ -243,7 +251,7 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::NewProp_EventData = { "EventData", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpec_Parms, EventData), Z_Construct_UScriptStruct_FGameplayEventData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::NewProp_EventData_MetaData), Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::NewProp_EventData_MetaData) }; // 3848146833
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::NewProp_OverrideGameplayLevel = { "OverrideGameplayLevel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpec_Parms, OverrideGameplayLevel), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpec_Parms, ReturnValue), Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec, METADATA_PARAMS(0, nullptr) }; // 4192220786
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpec_Parms, ReturnValue), Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec, METADATA_PARAMS(0, nullptr) }; // 2872509900
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::NewProp_ContainerTag,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::NewProp_EventData,
@@ -254,10 +262,14 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "EventData" },
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Search for and make a gameplay effect container spec to be applied later, from the EffectContainerMap */" },
+#endif
 		{ "CPP_Default_OverrideGameplayLevel", "-1" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Search for and make a gameplay effect container spec to be applied later, from the EffectContainerMap" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCGameplayAbility, nullptr, "MakeEffectContainerSpec", nullptr, nullptr, Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::GSCGameplayAbility_eventMakeEffectContainerSpec_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec_Statics::Function_MetaDataParams) };
@@ -302,7 +314,7 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_Container = { "Container", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpecFromContainer_Parms, Container), Z_Construct_UScriptStruct_FGSCGameplayEffectContainer, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_Container_MetaData), Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_Container_MetaData) }; // 2303381232
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_Container = { "Container", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpecFromContainer_Parms, Container), Z_Construct_UScriptStruct_FGSCGameplayEffectContainer, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_Container_MetaData), Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_Container_MetaData) }; // 1057264585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_EventData_MetaData[] = {
 		{ "NativeConst", "" },
@@ -310,7 +322,7 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_EventData = { "EventData", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpecFromContainer_Parms, EventData), Z_Construct_UScriptStruct_FGameplayEventData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_EventData_MetaData), Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_EventData_MetaData) }; // 3848146833
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_OverrideGameplayLevel = { "OverrideGameplayLevel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpecFromContainer_Parms, OverrideGameplayLevel), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpecFromContainer_Parms, ReturnValue), Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec, METADATA_PARAMS(0, nullptr) }; // 4192220786
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCGameplayAbility_eventMakeEffectContainerSpecFromContainer_Parms, ReturnValue), Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec, METADATA_PARAMS(0, nullptr) }; // 2872509900
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_Container,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::NewProp_EventData,
@@ -321,10 +333,14 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "EventData" },
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Make gameplay effect container spec to be applied later, using the passed in container */" },
+#endif
 		{ "CPP_Default_OverrideGameplayLevel", "-1" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Make gameplay effect container spec to be applied later, using the passed in container" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCGameplayAbility, nullptr, "MakeEffectContainerSpecFromContainer", nullptr, nullptr, Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::GSCGameplayAbility_eventMakeEffectContainerSpecFromContainer_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer_Statics::Function_MetaDataParams) };
@@ -386,26 +402,34 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCGameplayAbility_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainer, "ApplyEffectContainer" }, // 1953790098
-		{ &Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec, "ApplyEffectContainerSpec" }, // 1704060545
-		{ &Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec, "MakeEffectContainerSpec" }, // 1645242190
-		{ &Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer, "MakeEffectContainerSpecFromContainer" }, // 3700455457
+		{ &Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainer, "ApplyEffectContainer" }, // 1198040042
+		{ &Z_Construct_UFunction_UGSCGameplayAbility_ApplyEffectContainerSpec, "ApplyEffectContainerSpec" }, // 4209184544
+		{ &Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpec, "MakeEffectContainerSpec" }, // 2640815243
+		{ &Z_Construct_UFunction_UGSCGameplayAbility_MakeEffectContainerSpecFromContainer, "MakeEffectContainerSpecFromContainer" }, // 1240941966
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * GameplayAbility Parent class that is recommended to use with GAS Companion.\n *\n * Added functionality compared to regular UGameplayAbility includes:\n *\n * - GameplayEffect containers: https://github.com/tranek/GASDocumentation#concepts-ge-containers\n * - Ability Queue System support: If you intend to use Ability Queueing, you should rely on this class for your Abilities\n * - Loosely Check for Cost: If you'd like your abilities to activate regardless of cost attribute going into negative values,\n * and only checking if cost attribute is not below or equal to 0 already.\n * - End delegate: A blueprint assignable delegate is exposed which is triggered on ability end. Particularly useful for AI Behavior Tree tasks.\n * - Activate On Granted: Support for \"Passive\" abilities, an ability that automatically activates and run continuously (eg. not calling EndAbility).\n */" },
+#endif
 		{ "IncludePath", "Abilities/GSCGameplayAbility.h" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "GameplayAbility Parent class that is recommended to use with GAS Companion.\n\nAdded functionality compared to regular UGameplayAbility includes:\n\n- GameplayEffect containers: https://github.com/tranek/GASDocumentation#concepts-ge-containers\n- Ability Queue System support: If you intend to use Ability Queueing, you should rely on this class for your Abilities\n- Loosely Check for Cost: If you'd like your abilities to activate regardless of cost attribute going into negative values,\nand only checking if cost attribute is not below or equal to 0 already.\n- End delegate: A blueprint assignable delegate is exposed which is triggered on ability end. Particularly useful for AI Behavior Tree tasks.\n- Activate On Granted: Support for \"Passive\" abilities, an ability that automatically activates and run continuously (eg. not calling EndAbility)." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bLooselyCheckAbilityCost_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** if true, the ability can be activated even it the cost is going into negative values, preventing activation only if cost is below or equal to 0 already */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "if true, the ability can be activated even it the cost is going into negative values, preventing activation only if cost is below or equal to 0 already" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bLooselyCheckAbilityCost_SetBit(void* Obj)
@@ -416,9 +440,13 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bActivateOnGranted_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * If true, the ability will be automatically activated as soon as it is granted.\n\x09 *\n\x09 * You can either implement one-off Abilities that are meant to be activated right away when granted,\n\x09 * or \"Passive Abilities\" with this, an ability that automatically activates and run continuously (eg. not calling EndAbility)\n\x09 *\n\x09 * In both case, GameplayAbilities configured to be activated on granted will only activate on server and typically have\n\x09 * a Net Execution Policy of Server Only.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, the ability will be automatically activated as soon as it is granted.\n\nYou can either implement one-off Abilities that are meant to be activated right away when granted,\nor \"Passive Abilities\" with this, an ability that automatically activates and run continuously (eg. not calling EndAbility)\n\nIn both case, GameplayAbilities configured to be activated on granted will only activate on server and typically have\na Net Execution Policy of Server Only." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bActivateOnGranted_SetBit(void* Obj)
@@ -429,9 +457,13 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bEnableAbilityQueue_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Enable other abilities to be queued and activated when this ability ends.\n\x09 *\n\x09 * It is recommended to leave this variable to false, and instead use the AbilityQueueNotifyState (AbilityQueueWindow)\n\x09 * within montages to further tune when the Queue System is opened and closed.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable other abilities to be queued and activated when this ability ends.\n\nIt is recommended to leave this variable to false, and instead use the AbilityQueueNotifyState (AbilityQueueWindow)\nwithin montages to further tune when the Queue System is opened and closed." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bEnableAbilityQueue_SetBit(void* Obj)
@@ -439,23 +471,31 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 		((UGSCGameplayAbility*)Obj)->bEnableAbilityQueue = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bEnableAbilityQueue = { "bEnableAbilityQueue", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UGSCGameplayAbility), &Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bEnableAbilityQueue_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bEnableAbilityQueue_MetaData), Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_bEnableAbilityQueue_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap_ValueProp = { "EffectContainerMap", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FGSCGameplayEffectContainer, METADATA_PARAMS(0, nullptr) }; // 2303381232
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap_ValueProp = { "EffectContainerMap", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FGSCGameplayEffectContainer, METADATA_PARAMS(0, nullptr) }; // 1057264585
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap_Key_KeyProp = { "EffectContainerMap_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGameplayTag, METADATA_PARAMS(0, nullptr) }; // 2083603574
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap_MetaData[] = {
 		{ "Category", "GameplayEffects" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Map of gameplay tags to gameplay effect containers */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Map of gameplay tags to gameplay effect containers" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap = { "EffectContainerMap", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameplayAbility, EffectContainerMap), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap_MetaData), Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap_MetaData) }; // 2083603574 2303381232
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap = { "EffectContainerMap", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameplayAbility, EffectContainerMap), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap_MetaData), Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_EffectContainerMap_MetaData) }; // 2083603574 1057264585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_OnAbilityEnded_MetaData[] = {
 		{ "Category", "GAS Companion|Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Called when the ability ends.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCGameplayAbility.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called when the ability ends." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_OnAbilityEnded = { "OnAbilityEnded", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameplayAbility, OnAbilityEnded), Z_Construct_UDelegateFunction_GASCompanion_OnAbilityEnded__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_OnAbilityEnded_MetaData), Z_Construct_UClass_UGSCGameplayAbility_Statics::NewProp_OnAbilityEnded_MetaData) }; // 897371333
@@ -501,15 +541,15 @@ void FOnAbilityEnded_DelegateWrapper(const FMulticastScriptDelegate& OnAbilityEn
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCGameplayAbility);
 	UGSCGameplayAbility::~UGSCGameplayAbility() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCGameplayAbility, UGSCGameplayAbility::StaticClass, TEXT("UGSCGameplayAbility"), &Z_Registration_Info_UClass_UGSCGameplayAbility, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameplayAbility), 1430464679U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCGameplayAbility, UGSCGameplayAbility::StaticClass, TEXT("UGSCGameplayAbility"), &Z_Registration_Info_UClass_UGSCGameplayAbility, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameplayAbility), 4017966996U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_1652914009(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_1624195283(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCGameplayAbility_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

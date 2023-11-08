@@ -51,20 +51,28 @@ void EmptyLinkFunctionForGeneratedCodeGSCAbilityQueueNotifyState() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityQueueNotifyState_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilityQueueNotifyState_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Use this notify state to open and close the ability queue window for your montage.\n *\n * If this montage is triggered from within a Gameplay Ability, any ability that is failing to\n * activate during this window will be queued for activation when the current active one ends.\n */" },
+#endif
 		{ "DisplayName", "AbilityQueueWindow" },
 		{ "HideCategories", "Object" },
 		{ "IncludePath", "Animations/GSCAbilityQueueNotifyState.h" },
 		{ "ModuleRelativePath", "Public/Animations/GSCAbilityQueueNotifyState.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use this notify state to open and close the ability queue window for your montage.\n\nIf this montage is triggered from within a Gameplay Ability, any ability that is failing to\nactivate during this window will be queued for activation when the current active one ends." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilityQueueNotifyState_Statics::NewProp_bAllowAllAbilities_MetaData[] = {
 		{ "Category", "AnimNotify" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * If true, enable queueing of all abilities, otherwise only allow Abilities that are defined in AllowedAbilities array.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Animations/GSCAbilityQueueNotifyState.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, enable queueing of all abilities, otherwise only allow Abilities that are defined in AllowedAbilities array." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCAbilityQueueNotifyState_Statics::NewProp_bAllowAllAbilities_SetBit(void* Obj)
@@ -76,9 +84,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCAbilityQueueNotifyState() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilityQueueNotifyState_Statics::NewProp_AllowedAbilities_MetaData[] = {
 		{ "Category", "AnimNotify" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The set of Abilities that can be queued for this window (has no effect if bAllowAllAbilities is set to true)\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Animations/GSCAbilityQueueNotifyState.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The set of Abilities that can be queued for this window (has no effect if bAllowAllAbilities is set to true)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilityQueueNotifyState_Statics::NewProp_AllowedAbilities = { "AllowedAbilities", nullptr, (EPropertyFlags)0x0014000000000015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilityQueueNotifyState, AllowedAbilities), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityQueueNotifyState_Statics::NewProp_AllowedAbilities_MetaData), Z_Construct_UClass_UGSCAbilityQueueNotifyState_Statics::NewProp_AllowedAbilities_MetaData) };
@@ -121,15 +133,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCAbilityQueueNotifyState() {}
 	UGSCAbilityQueueNotifyState::UGSCAbilityQueueNotifyState(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCAbilityQueueNotifyState);
 	UGSCAbilityQueueNotifyState::~UGSCAbilityQueueNotifyState() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCAbilityQueueNotifyState, UGSCAbilityQueueNotifyState::StaticClass, TEXT("UGSCAbilityQueueNotifyState"), &Z_Registration_Info_UClass_UGSCAbilityQueueNotifyState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAbilityQueueNotifyState), 367134629U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCAbilityQueueNotifyState, UGSCAbilityQueueNotifyState::StaticClass, TEXT("UGSCAbilityQueueNotifyState"), &Z_Registration_Info_UClass_UGSCAbilityQueueNotifyState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAbilityQueueNotifyState), 3278198284U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_4111792604(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_2732930166(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCAbilityQueueNotifyState_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

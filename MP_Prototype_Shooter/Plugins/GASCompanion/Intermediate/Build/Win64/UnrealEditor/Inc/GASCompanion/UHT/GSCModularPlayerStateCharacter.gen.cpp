@@ -42,13 +42,17 @@ void EmptyLinkFunctionForGeneratedCodeGSCModularPlayerStateCharacter() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGSCModularPlayerStateCharacter_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Minimal class that supports extension by game feature plugins.\n *\n * Intended to be used for ACharacters using AbilitySystemComponent living on PlayerState.\n */" },
+#endif
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "ModularGameplayActors/GSCModularPlayerStateCharacter.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/ModularGameplayActors/GSCModularPlayerStateCharacter.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Minimal class that supports extension by game feature plugins.\n\nIntended to be used for ACharacters using AbilitySystemComponent living on PlayerState." },
+#endif
 	};
 #endif
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AGSCModularPlayerStateCharacter_Statics::InterfaceParams[] = {
@@ -88,15 +92,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCModularPlayerStateCharacter() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGSCModularPlayerStateCharacter);
 	AGSCModularPlayerStateCharacter::~AGSCModularPlayerStateCharacter() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AGSCModularPlayerStateCharacter, AGSCModularPlayerStateCharacter::StaticClass, TEXT("AGSCModularPlayerStateCharacter"), &Z_Registration_Info_UClass_AGSCModularPlayerStateCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGSCModularPlayerStateCharacter), 4003804277U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AGSCModularPlayerStateCharacter, AGSCModularPlayerStateCharacter::StaticClass, TEXT("AGSCModularPlayerStateCharacter"), &Z_Registration_Info_UClass_AGSCModularPlayerStateCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGSCModularPlayerStateCharacter), 3044500869U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_1159954775(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_884671889(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularPlayerStateCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
