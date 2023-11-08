@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/dev/Documents/Unreal Projects/MP_Prototype_shooter/MP_Prototype_Shooter/Content/ThirdPerson/GAS_Stuff/DT_PlayerStats.uasset",
+				"C:/Users/dev/Documents/Unreal Projects/MP_Prototype_shooter/MP_Prototype_Shooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/dev/Documents/Unreal Projects/MP_Prototype_shooter/MP_Prototype_Shooter/Content/ThirdPerson/Blueprints/BP_PlayerController.uasset",
+				"C:/Users/dev/Documents/Unreal Projects/MP_Prototype_shooter/MP_Prototype_Shooter/Content/ThirdPerson/GAS_Stuff/BP_PlayerState.uasset",
+				"C:/Users/dev/Documents/Unreal Projects/MP_Prototype_shooter/MP_Prototype_Shooter/Content/ThirdPerson/Blueprints/BP_PlayerCharacter.uasset",
+				"C:/Users/dev/Documents/Unreal Projects/MP_Prototype_shooter/MP_Prototype_Shooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/dev/Documents/Unreal Projects/MP_Prototype_shooter/MP_Prototype_Shooter/Content/ThirdPerson/Blueprints/BP_ThirdPersoCharacter.uasset",
+				"C:/Users/dev/Documents/Unreal Projects/MP_Prototype_shooter/MP_Prototype_Shooter/Content/ThirdPerson/Blueprints/BP_BaseCharacter.uasset"
+			]
+		}
+	]
+}
