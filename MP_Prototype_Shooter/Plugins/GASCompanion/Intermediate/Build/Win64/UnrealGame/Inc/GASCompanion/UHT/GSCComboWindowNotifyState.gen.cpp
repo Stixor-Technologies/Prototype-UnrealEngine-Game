@@ -44,19 +44,27 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboWindowNotifyState() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCComboWindowNotifyState_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCComboWindowNotifyState_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Use this notify state to open a combo window during witch the player can queue up the next combo by activating the ability again.\n *\n * Don't forget to set the `bEndCombo` property to true on this notifier if the montage is the last one of your combo chain.\n */" },
+#endif
 		{ "HideCategories", "Object" },
 		{ "IncludePath", "Animations/GSCComboWindowNotifyState.h" },
 		{ "ModuleRelativePath", "Public/Animations/GSCComboWindowNotifyState.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use this notify state to open a combo window during witch the player can queue up the next combo by activating the ability again.\n\nDon't forget to set the `bEndCombo` property to true on this notifier if the montage is the last one of your combo chain." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCComboWindowNotifyState_Statics::NewProp_bEndCombo_MetaData[] = {
 		{ "Category", "AnimNotify" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether this montage is ending a combo (last montage in the combo chain) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Animations/GSCComboWindowNotifyState.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether this montage is ending a combo (last montage in the combo chain)" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCComboWindowNotifyState_Statics::NewProp_bEndCombo_SetBit(void* Obj)
@@ -101,15 +109,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCComboWindowNotifyState() {}
 	UGSCComboWindowNotifyState::UGSCComboWindowNotifyState(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCComboWindowNotifyState);
 	UGSCComboWindowNotifyState::~UGSCComboWindowNotifyState() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCComboWindowNotifyState, UGSCComboWindowNotifyState::StaticClass, TEXT("UGSCComboWindowNotifyState"), &Z_Registration_Info_UClass_UGSCComboWindowNotifyState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCComboWindowNotifyState), 1219105366U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCComboWindowNotifyState, UGSCComboWindowNotifyState::StaticClass, TEXT("UGSCComboWindowNotifyState"), &Z_Registration_Info_UClass_UGSCComboWindowNotifyState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCComboWindowNotifyState), 1471754971U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_1777412329(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_391379(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Animations_GSCComboWindowNotifyState_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

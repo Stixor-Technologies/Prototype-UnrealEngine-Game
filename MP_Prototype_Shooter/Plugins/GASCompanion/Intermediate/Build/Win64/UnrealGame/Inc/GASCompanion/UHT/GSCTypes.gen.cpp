@@ -51,13 +51,17 @@ void EmptyLinkFunctionForGeneratedCodeGSCTypes() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Enum listing all possible ability activation input trigger event. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCTypes.h" },
 		{ "Started.Comment", "/** The most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button. */" },
 		{ "Started.DisplayName", "Activate on Action Started (recommended)" },
 		{ "Started.Name", "EGSCAbilityTriggerEvent::Started" },
 		{ "Started.ToolTip", "The most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enum listing all possible ability activation input trigger event." },
+#endif
 		{ "Triggered.Comment", "/**\n\x09 * Triggered for continuous actions that happen every frame while holding an input\n\x09 *\n\x09 * Warning: This value should only be used for Input Actions that you know only trigger once. If your action\n\x09 * triggered event happens on every tick, this might lead to issues with ability activation (since you'll be\n\x09 * trying to activate abilities every frame). When in doubt, use the default Started value.\n\x09 */" },
 		{ "Triggered.DisplayName", "Activate on Action Triggered (use with caution)" },
 		{ "Triggered.Name", "EGSCAbilityTriggerEvent::Triggered" },
@@ -131,9 +135,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectContai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n* Struct defining a list of gameplay effects, a tag, and targeting info\n*\n* These containers are defined statically in blueprints or assets and then turn into Specs at runtime\n*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Struct defining a list of gameplay effects, a tag, and targeting info\n\nThese containers are defined statically in blueprints or assets and then turn into Specs at runtime" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewStructOps()
@@ -143,9 +151,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectContai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewProp_TargetType_MetaData[] = {
 		{ "Category", "GameplayEffectContainer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets the way that targeting happens */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the way that targeting happens" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewProp_TargetType = { "TargetType", nullptr, (EPropertyFlags)0x0014000000000015, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectContainer, TargetType), Z_Construct_UClass_UClass, Z_Construct_UClass_UGSCTargetType_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewProp_TargetType_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewProp_TargetType_MetaData) };
@@ -153,9 +165,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectContai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewProp_TargetGameplayEffectClasses_MetaData[] = {
 		{ "Category", "GameplayEffectContainer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of gameplay effects to apply to the targets */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of gameplay effects to apply to the targets" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewProp_TargetGameplayEffectClasses = { "TargetGameplayEffectClasses", nullptr, (EPropertyFlags)0x0014000000000015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectContainer, TargetGameplayEffectClasses), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewProp_TargetGameplayEffectClasses_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewProp_TargetGameplayEffectClasses_MetaData) };
@@ -248,9 +264,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectContai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** A \"processed\" version of GSCGameplayEffectContainer that can be passed around and eventually applied */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A \"processed\" version of GSCGameplayEffectContainer that can be passed around and eventually applied" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewStructOps()
@@ -260,9 +280,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectContai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewProp_TargetData_MetaData[] = {
 		{ "Category", "GameplayEffectContainer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Computed target data */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Computed target data" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewProp_TargetData = { "TargetData", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectContainerSpec, TargetData), Z_Construct_UScriptStruct_FGameplayAbilityTargetDataHandle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewProp_TargetData_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewProp_TargetData_MetaData) }; // 3419327209
@@ -270,9 +294,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectContai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewProp_TargetGameplayEffectSpecs_MetaData[] = {
 		{ "Category", "GameplayEffectContainer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of gameplay effects to apply to the targets */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of gameplay effects to apply to the targets" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewProp_TargetGameplayEffectSpecs = { "TargetGameplayEffectSpecs", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameplayEffectContainerSpec, TargetGameplayEffectSpecs), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewProp_TargetGameplayEffectSpecs_MetaData), Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewProp_TargetGameplayEffectSpecs_MetaData) }; // 2882128022
@@ -303,20 +331,20 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameplayEffectContai
 		}
 		return Z_Registration_Info_UScriptStruct_GSCGameplayEffectContainerSpec.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::EnumInfo[] = {
-		{ EGSCAbilityTriggerEvent_StaticEnum, TEXT("EGSCAbilityTriggerEvent"), &Z_Registration_Info_UEnum_EGSCAbilityTriggerEvent, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1698390805U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::EnumInfo[] = {
+		{ EGSCAbilityTriggerEvent_StaticEnum, TEXT("EGSCAbilityTriggerEvent"), &Z_Registration_Info_UEnum_EGSCAbilityTriggerEvent, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2362312655U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::ScriptStructInfo[] = {
-		{ FGSCGameplayEffectContainer::StaticStruct, Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewStructOps, TEXT("GSCGameplayEffectContainer"), &Z_Registration_Info_UScriptStruct_GSCGameplayEffectContainer, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameplayEffectContainer), 2303381232U) },
-		{ FGSCGameplayEffectContainerSpec::StaticStruct, Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewStructOps, TEXT("GSCGameplayEffectContainerSpec"), &Z_Registration_Info_UScriptStruct_GSCGameplayEffectContainerSpec, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameplayEffectContainerSpec), 4192220786U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::ScriptStructInfo[] = {
+		{ FGSCGameplayEffectContainer::StaticStruct, Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics::NewStructOps, TEXT("GSCGameplayEffectContainer"), &Z_Registration_Info_UScriptStruct_GSCGameplayEffectContainer, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameplayEffectContainer), 1057264585U) },
+		{ FGSCGameplayEffectContainerSpec::StaticStruct, Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics::NewStructOps, TEXT("GSCGameplayEffectContainerSpec"), &Z_Registration_Info_UScriptStruct_GSCGameplayEffectContainerSpec, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameplayEffectContainerSpec), 2872509900U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_652566222(TEXT("/Script/GASCompanion"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_1951598606(TEXT("/Script/GASCompanion"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

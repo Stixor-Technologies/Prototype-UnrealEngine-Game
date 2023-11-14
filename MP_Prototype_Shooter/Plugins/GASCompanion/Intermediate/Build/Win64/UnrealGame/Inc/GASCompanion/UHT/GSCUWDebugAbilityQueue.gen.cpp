@@ -82,7 +82,9 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWDebugAbilityQueue() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n *\n */" },
+#endif
 		{ "IncludePath", "UI/GSCUWDebugAbilityQueue.h" },
 		{ "ModuleRelativePath", "Public/UI/GSCUWDebugAbilityQueue.h" },
 	};
@@ -90,9 +92,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWDebugAbilityQueue() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_ClearFromMontageDelay_MetaData[] = {
 		{ "Category", "GAS Companion|UserWidget" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The amount of time (in seconds) that \"From Montage\" rows stay on screen\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/GSCUWDebugAbilityQueue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The amount of time (in seconds) that \"From Montage\" rows stay on screen" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_ClearFromMontageDelay = { "ClearFromMontageDelay", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCUWDebugAbilityQueue, ClearFromMontageDelay), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_ClearFromMontageDelay_MetaData), Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_ClearFromMontageDelay_MetaData) };
@@ -136,10 +142,14 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWDebugAbilityQueue() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_AllowedAbilityTemplateText_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Convenience TextBlock that serves as a \"template\" for allowed abilities row,\n\x09 * so that we can customize its styling in Blueprints (font size, color, etc.)\n\x09 */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/UI/GSCUWDebugAbilityQueue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Convenience TextBlock that serves as a \"template\" for allowed abilities row,\nso that we can customize its styling in Blueprints (font size, color, etc.)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_AllowedAbilityTemplateText = { "AllowedAbilityTemplateText", nullptr, (EPropertyFlags)0x002408000008001c, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCUWDebugAbilityQueue, AllowedAbilityTemplateText), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_AllowedAbilityTemplateText_MetaData), Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_AllowedAbilityTemplateText_MetaData) };
@@ -147,10 +157,14 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWDebugAbilityQueue() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_AbilityQueueFromMontageTemplateText_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "Category", "GAS Companion|UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Convenience TextBlock that serves as a \"template\" for ability queue from montages row,\n\x09 * so that we can customize its styling in Blueprints (font size, color, etc.)\n\x09 */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/UI/GSCUWDebugAbilityQueue.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Convenience TextBlock that serves as a \"template\" for ability queue from montages row,\nso that we can customize its styling in Blueprints (font size, color, etc.)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_AbilityQueueFromMontageTemplateText = { "AbilityQueueFromMontageTemplateText", nullptr, (EPropertyFlags)0x002408000008001c, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCUWDebugAbilityQueue, AbilityQueueFromMontageTemplateText), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_AbilityQueueFromMontageTemplateText_MetaData), Z_Construct_UClass_UGSCUWDebugAbilityQueue_Statics::NewProp_AbilityQueueFromMontageTemplateText_MetaData) };
@@ -227,15 +241,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCUWDebugAbilityQueue() {}
 	UGSCUWDebugAbilityQueue::UGSCUWDebugAbilityQueue(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCUWDebugAbilityQueue);
 	UGSCUWDebugAbilityQueue::~UGSCUWDebugAbilityQueue() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCUWDebugAbilityQueue, UGSCUWDebugAbilityQueue::StaticClass, TEXT("UGSCUWDebugAbilityQueue"), &Z_Registration_Info_UClass_UGSCUWDebugAbilityQueue, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCUWDebugAbilityQueue), 3379647710U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCUWDebugAbilityQueue, UGSCUWDebugAbilityQueue::StaticClass, TEXT("UGSCUWDebugAbilityQueue"), &Z_Registration_Info_UClass_UGSCUWDebugAbilityQueue, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCUWDebugAbilityQueue), 207360754U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_3494899706(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_638159540(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_UI_GSCUWDebugAbilityQueue_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

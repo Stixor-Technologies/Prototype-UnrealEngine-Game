@@ -56,13 +56,17 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphProjectSettings() {}
 		{ "Both.DisplayName", "Draw both Vertical and Horizontal pins" },
 		{ "Both.Name", "EComboGraphDrawPinTypes::Both" },
 		{ "Both.ToolTip", "Setup Event" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Not used right now but might be. Default behavior is render both */" },
+#endif
 		{ "Horizontal.Comment", "/** Update Event */" },
 		{ "Horizontal.DisplayName", "Draw only Left and Right pins" },
 		{ "Horizontal.Name", "EComboGraphDrawPinTypes::Horizontal" },
 		{ "Horizontal.ToolTip", "Update Event" },
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Not used right now but might be. Default behavior is render both" },
+#endif
 		{ "Vertical.Comment", "/** None - invalid */" },
 		{ "Vertical.DisplayName", "Draw only Top and Bottom pins" },
 		{ "Vertical.Name", "EComboGraphDrawPinTypes::Vertical" },
@@ -190,27 +194,39 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphProjectSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_MontageNodeColor_MetaData[] = {
 		{ "Category", "Colors" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Default background color for Montage nodes */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Default background color for Montage nodes" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_MontageNodeColor = { "MontageNodeColor", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, MontageNodeColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_MontageNodeColor_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_MontageNodeColor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_SequenceNodeColor_MetaData[] = {
 		{ "Category", "Colors" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Default background color for Sequence nodes */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Default background color for Sequence nodes" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_SequenceNodeColor = { "SequenceNodeColor", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, SequenceNodeColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_SequenceNodeColor_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_SequenceNodeColor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DebugActiveColor_MetaData[] = {
 		{ "Category", "Colors" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Default background color for combo nodes in active states (during debug) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Default background color for combo nodes in active states (during debug)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DebugActiveColor = { "DebugActiveColor", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, DebugActiveColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DebugActiveColor_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DebugActiveColor_MetaData) };
@@ -218,27 +234,39 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphProjectSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DebugFadeTime_MetaData[] = {
 		{ "Category", "Debug" },
 		{ "ClampMin", "0.0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The duration used to interpolate the background color of nodes from Active to Default color when active states change (no longer active during debug).\n\x09 *\n\x09 * If set to 0.0, will disable color interpolation.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The duration used to interpolate the background color of nodes from Active to Default color when active states change (no longer active during debug).\n\nIf set to 0.0, will disable color interpolation." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DebugFadeTime = { "DebugFadeTime", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, DebugFadeTime), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DebugFadeTime_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DebugFadeTime_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContentMargin_MetaData[] = {
 		{ "Category", "Size & Paddings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The padding around the main node box. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The padding around the main node box." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContentMargin = { "ContentMargin", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, ContentMargin), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContentMargin_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContentMargin_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContentInternalPadding_MetaData[] = {
 		{ "Category", "Size & Paddings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The padding within the main node box. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The padding within the main node box." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContentInternalPadding = { "ContentInternalPadding", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, ContentInternalPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContentInternalPadding_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContentInternalPadding_MetaData) }; // 2235102396
@@ -246,9 +274,13 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphProjectSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_PinSize_MetaData[] = {
 		{ "Category", "Size & Paddings" },
 		{ "ClampMin", "20.0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The minimum desired sizes for pin connections. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The minimum desired sizes for pin connections." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_PinSize = { "PinSize", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, PinSize), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_PinSize_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_PinSize_MetaData) };
@@ -256,28 +288,40 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphProjectSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_PinPadding_MetaData[] = {
 		{ "Category", "Size & Paddings" },
 		{ "ClampMin", "0.0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The minimum amount of padding to draw around pin connections. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The minimum amount of padding to draw around pin connections." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_PinPadding = { "PinPadding", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, PinPadding), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_PinPadding_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_PinPadding_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContextMapping_MetaData[] = {
 		{ "Category", "Icons" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Enhanced Input Context Mapping to use to draw edge (transition) icons in Graphs */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enhanced Input Context Mapping to use to draw edge (transition) icons in Graphs" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContextMapping = { "ContextMapping", nullptr, (EPropertyFlags)0x0014000000004001, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, ContextMapping), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContextMapping_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_ContextMapping_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconsDataTable_MetaData[] = {
 		{ "Category", "Icons" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Path to the DataTable used to draw edge (transition) icons in Graph. Determine mappings between Keys and Icon textures.\n\x09 *\n\x09 * This is set by default to an internal DataTables (that you can find in `/ComboGraph/Xelu_Icons/`) that setup texture icons for every keyboard and gamepad key.\n\x09 *\n\x09 * Icons are coming from Xelu's Free Controllers & Keyboard Prompts: https://thoseawesomeguys.com/prompts/\n\x09 * Thanks to \"Nicolae (Xelu) Berbece\" and \"Those Awesome Guys\" to make it available in the public domain licence under Creative Commons 0 (CC0)\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
 		{ "RequiredAssetDataTags", "RowStructure=/Script/ComboGraphEditor.ComboGraphInputsMetaData" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Path to the DataTable used to draw edge (transition) icons in Graph. Determine mappings between Keys and Icon textures.\n\nThis is set by default to an internal DataTables (that you can find in `/ComboGraph/Xelu_Icons/`) that setup texture icons for every keyboard and gamepad key.\n\nIcons are coming from Xelu's Free Controllers & Keyboard Prompts: https://thoseawesomeguys.com/prompts/\nThanks to \"Nicolae (Xelu) Berbece\" and \"Those Awesome Guys\" to make it available in the public domain licence under Creative Commons 0 (CC0)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconsDataTable = { "IconsDataTable", nullptr, (EPropertyFlags)0x0014000000014001, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, IconsDataTable), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconsDataTable_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconsDataTable_MetaData) };
@@ -285,9 +329,13 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphProjectSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconPreference_MetaData[] = {
 		{ "Category", "Icons" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Icon preference to draw edge (transition) icons in Graph. Can be either Keyboard or Gamepad based */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Icon preference to draw edge (transition) icons in Graph. Can be either Keyboard or Gamepad based" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconPreference = { "IconPreference", nullptr, (EPropertyFlags)0x0010000000014001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, IconPreference), Z_Construct_UEnum_ComboGraph_EComboGraphIconType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconPreference_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconPreference_MetaData) }; // 3757666852
@@ -296,38 +344,54 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphProjectSettings() {}
 		{ "Category", "Icons" },
 		{ "ClampMax", "100.0" },
 		{ "ClampMin", "0.0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Size of Icons when drawing edges (transitions) in Combo Graphs */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Size of Icons when drawing edges (transitions) in Combo Graphs" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconSize = { "IconSize", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, IconSize), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconSize_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_IconSize_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DynamicMontageSlotName_MetaData[] = {
 		{ "Category", "Auto Setup" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The Slot Name to use with dynamic montages, created from sequences */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Slot Name to use with dynamic montages, created from sequences" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DynamicMontageSlotName = { "DynamicMontageSlotName", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, DynamicMontageSlotName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DynamicMontageSlotName_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_DynamicMontageSlotName_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates_ValueProp = { "NotifyStates", nullptr, (EPropertyFlags)0x0000000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FComboGraphNotifyStateAutoSetup, METADATA_PARAMS(0, nullptr) }; // 3161310068
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates_ValueProp = { "NotifyStates", nullptr, (EPropertyFlags)0x0000000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FComboGraphNotifyStateAutoSetup, METADATA_PARAMS(0, nullptr) }; // 3709733393
 	const UECodeGen_Private::FSoftClassPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates_Key_KeyProp = { "NotifyStates_Key", nullptr, (EPropertyFlags)0x0004000000004001, UECodeGen_Private::EPropertyGenFlags::SoftClass, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UAnimNotifyState_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates_MetaData[] = {
 		{ "Category", "Auto Setup" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Map of Auto Setup Animation Notify States. The key is the Anim Notify State class, the value is the time start / end definition in percent */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Map of Auto Setup Animation Notify States. The key is the Anim Notify State class, the value is the time start / end definition in percent" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates = { "NotifyStates", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, NotifyStates), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates_MetaData) }; // 3161310068
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates = { "NotifyStates", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphProjectSettings, NotifyStates), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_NotifyStates_MetaData) }; // 3709733393
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_bSequencesNetworkedWarning_MetaData[] = {
 		{ "Category", "Warnings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Flag to enable / disable message warnings (logs and on screen) about Sequences being used in a networked environment */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Flag to enable / disable message warnings (logs and on screen) about Sequences being used in a networked environment" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_bSequencesNetworkedWarning_SetBit(void* Obj)
@@ -337,9 +401,13 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphProjectSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_bSequencesNetworkedWarning = { "bSequencesNetworkedWarning", nullptr, (EPropertyFlags)0x0010040000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UComboGraphProjectSettings), &Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_bSequencesNetworkedWarning_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_bSequencesNetworkedWarning_MetaData), Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_bSequencesNetworkedWarning_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_bIgnoreStartupValidationWarnings_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Flag to disable validation warnings on startup (about missing config for AbilitySystemGlobals). Config writable but not exposed in editor. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Settings/ComboGraphProjectSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Flag to disable validation warnings on startup (about missing config for AbilitySystemGlobals). Config writable but not exposed in editor." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UComboGraphProjectSettings_Statics::NewProp_bIgnoreStartupValidationWarnings_SetBit(void* Obj)
@@ -401,19 +469,19 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphProjectSettings() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UComboGraphProjectSettings);
 	UComboGraphProjectSettings::~UComboGraphProjectSettings() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::EnumInfo[] = {
-		{ EComboGraphDrawPinTypes_StaticEnum, TEXT("EComboGraphDrawPinTypes"), &Z_Registration_Info_UEnum_EComboGraphDrawPinTypes, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1628809221U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::EnumInfo[] = {
+		{ EComboGraphDrawPinTypes_StaticEnum, TEXT("EComboGraphDrawPinTypes"), &Z_Registration_Info_UEnum_EComboGraphDrawPinTypes, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 987034241U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UComboGraphProjectSettings, UComboGraphProjectSettings::StaticClass, TEXT("UComboGraphProjectSettings"), &Z_Registration_Info_UClass_UComboGraphProjectSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphProjectSettings), 1706716543U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UComboGraphProjectSettings, UComboGraphProjectSettings::StaticClass, TEXT("UComboGraphProjectSettings"), &Z_Registration_Info_UClass_UComboGraphProjectSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphProjectSettings), 853833929U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_430960817(TEXT("/Script/ComboGraph"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_3118842742(TEXT("/Script/ComboGraph"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Settings_ComboGraphProjectSettings_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

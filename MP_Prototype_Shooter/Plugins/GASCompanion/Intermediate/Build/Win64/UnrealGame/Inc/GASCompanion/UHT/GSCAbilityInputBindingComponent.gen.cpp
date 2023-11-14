@@ -176,9 +176,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearAbilityBindings_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Given an Enhanced Input Action, clears up input binding delegates (On Pressed and Released) and resets any abilities' (that were bound to that action) InputId to none. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Given an Enhanced Input Action, clears up input binding delegates (On Pressed and Released) and resets any abilities' (that were bound to that action) InputId to none." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearAbilityBindings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCAbilityInputBindingComponent, nullptr, "ClearAbilityBindings", nullptr, nullptr, Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearAbilityBindings_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearAbilityBindings_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearAbilityBindings_Statics::GSCAbilityInputBindingComponent_eventClearAbilityBindings_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearAbilityBindings_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearAbilityBindings_Statics::Function_MetaDataParams) };
@@ -213,9 +217,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearInputBinding_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Given a Gameplay Ability Spec handle (handle returned when granting abilities manually with GSCAbilitySystemComponent), clears up and reset the previously registered binding for that ability.  */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Given a Gameplay Ability Spec handle (handle returned when granting abilities manually with GSCAbilitySystemComponent), clears up and reset the previously registered binding for that ability." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearInputBinding_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCAbilityInputBindingComponent, nullptr, "ClearInputBinding", nullptr, nullptr, Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearInputBinding_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearInputBinding_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearInputBinding_Statics::GSCAbilityInputBindingComponent_eventClearInputBinding_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearInputBinding_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearInputBinding_Statics::Function_MetaDataParams) };
@@ -255,7 +263,7 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::NewProp_InTriggerEvent = { "InTriggerEvent", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilityInputBindingComponent_eventClientBindInput_Parms, InTriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::NewProp_InTriggerEvent_MetaData), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::NewProp_InTriggerEvent_MetaData) }; // 1698390805
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::NewProp_InTriggerEvent = { "InTriggerEvent", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilityInputBindingComponent_eventClientBindInput_Parms, InTriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::NewProp_InTriggerEvent_MetaData), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::NewProp_InTriggerEvent_MetaData) }; // 2362312655
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::NewProp_InAbilityHandle_MetaData[] = {
 		{ "NativeConst", "" },
@@ -270,9 +278,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Client RPC helper to associate an Input Action to an Ability Handle previously granted via ASC->GiveAbility() on Server, and setup the binding on client */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Client RPC helper to associate an Input Action to an Ability Handle previously granted via ASC->GiveAbility() on Server, and setup the binding on client" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCAbilityInputBindingComponent, nullptr, "ClientBindInput", nullptr, nullptr, Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::PropPointers), sizeof(GSCAbilityInputBindingComponent_eventClientBindInput_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x01020CC0, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput_Statics::Function_MetaDataParams) };
@@ -319,9 +331,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GetBoundInputActionForAbility_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Given a Gameplay Ability, returns the bound InputAction from mapped abilities (previously bound abilities) that matches the Ability Spec InputID.\n\x09 *\n\x09 * Designed to be called from within a Gameplay Ability event graph, passing self reference for the Gameplay Ability parameter.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Given a Gameplay Ability, returns the bound InputAction from mapped abilities (previously bound abilities) that matches the Ability Spec InputID.\n\nDesigned to be called from within a Gameplay Ability event graph, passing self reference for the Gameplay Ability parameter." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GetBoundInputActionForAbility_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCAbilityInputBindingComponent, nullptr, "GetBoundInputActionForAbility", nullptr, nullptr, Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GetBoundInputActionForAbility_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GetBoundInputActionForAbility_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GetBoundInputActionForAbility_Statics::GSCAbilityInputBindingComponent_eventGetBoundInputActionForAbility_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GetBoundInputActionForAbility_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GetBoundInputActionForAbility_Statics::Function_MetaDataParams) };
@@ -386,7 +402,7 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::NewProp_TriggerEvent = { "TriggerEvent", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilityInputBindingComponent_eventGiveAbilityWithInput_Parms, TriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::NewProp_TriggerEvent_MetaData), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::NewProp_TriggerEvent_MetaData) }; // 1698390805
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::NewProp_TriggerEvent = { "TriggerEvent", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilityInputBindingComponent_eventGiveAbilityWithInput_Parms, TriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::NewProp_TriggerEvent_MetaData), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::NewProp_TriggerEvent_MetaData) }; // 2362312655
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilityInputBindingComponent_eventGiveAbilityWithInput_Parms, ReturnValue), Z_Construct_UScriptStruct_FGameplayAbilitySpecHandle, METADATA_PARAMS(0, nullptr) }; // 839298412
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::NewProp_Ability,
@@ -399,12 +415,16 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Grants a given Gameplay Ability to the Owner ASC, with an optional Input Action / Trigger Event to setup the ability binding.\n\x09 *\n\x09 * Simply calls ASC->GiveAbility() (on Server) and binds the input on client.\n\x09 *\n\x09 * This method is meant to run on Authority (must be called from server).\n\x09 *\n\x09 * During Pawn initialization, if you'd like to grant a list of abilities manually with this method, the typical place to do so is:\n\x09 *\n\x09 * - For non Player State pawns: On Pawn OnPossessed event\n\x09 * - For Player State pawns: OnInitAbilityActorInfo on Authority\n\x09 * \n\x09 * Doing so, you ensure both ASC and InputComponent are available to both grant the ability, and setup the ability input binding.\n\x09 *\n\x09 * @param Ability The Gameplay Ability class to grant\n\x09 * @param Level Level to grant the ability at\n\x09 * @param InputAction An optional Input Action to bind the ability to (optional: can be null)\n\x09 * @param TriggerEvent When an Input Action is defined, which determine the Input Action event to use to try activation (default should be On Started)\n\x09 * \n\x09 * @return The Gameplay Ability Spec handle that can be used to remove the Ability later on, and / or clear input binding.\n\x09 */" },
+#endif
 		{ "CPP_Default_InputAction", "None" },
 		{ "CPP_Default_Level", "1" },
 		{ "CPP_Default_TriggerEvent", "Started" },
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Grants a given Gameplay Ability to the Owner ASC, with an optional Input Action / Trigger Event to setup the ability binding.\n\nSimply calls ASC->GiveAbility() (on Server) and binds the input on client.\n\nThis method is meant to run on Authority (must be called from server).\n\nDuring Pawn initialization, if you'd like to grant a list of abilities manually with this method, the typical place to do so is:\n\n- For non Player State pawns: On Pawn OnPossessed event\n- For Player State pawns: OnInitAbilityActorInfo on Authority\n\nDoing so, you ensure both ASC and InputComponent are available to both grant the ability, and setup the ability input binding.\n\n@param Ability The Gameplay Ability class to grant\n@param Level Level to grant the ability at\n@param InputAction An optional Input Action to bind the ability to (optional: can be null)\n@param TriggerEvent When an Input Action is defined, which determine the Input Action event to use to try activation (default should be On Started)\n\n@return The Gameplay Ability Spec handle that can be used to remove the Ability later on, and / or clear input binding." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCAbilityInputBindingComponent, nullptr, "GiveAbilityWithInput", nullptr, nullptr, Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::GSCAbilityInputBindingComponent_eventGiveAbilityWithInput_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020405, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput_Statics::Function_MetaDataParams) };
@@ -439,7 +459,7 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::NewProp_InputAction = { "InputAction", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilityInputBindingComponent_eventSetInputBinding_Parms, InputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::NewProp_TriggerEvent_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::NewProp_TriggerEvent = { "TriggerEvent", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilityInputBindingComponent_eventSetInputBinding_Parms, TriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(0, nullptr) }; // 1698390805
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::NewProp_TriggerEvent = { "TriggerEvent", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilityInputBindingComponent_eventSetInputBinding_Parms, TriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(0, nullptr) }; // 2362312655
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::NewProp_AbilityHandle = { "AbilityHandle", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilityInputBindingComponent_eventSetInputBinding_Parms, AbilityHandle), Z_Construct_UScriptStruct_FGameplayAbilitySpecHandle, METADATA_PARAMS(0, nullptr) }; // 839298412
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::NewProp_InputAction,
@@ -450,9 +470,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Updates the Ability Input Binding Component registered bindings or create a new one for the passed in Ability Handle.\n\x09 *\n\x09 * @param InputAction The Enhanced InputAction to bind to\n\x09 * @param TriggerEvent The trigger type to use for the ability pressed handle. The most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button.\n\x09 * @param AbilityHandle The Gameplay Ability Spec handle to setup binding for (handle returned when granting abilities manually with GSCAbilitySystemComponent)\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates the Ability Input Binding Component registered bindings or create a new one for the passed in Ability Handle.\n\n@param InputAction The Enhanced InputAction to bind to\n@param TriggerEvent The trigger type to use for the ability pressed handle. The most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button.\n@param AbilityHandle The Gameplay Ability Spec handle to setup binding for (handle returned when granting abilities manually with GSCAbilitySystemComponent)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCAbilityInputBindingComponent, nullptr, "SetInputBinding", nullptr, nullptr, Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::GSCAbilityInputBindingComponent_eventSetInputBinding_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding_Statics::Function_MetaDataParams) };
@@ -517,32 +541,40 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearAbilityBindings, "ClearAbilityBindings" }, // 1274712115
-		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearInputBinding, "ClearInputBinding" }, // 250527493
-		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput, "ClientBindInput" }, // 1066282013
-		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GetBoundInputActionForAbility, "GetBoundInputActionForAbility" }, // 2956411062
-		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput, "GiveAbilityWithInput" }, // 2211184250
-		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding, "SetInputBinding" }, // 3587446294
+		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearAbilityBindings, "ClearAbilityBindings" }, // 3916298284
+		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClearInputBinding, "ClearInputBinding" }, // 745252124
+		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_ClientBindInput, "ClientBindInput" }, // 2848376554
+		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GetBoundInputActionForAbility, "GetBoundInputActionForAbility" }, // 2283424727
+		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_GiveAbilityWithInput, "GiveAbilityWithInput" }, // 2482568369
+		{ &Z_Construct_UFunction_UGSCAbilityInputBindingComponent_SetInputBinding, "SetInputBinding" }, // 569185040
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "GASCompanion" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Modular pawn component that hooks up enhanced input to the ability system input logic\n *\n * Extends from GSCPlayerControlsComponent, so if your Pawn is dealing with Abilities use this component instead.\n */" },
+#endif
 		{ "HideCategories", "Trigger PhysicsVolume" },
 		{ "IncludePath", "Components/GSCAbilityInputBindingComponent.h" },
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Modular pawn component that hooks up enhanced input to the ability system input logic\n\nExtends from GSCPlayerControlsComponent, so if your Pawn is dealing with Abilities use this component instead." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetInputConfirm_MetaData[] = {
 		{ "Category", "Player Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Input action to handle Target Confirm for ASC */" },
+#endif
 		{ "DisplayAfter", "InputPriority" },
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Input action to handle Target Confirm for ASC" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetInputConfirm = { "TargetInputConfirm", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilityInputBindingComponent, TargetInputConfirm), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetInputConfirm_MetaData), Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetInputConfirm_MetaData) };
@@ -550,22 +582,30 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetConfirmTriggerEvent_MetaData[] = {
 		{ "Category", "Player Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The EnhancedInput Trigger Event type to use for the target confirm input.\n\x09 *\n\x09 * ---\n\x09 *\n\x09 * The most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button,\n\x09 * and Triggered for continuous actions that happen every frame while holding an input\n\x09 *\n\x09 * Warning: The Triggered value should only be used for Input Actions that you know only trigger once. If your action\n\x09 * triggered event happens on every tick, this might lead to issues with abilities. When in doubt, use the default Started value.\n\x09 */" },
+#endif
 		{ "DisplayAfter", "InputPriority" },
 		{ "EditCondition", "TargetInputConfirm != nullptr" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The EnhancedInput Trigger Event type to use for the target confirm input.\n\n---\n\nThe most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button,\nand Triggered for continuous actions that happen every frame while holding an input\n\nWarning: The Triggered value should only be used for Input Actions that you know only trigger once. If your action\ntriggered event happens on every tick, this might lead to issues with abilities. When in doubt, use the default Started value." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetConfirmTriggerEvent = { "TargetConfirmTriggerEvent", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilityInputBindingComponent, TargetConfirmTriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetConfirmTriggerEvent_MetaData), Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetConfirmTriggerEvent_MetaData) }; // 1698390805
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetConfirmTriggerEvent = { "TargetConfirmTriggerEvent", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilityInputBindingComponent, TargetConfirmTriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetConfirmTriggerEvent_MetaData), Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetConfirmTriggerEvent_MetaData) }; // 2362312655
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetInputCancel_MetaData[] = {
 		{ "Category", "Player Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Input action to handle Target Cancel for ASC */" },
+#endif
 		{ "DisplayAfter", "InputPriority" },
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Input action to handle Target Cancel for ASC" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetInputCancel = { "TargetInputCancel", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilityInputBindingComponent, TargetInputCancel), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetInputCancel_MetaData), Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetInputCancel_MetaData) };
@@ -573,15 +613,19 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetCancelTriggerEvent_MetaData[] = {
 		{ "Category", "Player Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The EnhancedInput Trigger Event type to use for the target cancel input.\n\x09 *\n\x09 * ---\n\x09 *\n\x09 * The most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button,\n\x09 * and Triggered for continuous actions that happen every frame while holding an input\n\x09 *\n\x09 * Warning: The Triggered value should only be used for Input Actions that you know only trigger once. If your action\n\x09 * triggered event happens on every tick, this might lead to issues with abilities. When in doubt, use the default Started value.\n\x09 */" },
+#endif
 		{ "DisplayAfter", "InputPriority" },
 		{ "EditCondition", "TargetInputCancel != nullptr" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/Components/GSCAbilityInputBindingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The EnhancedInput Trigger Event type to use for the target cancel input.\n\n---\n\nThe most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button,\nand Triggered for continuous actions that happen every frame while holding an input\n\nWarning: The Triggered value should only be used for Input Actions that you know only trigger once. If your action\ntriggered event happens on every tick, this might lead to issues with abilities. When in doubt, use the default Started value." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetCancelTriggerEvent = { "TargetCancelTriggerEvent", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilityInputBindingComponent, TargetCancelTriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetCancelTriggerEvent_MetaData), Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetCancelTriggerEvent_MetaData) }; // 1698390805
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetCancelTriggerEvent = { "TargetCancelTriggerEvent", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilityInputBindingComponent, TargetCancelTriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetCancelTriggerEvent_MetaData), Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_TargetCancelTriggerEvent_MetaData) }; // 2362312655
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilityInputBindingComponent_Statics::NewProp_AbilityComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -643,19 +687,19 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputBinding>
 	UGSCAbilityInputBindingComponent::UGSCAbilityInputBindingComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCAbilityInputBindingComponent);
 	UGSCAbilityInputBindingComponent::~UGSCAbilityInputBindingComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ScriptStructInfo[] = {
 		{ FGSCAbilityInputBinding::StaticStruct, Z_Construct_UScriptStruct_FGSCAbilityInputBinding_Statics::NewStructOps, TEXT("GSCAbilityInputBinding"), &Z_Registration_Info_UScriptStruct_GSCAbilityInputBinding, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAbilityInputBinding), 3760108072U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCAbilityInputBindingComponent, UGSCAbilityInputBindingComponent::StaticClass, TEXT("UGSCAbilityInputBindingComponent"), &Z_Registration_Info_UClass_UGSCAbilityInputBindingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAbilityInputBindingComponent), 2264123362U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCAbilityInputBindingComponent, UGSCAbilityInputBindingComponent::StaticClass, TEXT("UGSCAbilityInputBindingComponent"), &Z_Registration_Info_UClass_UGSCAbilityInputBindingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAbilityInputBindingComponent), 2630049894U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_1011145836(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_2392007033(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Components_GSCAbilityInputBindingComponent_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

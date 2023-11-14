@@ -85,9 +85,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAttributeSetExecutio
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::Struct_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Structure holding various information to deal with AttributeSet PostGameplayEffectExecute, extracting info from FGameplayEffectModCallbackData */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Structure holding various information to deal with AttributeSet PostGameplayEffectExecute, extracting info from FGameplayEffectModCallbackData" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewStructOps()
@@ -96,84 +100,124 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAttributeSetExecutio
 	}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceActor_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The physical representation of the Source ASC (The ability system component of the instigator that started the whole chain) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The physical representation of the Source ASC (The ability system component of the instigator that started the whole chain)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceActor = { "SourceActor", nullptr, (EPropertyFlags)0x0014000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, SourceActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceActor_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceActor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetActor_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The physical representation of the owner (Avatar) for the target we intend to apply to  */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The physical representation of the owner (Avatar) for the target we intend to apply to" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetActor = { "TargetActor", nullptr, (EPropertyFlags)0x0014000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, TargetActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetActor_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetActor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceASC_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The ability system component of the instigator that started the whole chain */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The ability system component of the instigator that started the whole chain" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceASC = { "SourceASC", nullptr, (EPropertyFlags)0x0014000000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, SourceASC), Z_Construct_UClass_UAbilitySystemComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceASC_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceASC_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceCoreComponent_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** GAS Companion Core actor component attached to Source Actor (if any) */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "GAS Companion Core actor component attached to Source Actor (if any)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceCoreComponent = { "SourceCoreComponent", nullptr, (EPropertyFlags)0x0014000000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, SourceCoreComponent), Z_Construct_UClass_UGSCCoreComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceCoreComponent_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceCoreComponent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetCoreComponent_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** GAS Companion Core actor component attached to Target Actor (if any) */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "GAS Companion Core actor component attached to Target Actor (if any)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetCoreComponent = { "TargetCoreComponent", nullptr, (EPropertyFlags)0x0014000000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, TargetCoreComponent), Z_Construct_UClass_UGSCCoreComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetCoreComponent_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetCoreComponent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceController_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** PlayerController associated with the owning actor for the Source ASC (The ability system component of the instigator that started the whole chain) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "PlayerController associated with the owning actor for the Source ASC (The ability system component of the instigator that started the whole chain)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceController = { "SourceController", nullptr, (EPropertyFlags)0x0014000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, SourceController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceController_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceController_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetController_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** PlayerController associated with the owning actor for the target we intend to apply to */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "PlayerController associated with the owning actor for the target we intend to apply to" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetController = { "TargetController", nullptr, (EPropertyFlags)0x0014000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, TargetController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetController_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetController_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourcePawn_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The physical representation of the Source ASC (The ability system component of the instigator that started the whole chain), as a APawn */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The physical representation of the Source ASC (The ability system component of the instigator that started the whole chain), as a APawn" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourcePawn = { "SourcePawn", nullptr, (EPropertyFlags)0x0014000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, SourcePawn), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourcePawn_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourcePawn_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetPawn_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The physical representation of the owner (Avatar) for the target we intend to apply to, as a APawn */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The physical representation of the owner (Avatar) for the target we intend to apply to, as a APawn" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetPawn = { "TargetPawn", nullptr, (EPropertyFlags)0x0014000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, TargetPawn), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetPawn_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_TargetPawn_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceObject_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The object this effect was created from. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The object this effect was created from." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceObject = { "SourceObject", nullptr, (EPropertyFlags)0x0014000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetExecutionData, SourceObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceObject_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewProp_SourceObject_MetaData) };
@@ -235,10 +279,14 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAttributeSetExecutio
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAttributeSetBase_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAttributeSetBase_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Base AttributeSet Class to extend from.\n *\n * Does not hold any Gameplay Attribute but defines any shared logic for AttributeSet, such as:\n *\n * - AdjustAttributeForMaxChange()\n * - Clamp Values definition from Project Config\n */" },
+#endif
 		{ "IncludePath", "Abilities/Attributes/GSCAttributeSetBase.h" },
 		{ "ModuleRelativePath", "Public/Abilities/Attributes/GSCAttributeSetBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Base AttributeSet Class to extend from.\n\nDoes not hold any Gameplay Attribute but defines any shared logic for AttributeSet, such as:\n\n- AdjustAttributeForMaxChange()\n- Clamp Values definition from Project Config" },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGSCAttributeSetBase_Statics::StaticCppClassTypeInfo = {
@@ -273,19 +321,19 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAttributeSetExecutio
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCAttributeSetBase);
 	UGSCAttributeSetBase::~UGSCAttributeSetBase() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ScriptStructInfo[] = {
-		{ FGSCAttributeSetExecutionData::StaticStruct, Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewStructOps, TEXT("GSCAttributeSetExecutionData"), &Z_Registration_Info_UScriptStruct_GSCAttributeSetExecutionData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAttributeSetExecutionData), 1215799401U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ScriptStructInfo[] = {
+		{ FGSCAttributeSetExecutionData::StaticStruct, Z_Construct_UScriptStruct_FGSCAttributeSetExecutionData_Statics::NewStructOps, TEXT("GSCAttributeSetExecutionData"), &Z_Registration_Info_UScriptStruct_GSCAttributeSetExecutionData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAttributeSetExecutionData), 3823501141U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCAttributeSetBase, UGSCAttributeSetBase::StaticClass, TEXT("UGSCAttributeSetBase"), &Z_Registration_Info_UClass_UGSCAttributeSetBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAttributeSetBase), 2810069073U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCAttributeSetBase, UGSCAttributeSetBase::StaticClass, TEXT("UGSCAttributeSetBase"), &Z_Registration_Info_UClass_UGSCAttributeSetBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAttributeSetBase), 881082028U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_1926957448(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_178770923(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_Attributes_GSCAttributeSetBase_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

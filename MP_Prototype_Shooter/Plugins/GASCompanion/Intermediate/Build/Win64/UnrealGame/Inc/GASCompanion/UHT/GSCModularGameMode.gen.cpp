@@ -42,13 +42,17 @@ void EmptyLinkFunctionForGeneratedCodeGSCModularGameMode() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGSCModularGameModeBase_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Pair this with a ModularGameStateBase */" },
+#endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "ModularGameplayActors/GSCModularGameMode.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/ModularGameplayActors/GSCModularGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pair this with a ModularGameStateBase" },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGSCModularGameModeBase_Statics::StaticCppClassTypeInfo = {
@@ -108,13 +112,17 @@ void EmptyLinkFunctionForGeneratedCodeGSCModularGameMode() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGSCModularGameMode_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Pair this with a ModularGameState */" },
+#endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "ModularGameplayActors/GSCModularGameMode.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/ModularGameplayActors/GSCModularGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pair this with a ModularGameState" },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGSCModularGameMode_Statics::StaticCppClassTypeInfo = {
@@ -149,16 +157,16 @@ void EmptyLinkFunctionForGeneratedCodeGSCModularGameMode() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGSCModularGameMode);
 	AGSCModularGameMode::~AGSCModularGameMode() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AGSCModularGameModeBase, AGSCModularGameModeBase::StaticClass, TEXT("AGSCModularGameModeBase"), &Z_Registration_Info_UClass_AGSCModularGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGSCModularGameModeBase), 3144152446U) },
-		{ Z_Construct_UClass_AGSCModularGameMode, AGSCModularGameMode::StaticClass, TEXT("AGSCModularGameMode"), &Z_Registration_Info_UClass_AGSCModularGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGSCModularGameMode), 1456158091U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AGSCModularGameModeBase, AGSCModularGameModeBase::StaticClass, TEXT("AGSCModularGameModeBase"), &Z_Registration_Info_UClass_AGSCModularGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGSCModularGameModeBase), 2294284393U) },
+		{ Z_Construct_UClass_AGSCModularGameMode, AGSCModularGameMode::StaticClass, TEXT("AGSCModularGameMode"), &Z_Registration_Info_UClass_AGSCModularGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGSCModularGameMode), 2723704338U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_702887691(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_2601375706(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_ModularGameplayActors_GSCModularGameMode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

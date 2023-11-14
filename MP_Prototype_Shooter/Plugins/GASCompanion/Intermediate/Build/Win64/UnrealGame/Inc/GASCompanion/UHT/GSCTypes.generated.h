@@ -14,14 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GASCOMPANION_GSCTypes_generated_h
 
-#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_38_GENERATED_BODY \
+#define FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_38_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGSCGameplayEffectContainer_Statics; \
 	GASCOMPANION_API static class UScriptStruct* StaticStruct();
 
 
 template<> GASCOMPANION_API UScriptStruct* StaticStruct<struct FGSCGameplayEffectContainer>();
 
-#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_65_GENERATED_BODY \
+#define FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h_65_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGSCGameplayEffectContainerSpec_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -29,7 +29,7 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<struct FGSCGameplayEffec
 template<> GASCOMPANION_API UScriptStruct* StaticStruct<struct FGSCGameplayEffectContainerSpec>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h
+#define CURRENT_FILE_ID FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCTypes_h
 
 
 #define FOREACH_ENUM_EGSCABILITYTRIGGEREVENT(op) \

@@ -87,27 +87,39 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputMapping>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Ability_MetaData[] = {
 		{ "Category", "Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Type of ability to grant */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Type of ability to grant" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Ability = { "Ability", nullptr, (EPropertyFlags)0x0014000000000015, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAbilityInputMapping, Ability), Z_Construct_UClass_UClass, Z_Construct_UClass_UGameplayAbility_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Ability_MetaData), Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Ability_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Level_MetaData[] = {
 		{ "Category", "Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Level to grant the ability at */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Level to grant the ability at" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Level = { "Level", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAbilityInputMapping, Level), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Level_MetaData), Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Level_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_InputAction_MetaData[] = {
 		{ "Category", "Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Input action to bind the ability to, if any (can be left unset) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Input action to bind the ability to, if any (can be left unset)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_InputAction = { "InputAction", nullptr, (EPropertyFlags)0x0014000000000015, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAbilityInputMapping, InputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_InputAction_MetaData), Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_InputAction_MetaData) };
@@ -115,14 +127,18 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAbilityInputMapping>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_TriggerEvent_MetaData[] = {
 		{ "Category", "Ability" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The EnhancedInput Trigger Event type to use for the ability activation on pressed handle.\n\x09 *\n\x09 * ---\n\x09 *\n\x09 * The most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button,\n\x09 * and Triggered for continuous actions that happen every frame while holding an input\n\x09 *\n\x09 * Warning: The Triggered value should only be used for Input Actions that you know only trigger once. If your action\n\x09 * triggered event happens on every tick, this might lead to issues with ability activation (since you'll be\n\x09 * trying to activate abilities every frame). When in doubt, use the default Started value.\n\x09 */" },
+#endif
 		{ "EditCondition", "InputAction != nullptr" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The EnhancedInput Trigger Event type to use for the ability activation on pressed handle.\n\n---\n\nThe most common trigger types are likely to be Started for actions that happen once, immediately upon pressing a button,\nand Triggered for continuous actions that happen every frame while holding an input\n\nWarning: The Triggered value should only be used for Input Actions that you know only trigger once. If your action\ntriggered event happens on every tick, this might lead to issues with ability activation (since you'll be\ntrying to activate abilities every frame). When in doubt, use the default Started value." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_TriggerEvent = { "TriggerEvent", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAbilityInputMapping, TriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_TriggerEvent_MetaData), Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_TriggerEvent_MetaData) }; // 1698390805
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_TriggerEvent = { "TriggerEvent", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAbilityInputMapping, TriggerEvent), Z_Construct_UEnum_GASCompanion_EGSCAbilityTriggerEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_TriggerEvent_MetaData), Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_TriggerEvent_MetaData) }; // 2362312655
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Ability,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewProp_Level,
@@ -195,19 +211,27 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAttributeSetDefiniti
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewProp_AttributeSet_MetaData[] = {
 		{ "Category", "Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Attribute Set to grant */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Attribute Set to grant" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewProp_AttributeSet = { "AttributeSet", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetDefinition, AttributeSet), Z_Construct_UClass_UClass, Z_Construct_UClass_UAttributeSet_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewProp_AttributeSet_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewProp_AttributeSet_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewProp_InitializationData_MetaData[] = {
 		{ "Category", "Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Data table reference to initialize the attributes with, if any (can be left unset) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
 		{ "RequiredAssetDataTags", "RowStructure=/Script/GameplayAbilities.AttributeMetaData" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Data table reference to initialize the attributes with, if any (can be left unset)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewProp_InitializationData = { "InitializationData", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAttributeSetDefinition, InitializationData), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewProp_InitializationData_MetaData), Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewProp_InitializationData_MetaData) };
@@ -391,7 +415,7 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::NewProp_InAbilitySetHandle = { "InAbilitySetHandle", nullptr, (EPropertyFlags)0x0010008008000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilitySystemComponent_eventClearAbilitySet_Parms, InAbilitySetHandle), Z_Construct_UScriptStruct_FGSCAbilitySetHandle, METADATA_PARAMS(0, nullptr) }; // 631659412
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::NewProp_InAbilitySetHandle = { "InAbilitySetHandle", nullptr, (EPropertyFlags)0x0010008008000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilitySystemComponent_eventClearAbilitySet_Parms, InAbilitySetHandle), Z_Construct_UScriptStruct_FGSCAbilitySetHandle, METADATA_PARAMS(0, nullptr) }; // 1439990879
 	void Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((GSCAbilitySystemComponent_eventClearAbilitySet_Parms*)Obj)->ReturnValue = 1;
@@ -404,9 +428,13 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Ability Sets" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Removes the AbilitySet represented by InAbilitySetHandle from the passed in ASC. Clears out any previously granted Abilities,\n\x09 * Attributes, Effects and Owned Tags from the set.\n\x09 *\n\x09 * Like granting, it is advised to call this method on both Server and Client for multiplayer games.\n\x09 * \n\x09 * @param InAbilitySetHandle Handle of the Ability Set to remove\n\x09 * \n\x09 * @return True if the ability set was removed successfully, false otherwise\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes the AbilitySet represented by InAbilitySetHandle from the passed in ASC. Clears out any previously granted Abilities,\nAttributes, Effects and Owned Tags from the set.\n\nLike granting, it is advised to call this method on both Server and Client for multiplayer games.\n\n@param InAbilitySetHandle Handle of the Ability Set to remove\n\n@return True if the ability set was removed successfully, false otherwise" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCAbilitySystemComponent, nullptr, "ClearAbilitySet", nullptr, nullptr, Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::GSCAbilitySystemComponent_eventClearAbilitySet_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet_Statics::Function_MetaDataParams) };
@@ -448,7 +476,7 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::NewProp_InAbilitySet = { "InAbilitySet", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilitySystemComponent_eventGiveAbilitySet_Parms, InAbilitySet), Z_Construct_UClass_UGSCAbilitySet_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::NewProp_InAbilitySet_MetaData), Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::NewProp_InAbilitySet_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::NewProp_OutHandle = { "OutHandle", nullptr, (EPropertyFlags)0x0010008000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilitySystemComponent_eventGiveAbilitySet_Parms, OutHandle), Z_Construct_UScriptStruct_FGSCAbilitySetHandle, METADATA_PARAMS(0, nullptr) }; // 631659412
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::NewProp_OutHandle = { "OutHandle", nullptr, (EPropertyFlags)0x0010008000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GSCAbilitySystemComponent_eventGiveAbilitySet_Parms, OutHandle), Z_Construct_UScriptStruct_FGSCAbilitySetHandle, METADATA_PARAMS(0, nullptr) }; // 1439990879
 	void Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((GSCAbilitySystemComponent_eventGiveAbilitySet_Parms*)Obj)->ReturnValue = 1;
@@ -462,9 +490,13 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::Function_MetaDataParams[] = {
 		{ "Category", "GAS Companion|Ability Sets" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Grants a given Ability Set to the ASC, adding defined Abilities, Attributes, Effects and Owned Tags.\n\x09 *\n\x09 * This method is meant to run on both Authority (must be called from server), and on Client if you'd like to setup binding as well (Important to call on client too for Owned Tags)\n\x09 *\n\x09 * During Pawn initialization, if you'd like to grant a list of Ability Sets manually with this method, the typical place to do so is:\n\x09 *\n\x09 * - OnInitAbilityActorInfo (event exposed by both UGSCAbilitySystemComponent and UGSCCoreComponent)\n\x09 * - OnBeginPlay but only if ASC is on the Pawn (not using GSCModularPlayerState to hold the ASC)\n\x09 * \n\x09 * Both Player State pawns and non Player State pawns can use OnInitAbilityActorInfo, while only non Player State pawns can use OnBeginPlay to grant the ability.\n\x09 * \n\x09 * Also, for input binding to work and register properly, the avatar actor for this ASC must have UGSCAbilityInputBindingComponent actor component.\n\x09 * \n\x09 * @param InAbilitySet The Ability Set to grant to the ASC\n\x09 * @param OutHandle Handle that can be used to remove the set later on\n\x09 * \n\x09 * @return True if the ability set was granted successfully, false otherwise\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Grants a given Ability Set to the ASC, adding defined Abilities, Attributes, Effects and Owned Tags.\n\nThis method is meant to run on both Authority (must be called from server), and on Client if you'd like to setup binding as well (Important to call on client too for Owned Tags)\n\nDuring Pawn initialization, if you'd like to grant a list of Ability Sets manually with this method, the typical place to do so is:\n\n- OnInitAbilityActorInfo (event exposed by both UGSCAbilitySystemComponent and UGSCCoreComponent)\n- OnBeginPlay but only if ASC is on the Pawn (not using GSCModularPlayerState to hold the ASC)\n\nBoth Player State pawns and non Player State pawns can use OnInitAbilityActorInfo, while only non Player State pawns can use OnBeginPlay to grant the ability.\n\nAlso, for input binding to work and register properly, the avatar actor for this ASC must have UGSCAbilityInputBindingComponent actor component.\n\n@param InAbilitySet The Ability Set to grant to the ASC\n@param OutHandle Handle that can be used to remove the set later on\n\n@return True if the ability set was granted successfully, false otherwise" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCAbilitySystemComponent, nullptr, "GiveAbilitySet", nullptr, nullptr, Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::GSCAbilitySystemComponent_eventGiveAbilitySet_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet_Statics::Function_MetaDataParams) };
@@ -552,9 +584,13 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCAbilitySystemComponent_OnPawnControllerChanged_Statics::Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Reinit the cached ability actor info (specifically the player controller) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reinit the cached ability actor info (specifically the player controller)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCAbilitySystemComponent_OnPawnControllerChanged_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCAbilitySystemComponent, nullptr, "OnPawnControllerChanged", nullptr, nullptr, Z_Construct_UFunction_UGSCAbilitySystemComponent_OnPawnControllerChanged_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilitySystemComponent_OnPawnControllerChanged_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGSCAbilitySystemComponent_OnPawnControllerChanged_Statics::GSCAbilitySystemComponent_eventOnPawnControllerChanged_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGSCAbilitySystemComponent_OnPawnControllerChanged_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGSCAbilitySystemComponent_OnPawnControllerChanged_Statics::Function_MetaDataParams) };
@@ -649,50 +685,66 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet, "ClearAbilitySet" }, // 327107875
-		{ &Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet, "GiveAbilitySet" }, // 812872965
+		{ &Z_Construct_UFunction_UGSCAbilitySystemComponent_ClearAbilitySet, "ClearAbilitySet" }, // 1544069739
+		{ &Z_Construct_UFunction_UGSCAbilitySystemComponent_GiveAbilitySet, "GiveAbilitySet" }, // 3881224850
 		{ &Z_Construct_UFunction_UGSCAbilitySystemComponent_GrantAbility, "GrantAbility" }, // 3748232669
-		{ &Z_Construct_UFunction_UGSCAbilitySystemComponent_OnPawnControllerChanged, "OnPawnControllerChanged" }, // 1536274256
+		{ &Z_Construct_UFunction_UGSCAbilitySystemComponent_OnPawnControllerChanged, "OnPawnControllerChanged" }, // 4152198686
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "GASCompanion" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Revamped Ability System Component for 3.0.0\n *\n * This one is meant to be attached in Blueprint (or via a GameFeature), although 4.27 still requires ASC and IAbilitySystemInterface to be implemented in cpp.\n */" },
+#endif
 		{ "HideCategories", "Object LOD Lighting Transform Sockets TextureStreaming Object LOD Lighting Transform Sockets TextureStreaming" },
 		{ "IncludePath", "Abilities/GSCAbilitySystemComponent.h" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Revamped Ability System Component for 3.0.0\n\nThis one is meant to be attached in Blueprint (or via a GameFeature), although 4.27 still requires ASC and IAbilitySystemInterface to be implemented in cpp." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilities_Inner = { "GrantedAbilities", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAbilityInputMapping, METADATA_PARAMS(0, nullptr) }; // 917652630
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilities_Inner = { "GrantedAbilities", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAbilityInputMapping, METADATA_PARAMS(0, nullptr) }; // 815589548
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilities_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of Gameplay Abilities to grant when the Ability System Component is initialized */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of Gameplay Abilities to grant when the Ability System Component is initialized" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilities = { "GrantedAbilities", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, GrantedAbilities), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilities_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilities_MetaData) }; // 917652630
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAttributes_Inner = { "GrantedAttributes", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAttributeSetDefinition, METADATA_PARAMS(0, nullptr) }; // 2555747996
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilities = { "GrantedAbilities", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, GrantedAbilities), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilities_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilities_MetaData) }; // 815589548
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAttributes_Inner = { "GrantedAttributes", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAttributeSetDefinition, METADATA_PARAMS(0, nullptr) }; // 158410055
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAttributes_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of Attribute Sets to grant when the Ability System Component is initialized, with optional initialization data */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of Attribute Sets to grant when the Ability System Component is initialized, with optional initialization data" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAttributes = { "GrantedAttributes", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, GrantedAttributes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAttributes_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAttributes_MetaData) }; // 2555747996
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAttributes = { "GrantedAttributes", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, GrantedAttributes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAttributes_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAttributes_MetaData) }; // 158410055
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedEffects_Inner = { "GrantedEffects", nullptr, (EPropertyFlags)0x0004000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UClass, Z_Construct_UClass_UGameplayEffect_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedEffects_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of GameplayEffects to apply when the Ability System Component is initialized (typically on begin play) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of GameplayEffects to apply when the Ability System Component is initialized (typically on begin play)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedEffects = { "GrantedEffects", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, GrantedEffects), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedEffects_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedEffects_MetaData) };
@@ -700,27 +752,39 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilitySets_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of Gameplay Ability Sets to grant when the Ability System Component is initialized */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of Gameplay Ability Sets to grant when the Ability System Component is initialized" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilitySets = { "GrantedAbilitySets", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, GrantedAbilitySets), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilitySets_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_GrantedAbilitySets_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_OnInitAbilityActorInfo_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Event called just after InitAbilityActorInfo, once abilities and attributes have been granted.\n\x09 *\n\x09 * This will happen multiple times for both client / server:\n\x09 *\n\x09 * - Once for Server after component initialization\n\x09 * - Once for Server after replication of owning actor (Possessed by for Player State)\n\x09 * - Once for Client after component initialization\n\x09 * - Once for Client after replication of owning actor (Once more for Player State OnRep_PlayerState)\n\x09 *\n\x09 * Also depends on whether ASC lives on Pawns or Player States.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event called just after InitAbilityActorInfo, once abilities and attributes have been granted.\n\nThis will happen multiple times for both client / server:\n\n- Once for Server after component initialization\n- Once for Server after replication of owning actor (Possessed by for Player State)\n- Once for Client after component initialization\n- Once for Client after replication of owning actor (Once more for Player State OnRep_PlayerState)\n\nAlso depends on whether ASC lives on Pawns or Player States." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_OnInitAbilityActorInfo = { "OnInitAbilityActorInfo", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, OnInitAbilityActorInfo), Z_Construct_UDelegateFunction_GASCompanion_GSCOnInitAbilityActorInfo__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_OnInitAbilityActorInfo_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_OnInitAbilityActorInfo_MetaData) }; // 4025389785
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_bResetAbilitiesOnSpawn_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Specifically set abilities to persist across deaths / respawns or possessions (Default is true)\n\x09 *\n\x09 * When this is set to false, abilities will only be granted the first time InitAbilityActor is called. This is the default\n\x09 * behavior for ASC living on Player States (GSCModularPlayerState specifically).\n\x09 *\n\x09 * Do not set it true for ASC living on Player States if you're using ability input binding. Only ASC living on Pawns supports this.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifically set abilities to persist across deaths / respawns or possessions (Default is true)\n\nWhen this is set to false, abilities will only be granted the first time InitAbilityActor is called. This is the default\nbehavior for ASC living on Player States (GSCModularPlayerState specifically).\n\nDo not set it true for ASC living on Player States if you're using ability input binding. Only ASC living on Pawns supports this." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_bResetAbilitiesOnSpawn_SetBit(void* Obj)
@@ -731,9 +795,13 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_bResetAttributesOnSpawn_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Specifically set attributes to persist across deaths / respawns or possessions (Default is true)\n\x09 *\n\x09 * When this is set to false, attributes are only granted the first time InitAbilityActor is called. This is the default\n\x09 * behavior for ASC living on Player States (GSCModularPlayerState specifically).\n\x09 *\n\x09 * Set it (or leave it) to true if you want attribute values to be re-initialized to their default values.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifically set attributes to persist across deaths / respawns or possessions (Default is true)\n\nWhen this is set to false, attributes are only granted the first time InitAbilityActor is called. This is the default\nbehavior for ASC living on Player States (GSCModularPlayerState specifically).\n\nSet it (or leave it) to true if you want attribute values to be re-initialized to their default values." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_bResetAttributesOnSpawn_SetBit(void* Obj)
@@ -744,46 +812,66 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilityHandles_Inner = { "AddedAbilityHandles", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCMappedAbility, METADATA_PARAMS(0, nullptr) }; // 4047456925
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilityHandles_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Cached granted Ability Handles\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cached granted Ability Handles" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilityHandles = { "AddedAbilityHandles", nullptr, (EPropertyFlags)0x0020080000002000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, AddedAbilityHandles), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilityHandles_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilityHandles_MetaData) }; // 4047456925
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAttributes_Inner = { "AddedAttributes", nullptr, (EPropertyFlags)0x0004000000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UAttributeSet_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAttributes_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Cached granted AttributeSets\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cached granted AttributeSets" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAttributes = { "AddedAttributes", nullptr, (EPropertyFlags)0x0024088000002008, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, AddedAttributes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAttributes_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAttributes_MetaData) };
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedEffects_Inner = { "AddedEffects", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FActiveGameplayEffectHandle, METADATA_PARAMS(0, nullptr) }; // 179499981
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedEffects_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Cached applied Startup Effects\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cached applied Startup Effects" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedEffects = { "AddedEffects", nullptr, (EPropertyFlags)0x0020080000002000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, AddedEffects), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedEffects_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedEffects_MetaData) }; // 179499981
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilitySets_Inner = { "AddedAbilitySets", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAbilitySetHandle, METADATA_PARAMS(0, nullptr) }; // 631659412
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilitySets_Inner = { "AddedAbilitySets", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAbilitySetHandle, METADATA_PARAMS(0, nullptr) }; // 1439990879
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilitySets_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Cached granted Ability Sets\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cached granted Ability Sets" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilitySets = { "AddedAbilitySets", nullptr, (EPropertyFlags)0x0020088000002000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, AddedAbilitySets), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilitySets_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilitySets_MetaData) }; // 631659412
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilitySets = { "AddedAbilitySets", nullptr, (EPropertyFlags)0x0020088000002000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, AddedAbilitySets), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilitySets_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_AddedAbilitySets_MetaData) }; // 1439990879
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_ComboComponent_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Cached ComboComponent on Character (if it has any)\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Abilities/GSCAbilitySystemComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cached ComboComponent on Character (if it has any)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_ComboComponent = { "ComboComponent", nullptr, (EPropertyFlags)0x0024080000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCAbilitySystemComponent, ComboComponent), Z_Construct_UClass_UGSCComboManagerComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_ComboComponent_MetaData), Z_Construct_UClass_UGSCAbilitySystemComponent_Statics::NewProp_ComboComponent_MetaData) };
@@ -843,21 +931,21 @@ void FGSCOnInitAbilityActorInfo_DelegateWrapper(const FMulticastScriptDelegate& 
 	UGSCAbilitySystemComponent::UGSCAbilitySystemComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCAbilitySystemComponent);
 	UGSCAbilitySystemComponent::~UGSCAbilitySystemComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ScriptStructInfo[] = {
-		{ FGSCAbilityInputMapping::StaticStruct, Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewStructOps, TEXT("GSCAbilityInputMapping"), &Z_Registration_Info_UScriptStruct_GSCAbilityInputMapping, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAbilityInputMapping), 917652630U) },
-		{ FGSCAttributeSetDefinition::StaticStruct, Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewStructOps, TEXT("GSCAttributeSetDefinition"), &Z_Registration_Info_UScriptStruct_GSCAttributeSetDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAttributeSetDefinition), 2555747996U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ScriptStructInfo[] = {
+		{ FGSCAbilityInputMapping::StaticStruct, Z_Construct_UScriptStruct_FGSCAbilityInputMapping_Statics::NewStructOps, TEXT("GSCAbilityInputMapping"), &Z_Registration_Info_UScriptStruct_GSCAbilityInputMapping, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAbilityInputMapping), 815589548U) },
+		{ FGSCAttributeSetDefinition::StaticStruct, Z_Construct_UScriptStruct_FGSCAttributeSetDefinition_Statics::NewStructOps, TEXT("GSCAttributeSetDefinition"), &Z_Registration_Info_UScriptStruct_GSCAttributeSetDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAttributeSetDefinition), 158410055U) },
 		{ FGSCMappedAbility::StaticStruct, Z_Construct_UScriptStruct_FGSCMappedAbility_Statics::NewStructOps, TEXT("GSCMappedAbility"), &Z_Registration_Info_UScriptStruct_GSCMappedAbility, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCMappedAbility), 4047456925U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCAbilitySystemComponent, UGSCAbilitySystemComponent::StaticClass, TEXT("UGSCAbilitySystemComponent"), &Z_Registration_Info_UClass_UGSCAbilitySystemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAbilitySystemComponent), 3019361388U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCAbilitySystemComponent, UGSCAbilitySystemComponent::StaticClass, TEXT("UGSCAbilitySystemComponent"), &Z_Registration_Info_UClass_UGSCAbilitySystemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCAbilitySystemComponent), 2768617517U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_3320514450(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_1609388696(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Abilities_GSCAbilitySystemComponent_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

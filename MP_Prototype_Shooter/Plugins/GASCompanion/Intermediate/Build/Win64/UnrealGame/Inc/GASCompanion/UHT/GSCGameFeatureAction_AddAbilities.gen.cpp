@@ -69,9 +69,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameFeatureAbilities
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::Struct_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Data holder for a list of Abilities / Attributes / Effects to grant to actors of the specified class from a Game Feature Action */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAbilities.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Data holder for a list of Abilities / Attributes / Effects to grant to actors of the specified class from a Game Feature Action" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewStructOps()
@@ -81,49 +85,69 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameFeatureAbilities
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_ActorClass_MetaData[] = {
 		{ "Category", "Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The base actor class to add to */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAbilities.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The base actor class to add to" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FSoftClassPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_ActorClass = { "ActorClass", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::SoftClass, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameFeatureAbilitiesEntry, ActorClass), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_ActorClass_MetaData), Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_ActorClass_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilities_Inner = { "GrantedAbilities", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameFeatureAbilityMapping, METADATA_PARAMS(0, nullptr) }; // 910207942
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilities_Inner = { "GrantedAbilities", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameFeatureAbilityMapping, METADATA_PARAMS(0, nullptr) }; // 3276323548
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilities_MetaData[] = {
 		{ "Category", "Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of abilities to grant to actors of the specified class */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAbilities.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of abilities to grant to actors of the specified class" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilities = { "GrantedAbilities", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameFeatureAbilitiesEntry, GrantedAbilities), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilities_MetaData), Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilities_MetaData) }; // 910207942
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAttributes_Inner = { "GrantedAttributes", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameFeatureAttributeSetMapping, METADATA_PARAMS(0, nullptr) }; // 4022225833
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilities = { "GrantedAbilities", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameFeatureAbilitiesEntry, GrantedAbilities), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilities_MetaData), Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilities_MetaData) }; // 3276323548
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAttributes_Inner = { "GrantedAttributes", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameFeatureAttributeSetMapping, METADATA_PARAMS(0, nullptr) }; // 78919540
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAttributes_MetaData[] = {
 		{ "Category", "Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of attribute sets to grant to actors of the specified class */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAbilities.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of attribute sets to grant to actors of the specified class" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAttributes = { "GrantedAttributes", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameFeatureAbilitiesEntry, GrantedAttributes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAttributes_MetaData), Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAttributes_MetaData) }; // 4022225833
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedEffects_Inner = { "GrantedEffects", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameFeatureGameplayEffectMapping, METADATA_PARAMS(0, nullptr) }; // 3628320800
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAttributes = { "GrantedAttributes", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameFeatureAbilitiesEntry, GrantedAttributes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAttributes_MetaData), Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAttributes_MetaData) }; // 78919540
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedEffects_Inner = { "GrantedEffects", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameFeatureGameplayEffectMapping, METADATA_PARAMS(0, nullptr) }; // 4121826287
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedEffects_MetaData[] = {
 		{ "Category", "Attributes" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of gameplay effects to grant to actors of the specified class */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAbilities.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of gameplay effects to grant to actors of the specified class" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedEffects = { "GrantedEffects", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameFeatureAbilitiesEntry, GrantedEffects), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedEffects_MetaData), Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedEffects_MetaData) }; // 3628320800
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedEffects = { "GrantedEffects", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameFeatureAbilitiesEntry, GrantedEffects), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedEffects_MetaData), Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedEffects_MetaData) }; // 4121826287
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilitySets_Inner = { "GrantedAbilitySets", nullptr, (EPropertyFlags)0x0004000000000000, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UGSCAbilitySet_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilitySets_MetaData[] = {
 		{ "Category", "GAS Companion|Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of Gameplay Ability Sets to actors of the specified class */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAbilities.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of Gameplay Ability Sets to actors of the specified class" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilitySets = { "GrantedAbilitySets", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCGameFeatureAbilitiesEntry, GrantedAbilitySets), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilitySets_MetaData), Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewProp_GrantedAbilitySets_MetaData) };
@@ -190,25 +214,33 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameFeatureAbilities
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * GameFeatureAction responsible for granting abilities (and attributes, effects or ability sets) to actors of a specified type.\n */" },
+#endif
 		{ "DisplayName", "Add Abilities (GAS Companion)" },
 		{ "IncludePath", "GameFeatures/Actions/GSCGameFeatureAction_AddAbilities.h" },
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAbilities.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "GameFeatureAction responsible for granting abilities (and attributes, effects or ability sets) to actors of a specified type." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList_Inner = { "AbilitiesList", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry, METADATA_PARAMS(0, nullptr) }; // 3523885165
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList_Inner = { "AbilitiesList", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry, METADATA_PARAMS(0, nullptr) }; // 1121281396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList_MetaData[] = {
 		{ "Category", "Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of Ability to grant to actors of the specified class */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAbilities.h" },
 		{ "ShowOnlyInnerProperties", "" },
 		{ "TitleProperty", "ActorClass" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of Ability to grant to actors of the specified class" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList = { "AbilitiesList", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameFeatureAction_AddAbilities, AbilitiesList), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList_MetaData), Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList_MetaData) }; // 3523885165
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList = { "AbilitiesList", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameFeatureAction_AddAbilities, AbilitiesList), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList_MetaData), Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList_MetaData) }; // 1121281396
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities_Statics::NewProp_AbilitiesList,
@@ -247,19 +279,19 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCGameFeatureAbilities
 	UGSCGameFeatureAction_AddAbilities::UGSCGameFeatureAction_AddAbilities(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCGameFeatureAction_AddAbilities);
 	UGSCGameFeatureAction_AddAbilities::~UGSCGameFeatureAction_AddAbilities() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ScriptStructInfo[] = {
-		{ FGSCGameFeatureAbilitiesEntry::StaticStruct, Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewStructOps, TEXT("GSCGameFeatureAbilitiesEntry"), &Z_Registration_Info_UScriptStruct_GSCGameFeatureAbilitiesEntry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameFeatureAbilitiesEntry), 3523885165U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ScriptStructInfo[] = {
+		{ FGSCGameFeatureAbilitiesEntry::StaticStruct, Z_Construct_UScriptStruct_FGSCGameFeatureAbilitiesEntry_Statics::NewStructOps, TEXT("GSCGameFeatureAbilitiesEntry"), &Z_Registration_Info_UScriptStruct_GSCGameFeatureAbilitiesEntry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCGameFeatureAbilitiesEntry), 1121281396U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities, UGSCGameFeatureAction_AddAbilities::StaticClass, TEXT("UGSCGameFeatureAction_AddAbilities"), &Z_Registration_Info_UClass_UGSCGameFeatureAction_AddAbilities, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameFeatureAction_AddAbilities), 4002340760U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCGameFeatureAction_AddAbilities, UGSCGameFeatureAction_AddAbilities::StaticClass, TEXT("UGSCGameFeatureAction_AddAbilities"), &Z_Registration_Info_UClass_UGSCGameFeatureAction_AddAbilities, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameFeatureAction_AddAbilities), 510766147U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_1409069378(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_1610007182(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAbilities_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

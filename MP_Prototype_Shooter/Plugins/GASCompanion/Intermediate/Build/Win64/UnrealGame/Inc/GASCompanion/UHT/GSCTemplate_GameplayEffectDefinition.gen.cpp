@@ -220,47 +220,67 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Parent class for Gameplay Effect Templates.\n *\n * Templates are one of special kind. They are only meant to be used to create other Gameplay Effect\n * based on their Class Default Object, and not meant to be used directly or inherited.\n *\n * These are not child of UGameplayEffect, but rather an UObject sharing the exact same properties as UGameplayEffect.\n *\n * This class exists only to allow creation of GE templates Blueprint, that can be configured in Project Settings, without\n * having them interfere with standard Gameplay Effects dropdown in properties and nodes like ApplyGameplayEffect.\n *\n * When a new GE is created from a template, a real UGameplayEffect Blueprint is created based on the properties defined by the template.\n */" },
+#endif
 		{ "IncludePath", "Templates/GSCTemplate_GameplayEffectDefinition.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Parent class for Gameplay Effect Templates.\n\nTemplates are one of special kind. They are only meant to be used to create other Gameplay Effect\nbased on their Class Default Object, and not meant to be used directly or inherited.\n\nThese are not child of UGameplayEffect, but rather an UObject sharing the exact same properties as UGameplayEffect.\n\nThis class exists only to allow creation of GE templates Blueprint, that can be configured in Project Settings, without\nhaving them interfere with standard Gameplay Effects dropdown in properties and nodes like ApplyGameplayEffect.\n\nWhen a new GE is created from a template, a real UGameplayEffect Blueprint is created based on the properties defined by the template." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_DurationPolicy_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_DurationPolicy_MetaData[] = {
 		{ "Category", "GameplayEffect" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Policy for the duration of this effect */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Policy for the duration of this effect" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_DurationPolicy = { "DurationPolicy", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, DurationPolicy), Z_Construct_UEnum_GameplayAbilities_EGameplayEffectDurationType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_DurationPolicy_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_DurationPolicy_MetaData) }; // 2970687177
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_DurationMagnitude_MetaData[] = {
 		{ "Category", "GameplayEffect" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Duration in seconds. 0.0 for instantaneous effects; -1.0 for infinite duration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Duration in seconds. 0.0 for instantaneous effects; -1.0 for infinite duration." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_DurationMagnitude = { "DurationMagnitude", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, DurationMagnitude), Z_Construct_UScriptStruct_FGameplayEffectModifierMagnitude, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_DurationMagnitude_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_DurationMagnitude_MetaData) }; // 2859749926
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_Period_MetaData[] = {
 		{ "Category", "Period" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Period in seconds. 0.0 for non-periodic effects */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Period in seconds. 0.0 for non-periodic effects" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_Period = { "Period", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, Period), Z_Construct_UScriptStruct_FScalableFloat, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_Period_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_Period_MetaData) }; // 4070660376
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bExecutePeriodicEffectOnApplication_MetaData[] = {
 		{ "Category", "Period" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true, the effect executes on application and then at every period interval. If false, no execution occurs until the first period elapses. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, the effect executes on application and then at every period interval. If false, no execution occurs until the first period elapses." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bExecutePeriodicEffectOnApplication_SetBit(void* Obj)
@@ -280,10 +300,14 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_Modifiers_MetaData[] = {
 		{ "Category", "GameplayEffect" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Array of modifiers that will affect the target of this effect */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
 		{ "TitleProperty", "Attribute" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Array of modifiers that will affect the target of this effect" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_Modifiers = { "Modifiers", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, Modifiers), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_Modifiers_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_Modifiers_MetaData) }; // 4234896061
@@ -298,10 +322,14 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ChanceToApplyToTarget_MetaData[] = {
 		{ "Category", "Application" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Probability that this gameplay effect will be applied to the target actor (0.0 for never, 1.0 for always) */" },
+#endif
 		{ "GameplayAttribute", "True" },
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Probability that this gameplay effect will be applied to the target actor (0.0 for never, 1.0 for always)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ChanceToApplyToTarget = { "ChanceToApplyToTarget", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, ChanceToApplyToTarget), Z_Construct_UScriptStruct_FScalableFloat, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ChanceToApplyToTarget_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ChanceToApplyToTarget_MetaData) }; // 4070660376
@@ -318,9 +346,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ConditionalGameplayEffects_MetaData[] = {
 		{ "Category", "GameplayEffect" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** other gameplay effects that will be applied to the target of this effect if this effect applies */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "other gameplay effects that will be applied to the target of this effect if this effect applies" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ConditionalGameplayEffects = { "ConditionalGameplayEffects", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, ConditionalGameplayEffects), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ConditionalGameplayEffects_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ConditionalGameplayEffects_MetaData) }; // 3966782288
@@ -328,18 +360,26 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_OverflowEffects_MetaData[] = {
 		{ "Category", "Overflow" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Effects to apply when a stacking effect \"overflows\" its stack count through another attempted application. Added whether the overflow application succeeds or not. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Effects to apply when a stacking effect \"overflows\" its stack count through another attempted application. Added whether the overflow application succeeds or not." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_OverflowEffects = { "OverflowEffects", nullptr, (EPropertyFlags)0x0014000000010015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, OverflowEffects), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_OverflowEffects_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_OverflowEffects_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bDenyOverflowApplication_MetaData[] = {
 		{ "Category", "Overflow" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true, stacking attempts made while at the stack count will fail, resulting in the duration and context not being refreshed */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, stacking attempts made while at the stack count will fail, resulting in the duration and context not being refreshed" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bDenyOverflowApplication_SetBit(void* Obj)
@@ -350,10 +390,14 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bClearStackOnOverflow_MetaData[] = {
 		{ "Category", "Overflow" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true, the entire stack of the effect will be cleared once it overflows */" },
+#endif
 		{ "EditCondition", "bDenyOverflowApplication" },
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, the entire stack of the effect will be cleared once it overflows" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bClearStackOnOverflow_SetBit(void* Obj)
@@ -365,9 +409,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_PrematureExpirationEffectClasses_MetaData[] = {
 		{ "Category", "Expiration" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Effects to apply when this effect is made to expire prematurely (like via a forced removal, clear tags, etc.); Only works for effects with a duration */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Effects to apply when this effect is made to expire prematurely (like via a forced removal, clear tags, etc.); Only works for effects with a duration" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_PrematureExpirationEffectClasses = { "PrematureExpirationEffectClasses", nullptr, (EPropertyFlags)0x0014000000010015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, PrematureExpirationEffectClasses), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_PrematureExpirationEffectClasses_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_PrematureExpirationEffectClasses_MetaData) };
@@ -375,18 +423,26 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RoutineExpirationEffectClasses_MetaData[] = {
 		{ "Category", "Expiration" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Effects to apply when this effect expires naturally via its duration; Only works for effects with a duration */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Effects to apply when this effect expires naturally via its duration; Only works for effects with a duration" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RoutineExpirationEffectClasses = { "RoutineExpirationEffectClasses", nullptr, (EPropertyFlags)0x0014000000010015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, RoutineExpirationEffectClasses), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RoutineExpirationEffectClasses_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RoutineExpirationEffectClasses_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bRequireModifierSuccessToTriggerCues_MetaData[] = {
 		{ "Category", "Display" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true, cues will only trigger when GE modifiers succeed being applied (whether through modifiers or executions) */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, cues will only trigger when GE modifiers succeed being applied (whether through modifiers or executions)" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bRequireModifierSuccessToTriggerCues_SetBit(void* Obj)
@@ -397,9 +453,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bSuppressStackingCues_MetaData[] = {
 		{ "Category", "Display" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true, GameplayCues will only be triggered for the first instance in a stacking GameplayEffect. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, GameplayCues will only be triggered for the first instance in a stacking GameplayEffect." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_bSuppressStackingCues_SetBit(void* Obj)
@@ -411,19 +471,27 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GameplayCues_MetaData[] = {
 		{ "Category", "Display" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Cues to trigger non-simulated reactions in response to this GameplayEffect such as sounds, particle effects, etc */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cues to trigger non-simulated reactions in response to this GameplayEffect such as sounds, particle effects, etc" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GameplayCues = { "GameplayCues", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, GameplayCues), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GameplayCues_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GameplayCues_MetaData) }; // 1808717257
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_UIData_MetaData[] = {
 		{ "Category", "Display" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Data for the UI representation of this effect. This should include things like text, icons, etc. Not available in server-only builds. */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Data for the UI representation of this effect. This should include things like text, icons, etc. Not available in server-only builds." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_UIData = { "UIData", nullptr, (EPropertyFlags)0x001600000009001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, UIData), Z_Construct_UClass_UGameplayEffectUIData_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_UIData_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_UIData_MetaData) };
@@ -431,10 +499,14 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_InheritableGameplayEffectTags_MetaData[] = {
 		{ "Categories", "GameplayEffectTagsCategory" },
 		{ "Category", "Tags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The GameplayEffect's Tags: tags the the GE *has* and DOES NOT give to the actor. */" },
+#endif
 		{ "DisplayName", "GameplayEffectAssetTag" },
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The GameplayEffect's Tags: tags the the GE *has* and DOES NOT give to the actor." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_InheritableGameplayEffectTags = { "InheritableGameplayEffectTags", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, InheritableGameplayEffectTags), Z_Construct_UScriptStruct_FInheritedTagContainer, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_InheritableGameplayEffectTags_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_InheritableGameplayEffectTags_MetaData) }; // 3013930984
@@ -442,10 +514,14 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_InheritableOwnedTagsContainer_MetaData[] = {
 		{ "Categories", "OwnedTagsCategory" },
 		{ "Category", "Tags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** \"These tags are applied to the actor I am applied to\" */" },
+#endif
 		{ "DisplayName", "GrantedTags" },
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\"These tags are applied to the actor I am applied to\"" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_InheritableOwnedTagsContainer = { "InheritableOwnedTagsContainer", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, InheritableOwnedTagsContainer), Z_Construct_UScriptStruct_FInheritedTagContainer, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_InheritableOwnedTagsContainer_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_InheritableOwnedTagsContainer_MetaData) }; // 3013930984
@@ -453,9 +529,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_OngoingTagRequirements_MetaData[] = {
 		{ "Categories", "OngoingTagRequirementsCategory" },
 		{ "Category", "Tags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Once Applied, these tags requirements are used to determined if the GameplayEffect is \"on\" or \"off\". A GameplayEffect can be off and do nothing, but still applied. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Once Applied, these tags requirements are used to determined if the GameplayEffect is \"on\" or \"off\". A GameplayEffect can be off and do nothing, but still applied." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_OngoingTagRequirements = { "OngoingTagRequirements", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, OngoingTagRequirements), Z_Construct_UScriptStruct_FGameplayTagRequirements, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_OngoingTagRequirements_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_OngoingTagRequirements_MetaData) }; // 3703454900
@@ -463,9 +543,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ApplicationTagRequirements_MetaData[] = {
 		{ "Categories", "ApplicationTagRequirementsCategory" },
 		{ "Category", "Tags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Tag requirements for this GameplayEffect to be applied to a target. This is pass/fail at the time of application. If fail, this GE fails to apply. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Tag requirements for this GameplayEffect to be applied to a target. This is pass/fail at the time of application. If fail, this GE fails to apply." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ApplicationTagRequirements = { "ApplicationTagRequirements", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, ApplicationTagRequirements), Z_Construct_UScriptStruct_FGameplayTagRequirements, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ApplicationTagRequirements_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_ApplicationTagRequirements_MetaData) }; // 3703454900
@@ -473,9 +557,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemovalTagRequirements_MetaData[] = {
 		{ "Categories", "ApplicationTagRequirementsCategory" },
 		{ "Category", "Tags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Tag requirements that if met will remove this effect. Also prevents effect application. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Tag requirements that if met will remove this effect. Also prevents effect application." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemovalTagRequirements = { "RemovalTagRequirements", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, RemovalTagRequirements), Z_Construct_UScriptStruct_FGameplayTagRequirements, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemovalTagRequirements_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemovalTagRequirements_MetaData) }; // 3703454900
@@ -483,9 +571,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemoveGameplayEffectsWithTags_MetaData[] = {
 		{ "Categories", "RemoveTagRequirementsCategory" },
 		{ "Category", "Tags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** GameplayEffects that *have* tags in this container will be cleared upon effect application. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "GameplayEffects that *have* tags in this container will be cleared upon effect application." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemoveGameplayEffectsWithTags = { "RemoveGameplayEffectsWithTags", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, RemoveGameplayEffectsWithTags), Z_Construct_UScriptStruct_FInheritedTagContainer, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemoveGameplayEffectsWithTags_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemoveGameplayEffectsWithTags_MetaData) }; // 3013930984
@@ -493,29 +585,41 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedApplicationImmunityTags_MetaData[] = {
 		{ "Categories", "GrantedApplicationImmunityTagsCategory" },
 		{ "Category", "Immunity" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Grants the owner immunity from these source tags.  */" },
+#endif
 		{ "DisplayName", "GrantedApplicationImmunityTags" },
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Grants the owner immunity from these source tags." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedApplicationImmunityTags = { "GrantedApplicationImmunityTags", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, GrantedApplicationImmunityTags), Z_Construct_UScriptStruct_FGameplayTagRequirements, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedApplicationImmunityTags_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedApplicationImmunityTags_MetaData) }; // 3703454900
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedApplicationImmunityQuery_MetaData[] = {
 		{ "Category", "Immunity" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Grants immunity to GameplayEffects that match this query. Queries are more powerful but slightly slower than GrantedApplicationImmunityTags. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Grants immunity to GameplayEffects that match this query. Queries are more powerful but slightly slower than GrantedApplicationImmunityTags." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedApplicationImmunityQuery = { "GrantedApplicationImmunityQuery", nullptr, (EPropertyFlags)0x0010008000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, GrantedApplicationImmunityQuery), Z_Construct_UScriptStruct_FGameplayEffectQuery, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedApplicationImmunityQuery_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedApplicationImmunityQuery_MetaData) }; // 789866029
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemoveGameplayEffectQuery_MetaData[] = {
 		{ "Category", "Tags" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** On Application of an effect, any active effects with this this query that matches against the added effect will be removed. Queries are more powerful but slightly slower than RemoveGameplayEffectsWithTags. */" },
+#endif
 		{ "DisplayAfter", "RemovalTagRequirements" },
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "On Application of an effect, any active effects with this this query that matches against the added effect will be removed. Queries are more powerful but slightly slower than RemoveGameplayEffectsWithTags." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemoveGameplayEffectQuery = { "RemoveGameplayEffectQuery", nullptr, (EPropertyFlags)0x0010008000010015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, RemoveGameplayEffectQuery), Z_Construct_UScriptStruct_FGameplayEffectQuery, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemoveGameplayEffectQuery_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_RemoveGameplayEffectQuery_MetaData) }; // 789866029
@@ -523,18 +627,26 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackingType_MetaData[] = {
 		{ "Category", "Stacking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** How this GameplayEffect stacks with other instances of this same GameplayEffect */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How this GameplayEffect stacks with other instances of this same GameplayEffect" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackingType = { "StackingType", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, StackingType), Z_Construct_UEnum_GameplayAbilities_EGameplayEffectStackingType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackingType_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackingType_MetaData) }; // 1361123328
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackLimitCount_MetaData[] = {
 		{ "Category", "Stacking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Stack limit for StackingType */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stack limit for StackingType" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackLimitCount = { "StackLimitCount", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, StackLimitCount), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackLimitCount_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackLimitCount_MetaData) };
@@ -542,9 +654,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackDurationRefreshPolicy_MetaData[] = {
 		{ "Category", "Stacking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Policy for how the effect duration should be refreshed while stacking */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Policy for how the effect duration should be refreshed while stacking" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackDurationRefreshPolicy = { "StackDurationRefreshPolicy", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, StackDurationRefreshPolicy), Z_Construct_UEnum_GameplayAbilities_EGameplayEffectStackingDurationPolicy, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackDurationRefreshPolicy_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackDurationRefreshPolicy_MetaData) }; // 4183945553
@@ -552,9 +668,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackPeriodResetPolicy_MetaData[] = {
 		{ "Category", "Stacking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Policy for how the effect period should be reset (or not) while stacking */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Policy for how the effect period should be reset (or not) while stacking" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackPeriodResetPolicy = { "StackPeriodResetPolicy", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, StackPeriodResetPolicy), Z_Construct_UEnum_GameplayAbilities_EGameplayEffectStackingPeriodPolicy, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackPeriodResetPolicy_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackPeriodResetPolicy_MetaData) }; // 1576035039
@@ -562,9 +682,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackExpirationPolicy_MetaData[] = {
 		{ "Category", "Stacking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Policy for how to handle duration expiring on this gameplay effect */" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Policy for how to handle duration expiring on this gameplay effect" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackExpirationPolicy = { "StackExpirationPolicy", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, StackExpirationPolicy), Z_Construct_UEnum_GameplayAbilities_EGameplayEffectStackingExpirationPolicy, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackExpirationPolicy_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_StackExpirationPolicy_MetaData) }; // 4105340511
@@ -572,9 +696,13 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedAbilities_MetaData[] = {
 		{ "Category", "Granted Abilities" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// ----------------------------------------------------------------------\n//\x09Granted abilities\n// ----------------------------------------------------------------------\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Templates/GSCTemplate_GameplayEffectDefinition.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Granted abilities" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedAbilities = { "GrantedAbilities", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCTemplate_GameplayEffectDefinition, GrantedAbilities), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedAbilities_MetaData), Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition_Statics::NewProp_GrantedAbilities_MetaData) }; // 3045358525
@@ -662,15 +790,15 @@ void EmptyLinkFunctionForGeneratedCodeGSCTemplate_GameplayEffectDefinition() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCTemplate_GameplayEffectDefinition);
 	UGSCTemplate_GameplayEffectDefinition::~UGSCTemplate_GameplayEffectDefinition() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition, UGSCTemplate_GameplayEffectDefinition::StaticClass, TEXT("UGSCTemplate_GameplayEffectDefinition"), &Z_Registration_Info_UClass_UGSCTemplate_GameplayEffectDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCTemplate_GameplayEffectDefinition), 2154617377U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCTemplate_GameplayEffectDefinition, UGSCTemplate_GameplayEffectDefinition::StaticClass, TEXT("UGSCTemplate_GameplayEffectDefinition"), &Z_Registration_Info_UClass_UGSCTemplate_GameplayEffectDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCTemplate_GameplayEffectDefinition), 3519305936U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_4186726898(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_2281904336(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_Templates_GSCTemplate_GameplayEffectDefinition_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

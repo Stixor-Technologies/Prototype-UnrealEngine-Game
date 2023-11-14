@@ -225,20 +225,28 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphBTTask_RunComboGraph() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphBTTask_RunComboGraph_Statics::Class_MetaDataParams[] = {
 		{ "Category", "Combo Graph" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Run indicated ComboGraph Asset on Pawn Controlled by BT\n */" },
+#endif
 		{ "DisplayName", "Run Combo Graph" },
 		{ "IncludePath", "BehaviorTree/ComboGraphBTTask_RunComboGraph.h" },
 		{ "ModuleRelativePath", "Public/BehaviorTree/ComboGraphBTTask_RunComboGraph.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Run indicated ComboGraph Asset on Pawn Controlled by BT" },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphBTTask_RunComboGraph_Statics::NewProp_ComboGraphAsset_MetaData[] = {
 		{ "Category", "Node" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Animation asset to play. Note that it needs to match the skeleton of pawn this BT is controlling */" },
+#endif
 		{ "ModuleRelativePath", "Public/BehaviorTree/ComboGraphBTTask_RunComboGraph.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Animation asset to play. Note that it needs to match the skeleton of pawn this BT is controlling" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UComboGraphBTTask_RunComboGraph_Statics::NewProp_ComboGraphAsset = { "ComboGraphAsset", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphBTTask_RunComboGraph, ComboGraphAsset), Z_Construct_UClass_UComboGraph_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphBTTask_RunComboGraph_Statics::NewProp_ComboGraphAsset_MetaData), Z_Construct_UClass_UComboGraphBTTask_RunComboGraph_Statics::NewProp_ComboGraphAsset_MetaData) };
@@ -246,9 +254,13 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphBTTask_RunComboGraph() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphBTTask_RunComboGraph_Statics::NewProp_Inputs_MetaData[] = {
 		{ "Category", "Node" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Stack of Input Actions to process and simulate inputs when the underlying gameplay task receives ComboBegin event, and schedule for execution on the next frame */" },
+#endif
 		{ "ModuleRelativePath", "Public/BehaviorTree/ComboGraphBTTask_RunComboGraph.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stack of Input Actions to process and simulate inputs when the underlying gameplay task receives ComboBegin event, and schedule for execution on the next frame" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UComboGraphBTTask_RunComboGraph_Statics::NewProp_Inputs = { "Inputs", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphBTTask_RunComboGraph, Inputs), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphBTTask_RunComboGraph_Statics::NewProp_Inputs_MetaData), Z_Construct_UClass_UComboGraphBTTask_RunComboGraph_Statics::NewProp_Inputs_MetaData) };
@@ -312,15 +324,15 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphBTTask_RunComboGraph() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UComboGraphBTTask_RunComboGraph);
 	UComboGraphBTTask_RunComboGraph::~UComboGraphBTTask_RunComboGraph() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UComboGraphBTTask_RunComboGraph, UComboGraphBTTask_RunComboGraph::StaticClass, TEXT("UComboGraphBTTask_RunComboGraph"), &Z_Registration_Info_UClass_UComboGraphBTTask_RunComboGraph, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphBTTask_RunComboGraph), 179787690U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UComboGraphBTTask_RunComboGraph, UComboGraphBTTask_RunComboGraph::StaticClass, TEXT("UComboGraphBTTask_RunComboGraph"), &Z_Registration_Info_UClass_UComboGraphBTTask_RunComboGraph, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphBTTask_RunComboGraph), 3918875055U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_810469687(TEXT("/Script/ComboGraph"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_224587562(TEXT("/Script/ComboGraph"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_BehaviorTree_ComboGraphBTTask_RunComboGraph_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

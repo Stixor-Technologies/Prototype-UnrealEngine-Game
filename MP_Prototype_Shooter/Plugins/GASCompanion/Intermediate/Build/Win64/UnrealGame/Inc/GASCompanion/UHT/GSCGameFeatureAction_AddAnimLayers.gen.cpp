@@ -60,9 +60,13 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAnimLayerEntry>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCAnimLayerEntry_Statics::NewProp_ActorClass_MetaData[] = {
 		{ "Category", "Anim Layers" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The base actor class to add anim layers to\n" },
+#endif
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAnimLayers.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The base actor class to add anim layers to" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FSoftClassPropertyParams Z_Construct_UScriptStruct_FGSCAnimLayerEntry_Statics::NewProp_ActorClass = { "ActorClass", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::SoftClass, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGSCAnimLayerEntry, ActorClass), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCAnimLayerEntry_Statics::NewProp_ActorClass_MetaData), Z_Construct_UScriptStruct_FGSCAnimLayerEntry_Statics::NewProp_ActorClass_MetaData) };
@@ -131,24 +135,32 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAnimLayerEntry>()
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n* GameFeatureAction responsible for \"pushing\" linked Anim Layers to main Animation Blueprint\n*/" },
+#endif
 		{ "DisplayName", "Add Anim Layers (GAS Companion)" },
 		{ "IncludePath", "GameFeatures/Actions/GSCGameFeatureAction_AddAnimLayers.h" },
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAnimLayers.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "GameFeatureAction responsible for \"pushing\" linked Anim Layers to main Animation Blueprint" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries_Inner = { "AnimLayerEntries", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAnimLayerEntry, METADATA_PARAMS(0, nullptr) }; // 791763305
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries_Inner = { "AnimLayerEntries", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGSCAnimLayerEntry, METADATA_PARAMS(0, nullptr) }; // 3125606593
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries_MetaData[] = {
 		{ "Category", "Components" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of components to add to gameplay actors when this game feature is enabled */// ShowOnlyInnerProperties ?\n" },
+#endif
 		{ "ModuleRelativePath", "Public/GameFeatures/Actions/GSCGameFeatureAction_AddAnimLayers.h" },
 		{ "TitleProperty", "ActorClass" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of components to add to gameplay actors when this game feature is enabled // ShowOnlyInnerProperties ?" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries = { "AnimLayerEntries", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameFeatureAction_AddAnimLayers, AnimLayerEntries), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries_MetaData), Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries_MetaData) }; // 791763305
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries = { "AnimLayerEntries", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGSCGameFeatureAction_AddAnimLayers, AnimLayerEntries), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries_MetaData), Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries_MetaData) }; // 3125606593
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers_Statics::NewProp_AnimLayerEntries,
@@ -187,19 +199,19 @@ template<> GASCOMPANION_API UScriptStruct* StaticStruct<FGSCAnimLayerEntry>()
 	UGSCGameFeatureAction_AddAnimLayers::UGSCGameFeatureAction_AddAnimLayers(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCGameFeatureAction_AddAnimLayers);
 	UGSCGameFeatureAction_AddAnimLayers::~UGSCGameFeatureAction_AddAnimLayers() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ScriptStructInfo[] = {
-		{ FGSCAnimLayerEntry::StaticStruct, Z_Construct_UScriptStruct_FGSCAnimLayerEntry_Statics::NewStructOps, TEXT("GSCAnimLayerEntry"), &Z_Registration_Info_UScriptStruct_GSCAnimLayerEntry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAnimLayerEntry), 791763305U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ScriptStructInfo[] = {
+		{ FGSCAnimLayerEntry::StaticStruct, Z_Construct_UScriptStruct_FGSCAnimLayerEntry_Statics::NewStructOps, TEXT("GSCAnimLayerEntry"), &Z_Registration_Info_UScriptStruct_GSCAnimLayerEntry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGSCAnimLayerEntry), 3125606593U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers, UGSCGameFeatureAction_AddAnimLayers::StaticClass, TEXT("UGSCGameFeatureAction_AddAnimLayers"), &Z_Registration_Info_UClass_UGSCGameFeatureAction_AddAnimLayers, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameFeatureAction_AddAnimLayers), 4266813135U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGSCGameFeatureAction_AddAnimLayers, UGSCGameFeatureAction_AddAnimLayers::StaticClass, TEXT("UGSCGameFeatureAction_AddAnimLayers"), &Z_Registration_Info_UClass_UGSCGameFeatureAction_AddAnimLayers, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGSCGameFeatureAction_AddAnimLayers), 4088840093U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_800369174(TEXT("/Script/GASCompanion"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_2198445718(TEXT("/Script/GASCompanion"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_GASCompanion_Source_GASCompanion_Public_GameFeatures_Actions_GSCGameFeatureAction_AddAnimLayers_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -77,20 +77,28 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphGameplayCueNotify_HitImpact() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
 		{ "Category", "GameplayCue" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Non instanced GameplayCueNotify for spawning particle and sound FX.\n *\n * Slightly modified version of UGameplayCueNotify_HitImpact to handle spawning of particle / sound FX from passed in Effect Context in Cue Paramaters.\n *\n * Checks Objects to test if it is:\n *\n * - A Niagara Emitter template, and will spawn emitter at location\n * - A Cascade Particle system, and will spawn system at location\n * - A Sound Base (Cue, Wave, ...), and will spawn sound at location\n *\n * Cue parameters should only contain the soft object paths to the actual asset that this cue handler will async load if necessary.\n */" },
+#endif
 		{ "HideCategories", "Replication" },
 		{ "IncludePath", "Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Non instanced GameplayCueNotify for spawning particle and sound FX.\n\nSlightly modified version of UGameplayCueNotify_HitImpact to handle spawning of particle / sound FX from passed in Effect Context in Cue Paramaters.\n\nChecks Objects to test if it is:\n\n- A Niagara Emitter template, and will spawn emitter at location\n- A Cascade Particle system, and will spawn system at location\n- A Sound Base (Cue, Wave, ...), and will spawn sound at location\n\nCue parameters should only contain the soft object paths to the actual asset that this cue handler will async load if necessary." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_bAsyncLoadAllAtOnce_MetaData[] = {
 		{ "Category", "Combo Graph" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether to do a single async load request for all assets that are passed down through gameplay cue parameters effect context.\n\x09 *\n\x09 * Set it to true to issue a single async load resolved when all the assets are loaded in memory.\n\x09 *\n\x09 * Set it to false to load all assets in parallel issuing multiple requests and resolved individually.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to do a single async load request for all assets that are passed down through gameplay cue parameters effect context.\n\nSet it to true to issue a single async load resolved when all the assets are loaded in memory.\n\nSet it to false to load all assets in parallel issuing multiple requests and resolved individually." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_bAsyncLoadAllAtOnce_SetBit(void* Obj)
@@ -101,63 +109,91 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphGameplayCueNotify_HitImpact() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_NiagaraSpawnScale_MetaData[] = {
 		{ "Category", "Combo Graph | Niagara Settings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** For passed down assets that are Niagara Systems, this is the scale vector to use. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "For passed down assets that are Niagara Systems, this is the scale vector to use." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_NiagaraSpawnScale = { "NiagaraSpawnScale", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphGameplayCueNotify_HitImpact, NiagaraSpawnScale), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_NiagaraSpawnScale_MetaData), Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_NiagaraSpawnScale_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_CascadeSpawnScale_MetaData[] = {
 		{ "Category", "Combo Graph | Cascade Settings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** For passed down assets that are Cascade Emitters, this is the scale vector to use. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "For passed down assets that are Cascade Emitters, this is the scale vector to use." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_CascadeSpawnScale = { "CascadeSpawnScale", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphGameplayCueNotify_HitImpact, CascadeSpawnScale), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_CascadeSpawnScale_MetaData), Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_CascadeSpawnScale_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_VolumeMultiplier_MetaData[] = {
 		{ "Category", "Combo Graph | Sound Settings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** A linear scalar multiplied with the volume, in order to make the sound louder or softer. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A linear scalar multiplied with the volume, in order to make the sound louder or softer." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_VolumeMultiplier = { "VolumeMultiplier", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphGameplayCueNotify_HitImpact, VolumeMultiplier), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_VolumeMultiplier_MetaData), Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_VolumeMultiplier_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_PitchMultiplier_MetaData[] = {
 		{ "Category", "Combo Graph | Sound Settings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** PitchMultiplier - A linear scalar multiplied with the pitch. */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "PitchMultiplier - A linear scalar multiplied with the pitch." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_PitchMultiplier = { "PitchMultiplier", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphGameplayCueNotify_HitImpact, PitchMultiplier), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_PitchMultiplier_MetaData), Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_PitchMultiplier_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_StartTime_MetaData[] = {
 		{ "Category", "Combo Graph | Sound Settings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** How far in to the sound to begin playback at */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How far in to the sound to begin playback at" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_StartTime = { "StartTime", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphGameplayCueNotify_HitImpact, StartTime), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_StartTime_MetaData), Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_StartTime_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_AttenuationSettings_MetaData[] = {
 		{ "Category", "Combo Graph | Sound Settings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Override attenuation settings package to play sound with */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Override attenuation settings package to play sound with" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_AttenuationSettings = { "AttenuationSettings", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphGameplayCueNotify_HitImpact, AttenuationSettings), Z_Construct_UClass_USoundAttenuation_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_AttenuationSettings_MetaData), Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_AttenuationSettings_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_ConcurrencySettings_MetaData[] = {
 		{ "Category", "Combo Graph | Sound Settings" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Override concurrency settings package to play sound with\n\x09 *\n\x09 * (The actor used as the \"owner\" for concurrency settings purposes will be the target of the gameplay cue. Allows PlaySound calls to do a concurrency limit per owner.)\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/Abilities/Cues/ComboGraphGameplayCueNotify_HitImpact.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Override concurrency settings package to play sound with\n\n(The actor used as the \"owner\" for concurrency settings purposes will be the target of the gameplay cue. Allows PlaySound calls to do a concurrency limit per owner.)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_ConcurrencySettings = { "ConcurrencySettings", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboGraphGameplayCueNotify_HitImpact, ConcurrencySettings), Z_Construct_UClass_USoundConcurrency_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_ConcurrencySettings_MetaData), Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact_Statics::NewProp_ConcurrencySettings_MetaData) };
@@ -205,15 +241,15 @@ void EmptyLinkFunctionForGeneratedCodeComboGraphGameplayCueNotify_HitImpact() {}
 	UComboGraphGameplayCueNotify_HitImpact::UComboGraphGameplayCueNotify_HitImpact(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UComboGraphGameplayCueNotify_HitImpact);
 	UComboGraphGameplayCueNotify_HitImpact::~UComboGraphGameplayCueNotify_HitImpact() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_Statics
+	struct Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact, UComboGraphGameplayCueNotify_HitImpact::StaticClass, TEXT("UComboGraphGameplayCueNotify_HitImpact"), &Z_Registration_Info_UClass_UComboGraphGameplayCueNotify_HitImpact, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphGameplayCueNotify_HitImpact), 4071060166U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UComboGraphGameplayCueNotify_HitImpact, UComboGraphGameplayCueNotify_HitImpact::StaticClass, TEXT("UComboGraphGameplayCueNotify_HitImpact"), &Z_Registration_Info_UClass_UComboGraphGameplayCueNotify_HitImpact, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboGraphGameplayCueNotify_HitImpact), 3199470132U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_3091168860(TEXT("/Script/ComboGraph"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_2933011785(TEXT("/Script/ComboGraph"),
+		Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_Abilities_Cues_ComboGraphGameplayCueNotify_HitImpact_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
