@@ -1,9 +1,0 @@
-{
-	"OutputFiles": [
-		"..\\..\\..\\x64\\UnrealGame\\Development\\GASCompanion\\Module.GASCompanion.1.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Development\\GASCompanion\\Module.GASCompanion.2.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Development\\GASCompanion\\Module.GASCompanion.3.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Development\\GASCompanion\\Module.GASCompanion.4.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Development\\GASCompanion\\Module.GASCompanion.5.cpp.obj"
-	]
-}
