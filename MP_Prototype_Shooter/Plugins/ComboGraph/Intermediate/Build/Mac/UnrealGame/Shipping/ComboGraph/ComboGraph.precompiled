@@ -1,0 +1,16 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.1.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.2.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.3.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.1.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.2.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.3.cpp.o",
+		"../../../x64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.1.cpp.o",
+		"../../../x64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.2.cpp.o",
+		"../../../x64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.3.cpp.o",
+		"../../../x64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.1.cpp.o",
+		"../../../x64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.2.cpp.o",
+		"../../../x64/UnrealGame/Shipping/ComboGraph/Module.ComboGraph.3.cpp.o"
+	]
+}

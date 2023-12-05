@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ComboGraph.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Intermediate\Build\Win64\x64\TPS_PrototypeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\ComboGraph\Intermediate\Build\Win64\x64\UnrealEditor\Development\ComboGraph\Module.ComboGraph.1.cpp.obj"
+"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\ComboGraph\Intermediate\Build\Win64\x64\UnrealEditor\Development\ComboGraph\Module.ComboGraph.2.cpp.obj"
+"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\ComboGraph\Intermediate\Build\Win64\x64\UnrealEditor\Development\ComboGraph\Module.ComboGraph.3.cpp.obj"
+"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\ComboGraph\Intermediate\Build\Win64\x64\UnrealEditor\Development\ComboGraph\Default.rc2.res"
+/OUT:"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\ComboGraph\Intermediate\Build\Win64\x64\UnrealEditor\Development\ComboGraph\UnrealEditor-ComboGraph.lib"
