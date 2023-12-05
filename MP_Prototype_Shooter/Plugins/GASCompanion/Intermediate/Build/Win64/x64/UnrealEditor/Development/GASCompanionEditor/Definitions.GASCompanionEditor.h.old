@@ -1,4 +1,4 @@
-#include "C:/Stixor/Prototype-UnrealEngine-Game/MP_Prototype_Shooter/Intermediate/Build/Win64/x64/MP_Prototype_ShooterEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
+#include "C:/Users/wajee/OneDrive/Documents/Unreal Projects/TPS_Prototype/Intermediate/Build/Win64/x64/TPS_PrototypeEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
 #undef UE_IS_ENGINE_MODULE
 #undef DEPRECATED_FORGAME
 #define DEPRECATED_FORGAME DEPRECATED
@@ -13,8 +13,8 @@
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_1 1
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_2 1
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_3 1
-#define UE_PROJECT_NAME MP_Prototype_Shooter
-#define UE_TARGET_NAME MP_Prototype_ShooterEditor
+#define UE_PROJECT_NAME TPS_Prototype
+#define UE_TARGET_NAME TPS_PrototypeEditor
 #define UE_MODULE_NAME "GASCompanionEditor"
 #define UE_PLUGIN_NAME "GASCompanion"
 #define IMPLEMENT_ENCRYPTION_KEY_REGISTRATION() 

@@ -1,11 +1,11 @@
-"C:\Stixor\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\Module.GASCompanion.3.cpp"
-/FI"C:\Stixor\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Intermediate\Build\Win64\x64\MP_Prototype_ShooterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
-/FI"C:\Stixor\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\Definitions.GASCompanion.h"
-/Yu"C:\Stixor\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Intermediate\Build\Win64\x64\MP_Prototype_ShooterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
-/Fp"C:\Stixor\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Intermediate\Build\Win64\x64\MP_Prototype_ShooterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.pch"
-/Fo"C:\Stixor\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\Module.GASCompanion.3.cpp.obj"
-/sourceDependencies "C:\Stixor\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\Module.GASCompanion.3.cpp.dep.json"
-@"C:\Stixor\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\GASCompanion.Shared.rsp"
+"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\Module.GASCompanion.3.cpp"
+/FI"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Intermediate\Build\Win64\x64\TPS_PrototypeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
+/FI"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\Definitions.GASCompanion.h"
+/Yu"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Intermediate\Build\Win64\x64\TPS_PrototypeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
+/Fp"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Intermediate\Build\Win64\x64\TPS_PrototypeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.pch"
+/Fo"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\Module.GASCompanion.3.cpp.obj"
+/sourceDependencies "C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\Module.GASCompanion.3.cpp.dep.json"
+@"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanion\GASCompanion.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

@@ -32,11 +32,11 @@
 			"ComboGraphSystemComponent.gen.cpp.obj",
 			"GameplayTask_StartComboGraph.gen.cpp.obj",
 			"ComboGraphAbilitySystemGlobals.cpp.obj",
-			"ComboGraphNativeAbility.cpp.obj"
+			"ComboGraphNativeAbility.cpp.obj",
+			"ComboGraphNativeTags.cpp.obj",
+			"ComboGraphGameplayCueNotify_HitImpact.cpp.obj"
 		],
 		"Module.ComboGraph.3.cpp.obj": [
-			"ComboGraphNativeTags.cpp.obj",
-			"ComboGraphGameplayCueNotify_HitImpact.cpp.obj",
 			"ComboGraphAbilityTask_NetworkSyncPoint.cpp.obj",
 			"ComboGraphAbilityTask_PlayMontage.cpp.obj",
 			"ComboGraphAbilityTask_StartGraph.cpp.obj",

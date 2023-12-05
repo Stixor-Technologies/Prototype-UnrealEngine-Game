@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-GASCompanionEditor.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Intermediate\Build\Win64\x64\TPS_PrototypeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
-"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanionEditor\Module.GASCompanionEditor.cpp.obj"
-"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanionEditor\Default.rc2.res"
-/OUT:"C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanionEditor\UnrealEditor-GASCompanionEditor.lib"
+"C:\Users\dev\Documents\Unreal Projects\TopDown_Prototype\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Intermediate\Build\Win64\x64\TPS_PrototypeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\Users\dev\Documents\Unreal Projects\TopDown_Prototype\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanionEditor\Module.GASCompanionEditor.cpp.obj"
+"C:\Users\dev\Documents\Unreal Projects\TopDown_Prototype\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanionEditor\Default.rc2.res"
+/OUT:"C:\Users\dev\Documents\Unreal Projects\TopDown_Prototype\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanionEditor\UnrealEditor-GASCompanionEditor.lib"

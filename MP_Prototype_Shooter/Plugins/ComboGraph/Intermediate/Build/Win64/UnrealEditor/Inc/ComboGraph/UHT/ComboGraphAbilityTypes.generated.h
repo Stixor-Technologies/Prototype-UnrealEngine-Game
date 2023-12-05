@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COMBOGRAPH_ComboGraphAbilityTypes_generated_h
 
-#define FID_Users_wajee_OneDrive_Documents_Unreal_Projects_TPS_Prototype_Plugins_ComboGraph_Source_ComboGraph_Public_ComboGraphAbilityTypes_h_12_GENERATED_BODY \
+#define FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_ComboGraphAbilityTypes_h_12_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FComboGraphGameplayEffectContext_Statics; \
 	COMBOGRAPH_API static class UScriptStruct* StaticStruct(); \
 	typedef FGameplayEffectContext Super;
@@ -23,7 +23,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> COMBOGRAPH_API UScriptStruct* StaticStruct<struct FComboGraphGameplayEffectContext>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_wajee_OneDrive_Documents_Unreal_Projects_TPS_Prototype_Plugins_ComboGraph_Source_ComboGraph_Public_ComboGraphAbilityTypes_h
+#define CURRENT_FILE_ID FID_MP_Prototype_Shooter_Plugins_ComboGraph_Source_ComboGraph_Public_ComboGraphAbilityTypes_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

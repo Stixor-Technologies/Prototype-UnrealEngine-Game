@@ -72,8 +72,9 @@
 /DBUILT_FROM_CHANGELIST=28051148
 /DBUILD_VERSION=++UE5+Release-5.3-CL-28051148
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
+/DPROJECT_COMPANY_NAME=SB
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
-/DPROJECT_PRODUCT_NAME="Third Person BP Game Template"
-/DPROJECT_PRODUCT_IDENTIFIER=MP_Prototype_Shooter
-/fo "C:\Stixor\Prototype-UnrealEngine-Game\MP_Prototype_Shooter\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanionEditor\Default.rc2.res"
+/DPROJECT_PRODUCT_NAME="TSS Game Starter Kit"
+/DPROJECT_PRODUCT_IDENTIFIER=TPS_Prototype
+/fo "C:\Users\wajee\OneDrive\Documents\Unreal Projects\TPS_Prototype\Plugins\GASCompanion\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASCompanionEditor\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
